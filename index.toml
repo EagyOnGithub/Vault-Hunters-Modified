@@ -1782,7 +1782,7 @@ hash = "9d45a169ac2527b277261f22682b04bdcb8e7190054b04820be34a3a6e5c2e1d"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/completion_lvl0.json"
-hash = "2d7d24582e354906fd200e9672ff658b3478b441298c83431b638f652308a886"
+hash = "bdb4071245b4e515b1c8b050d069c581ee5903b3b2aa5106f0800ca5fb3120eb"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/completion_lvl27.json"
@@ -2018,7 +2018,7 @@ hash = "da31217a79f298fc92bbac67732cfe7a6ae89243ef186fbca4bb580a360b1031"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/royale/royale_loot_trinket.json"
-hash = "3c8bf1070909a11a7096811c6d56e8b8f34ed5feea0ed343a78a6f1ed10e96dd"
+hash = "5778e3adbfd27d5703b86b6ba37221dd859f4bd52a38aff6a44d543d85f84dad"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/royale/special.json"
@@ -12366,7 +12366,7 @@ hash = "7e202663c59089de307422c245cf44e9810e20c7c7bf709ef0aa22f799b9e1fa"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_egg_tunnels.json"
-hash = "f05c3fc099823b6b930f5cf88a66507a9d68f541df78f07b85e1aa204bdff6e2"
+hash = "9c9556788ee055ba8bc7fe71c76e43ce236c558c94332e9f80280fa3f9f5f4f8"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_pastel_tunnels.json"
@@ -12410,7 +12410,7 @@ hash = "5957450a3daf90083ebaa0dba43e9ad1956768ad28790bed29dd654bd646e902"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/greed_acid_tunnels.json"
-hash = "2d01aedc45352c1412b8707340e5a8cf470a76d147274dbb412aaac741ecc148"
+hash = "e171f032f704babe185c5b54a12fa5078da07f65c6e5c45ee45a91ca62f1ceb3"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/greed_death_tunnels.json"
@@ -12434,7 +12434,7 @@ hash = "b8f05a1c9c079ad4606d15cbf1ce5aef649113bb19de1e89eff19a44826778d5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/intermediary_tunnels.json"
-hash = "7896e5550707b00d4cb311f1f22caed6e9e66d6af317d0bb56c39acc4e3e0b12"
+hash = "7690c3505db4b2186847951bca25ea3bb26763cc573139dfcc616c121b5bcee5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/tunnels/living_cave_tunnels.json"
@@ -15230,7 +15230,7 @@ hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
-hash = "d4c7206d843ca99e337d4625b15b93e25b7612061e5d014a29585b8524c59650"
+hash = "581ce88a7ef226a6047e2edf4b36c008a838840a70d7a45f4dd376e84ffd9a29"
 
 [[files]]
 file = "scripts/Backpacks.zs"

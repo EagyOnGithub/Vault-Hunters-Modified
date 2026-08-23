@@ -1852,3 +1852,5 @@ JEI.hideIngredient(<item:sophisticatedstorage:copper_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:gold_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:diamond_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:netherite_barrel>);
+
+
