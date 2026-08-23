@@ -15391,12 +15391,8 @@ file = "shaderpacks/ComplementaryiskallShaders.zip.txt"
 hash = "1cce636f174e8bf06c6800fa0b833ba426ddfbcb53888dca3fa0c7b6dfac7e02"
 
 [[files]]
-file = "temp_check2.zs"
-hash = "81b5b8387ea08d993704c86c7841e5251c1e04b6fff7fadf8f3682975f2b800c"
-
-[[files]]
-file = "temp_check3.zs"
-hash = "81b5b8387ea08d993704c86c7841e5251c1e04b6fff7fadf8f3682975f2b800c"
+file = "temp_check4.zs"
+hash = "d4c7206d843ca99e337d4625b15b93e25b7612061e5d014a29585b8524c59650"
 
 [[files]]
 file = "vault-settings/pickup_notifier_groups.json"
