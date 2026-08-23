@@ -13873,10 +13873,6 @@ file = "fancymenu_data/last_world.fmdata"
 hash = "ce1f1870b01465cc18b21ab43c1cc75c9d542ebeb56f7d627587c248d73667fb"
 
 [[files]]
-file = "icon.png"
-hash = "e6c49e1dc90885265764d4dca1f911d7222f65ea47b531df4869cb6050e8ec3c"
-
-[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "954e95463edeb24b8a13e06940077ce4a0b1e03198f3caf46d9ca20c3ecabe3e"
 metafile = true
