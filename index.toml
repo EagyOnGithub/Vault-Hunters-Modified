@@ -58,11 +58,11 @@ hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
 file = "config/WeirdingGadget.toml"
-hash = "5a6a3f33471f998d63c5b0a73ea016aff6d9a24bcefd249cc50befae45cb96f8"
+hash = "7082e6b231a6ad4466261a82cc296b8e52126c5edab4c4a0e33c3f3664947610"
 
 [[files]]
 file = "config/WeirdingGadgetLimits.toml"
-hash = "78164a44ae8316728d2591bca5f74059ac5878b39235888272967a6cb1b4bd59"
+hash = "1cd27e2015d57d60e1d29070b6f8e04fccfa1938af4b6369c6e907f5cda93137"
 
 [[files]]
 file = "config/akashictome-common.toml"
@@ -70,315 +70,315 @@ hash = "73219b16a0d68ef382664857d784c7e68504ed66195ab1ea46b458444a0650a3"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "483258b5306125df5fdab4f5c97c78edcdf5e4c36d42912187ca453bcbc315d8"
+hash = "67fb33b05a2117eb894d295522f00d49f5f0bebbeb070279063af9e2abfaa3a5"
 
 [[files]]
 file = "config/alexsmobs/alligator_snapping_turtle_spawns.json"
-hash = "e1bf44155d9f1f8b1b59639cdeac3a7a9ed174f856bbdad15c52a4d59f4d3b5a"
+hash = "8acae5df8bbf70fbc3c4d9ef647220fe775c196b7eecf452db8c286bba9ea725"
 
 [[files]]
 file = "config/alexsmobs/anaconda_spawns.json"
-hash = "5b5e4f62d21f92382622b0844de1aca830532e678822b743a26bc52667603619"
+hash = "7ada94b0325aebbbfbaaf3c4b6453c0a928b275d23040dbfdbf309ca2a2bb872"
 
 [[files]]
 file = "config/alexsmobs/anteater_spawns.json"
-hash = "45519749d9595112baa196796feb9f4a8ad79cd76fb57e1b1d306d5f2779182c"
+hash = "dd52744346f172ee27bf1606331ed7a0bc4ea79400cc0923d2f9bf1e51dd55da"
 
 [[files]]
 file = "config/alexsmobs/bald_eagle_spawns.json"
-hash = "55dc5fd47b849e89c55f872634ae16a818a25aebd4c6b3fb86835a4f3ead9b74"
+hash = "6813d2ccc1957992bb0ef021c00a97c29e84bdb4f0778ae755883d62fd7f22e0"
 
 [[files]]
 file = "config/alexsmobs/bison_spawns.json"
-hash = "9c113658dbeb4518f5cb335770c3602498399d5e7b9048b4c2689b14720bf475"
+hash = "5521844a7f650a34eb14fb918facd3bd92758dac0aa85a103cc0962cb262dddc"
 
 [[files]]
 file = "config/alexsmobs/blobfish_spawns.json"
-hash = "26f1718e58e3cb4f646d5bfc49d8ead03adcabbf685eb00a5800eb234619a386"
+hash = "b63970709447d3d3362768ef29998b418e07ec0f4c9d3ad22acd080c882abe49"
 
 [[files]]
 file = "config/alexsmobs/bone_serpent_spawns.json"
-hash = "fa98a57d86a04212057d5191c72c93ba3dcd32de7dc4aea6a54a39cd96847336"
+hash = "6fad999625fa90795bb634427ca57c9ee30a8a728afb06aa0bca13d450cad0b7"
 
 [[files]]
 file = "config/alexsmobs/bunfungus_spawns.json"
-hash = "df7329230e64ca1a91ba7a7ff15a82046be95b90bd41b4261156670dc1aee661"
+hash = "0b7d55acd342384184ebd85b52d18285ac19fcc76d452927aa19407c71210e15"
 
 [[files]]
 file = "config/alexsmobs/cachalot_whale_beached_spawns.json"
-hash = "a9c80ad99aea621a9b8edd63ee05bac4620d3583839611961c09f3572d9ca62f"
+hash = "cf6e09b4c176a3f040827dec551c91460991a880746a8066656ee76265ae805f"
 
 [[files]]
 file = "config/alexsmobs/cachalot_whale_spawns.json"
-hash = "80cd5219d907827da892c1937353a383fac568e403a11857d32c86134ba1c23e"
+hash = "64bc4405c9cf74cc6d54bf0a9c6fcdacbfffcbcb059cbee55bbcd1811e97f2d6"
 
 [[files]]
 file = "config/alexsmobs/capuchin_monkey_spawns.json"
-hash = "bc6bbd439b340d60552a46cdaee10a13a3eb6c79666e940a6a330bac01778393"
+hash = "9aa37a57800df38bee1f2c97a160140a83d7090f545f7321153c47e23dc4e643"
 
 [[files]]
 file = "config/alexsmobs/catfish_huge_spawns.json"
-hash = "bf9f9b3661e38d48fc54aed720ea72cc7e6a0d1afd8790493ef9687a646a2bd7"
+hash = "2b91db426ef24a7a6d624d818fb1558e3d904218e60f1f98f9f452cd5e093cdc"
 
 [[files]]
 file = "config/alexsmobs/catfish_spawns.json"
-hash = "fe4c41f5801c648aeab8e47b15d72189ed00f9fc55e03b829533113aa050b994"
+hash = "233c4f47e039a27cbd57948c0e83dc2892c807936acae5809221c722b448ef5c"
 
 [[files]]
 file = "config/alexsmobs/cave_centipede_spawns.json"
-hash = "1651076f427704385772e7e28ad4915ef79a479e2a45dc432ddf6592152faffb"
+hash = "02897f8bc3871bf146e236b914cc93a131f81a65b26d0c7ce7fa1a861dc69be0"
 
 [[files]]
 file = "config/alexsmobs/cockroach_spawns.json"
-hash = "1651076f427704385772e7e28ad4915ef79a479e2a45dc432ddf6592152faffb"
+hash = "02897f8bc3871bf146e236b914cc93a131f81a65b26d0c7ce7fa1a861dc69be0"
 
 [[files]]
 file = "config/alexsmobs/comb_jelly_spawns.json"
-hash = "a7a731f0325aadc2810ce7c589e81bec289bd5c14f1291c5ddb10ebafbdf2845"
+hash = "7c7a4a77b83845f52a29a301c186778bcd383437506b8fa28e7fc8f2b2363910"
 
 [[files]]
 file = "config/alexsmobs/cosmaw_spawns.json"
-hash = "d0dcdcc7ab756f9f6f22b2fc08dc8ab0603b1ae106647475dc7f9af3504fefc8"
+hash = "2c1417f881e48aca855cf39f4d49911fb48012720751761cea315cf3c6a71e76"
 
 [[files]]
 file = "config/alexsmobs/cosmic_cod_spawns.json"
-hash = "6793531eb5145760a010b69c6468a7bd06323408ddcac6264107ac4453b4afa5"
+hash = "144a53490341d52ff287eed83dc73ec0b5baf081a20bc765c99dbffa92e0976e"
 
 [[files]]
 file = "config/alexsmobs/crimson_mosquito_spawns.json"
-hash = "0e9d1e7b41ad2c94aa51b4a2608ae4927cd50d5bc134369c7cc7f7d627159d50"
+hash = "a9a450e110619f387cfdda5279fd3919e2442b59762c09522a505dba7d88001f"
 
 [[files]]
 file = "config/alexsmobs/crocodile_spawns.json"
-hash = "af53bee985c105174c201bc66a04a783027a0ce18483d97e2c402eca1c2413f3"
+hash = "c4bba2317b6ecd938a0f482945b061c9f60c7c3c8d34e010fa1da7085d604b74"
 
 [[files]]
 file = "config/alexsmobs/crow_spawns.json"
-hash = "6739c447278a2b49cf0498ccff73c46c456827acd82c5e55ea46d9ce162b188d"
+hash = "053c7c0506d30cd1df5e7bf35beff9d117531fe404c337c6ffe9e99a8e11f84b"
 
 [[files]]
 file = "config/alexsmobs/devils_hole_pupfish_spawns.json"
-hash = "bb52df34ed62b785a20e5009851679b6e5f3eb24d93193107a988bde6421ee64"
+hash = "0dab93cc1194b2b3cc7776d2920ad5d01b5dfcefd01f618aea3a0aba57e9d353"
 
 [[files]]
 file = "config/alexsmobs/dropbear_spawns.json"
-hash = "b6d0c12a35a4add55339a31d44ee006b8a09a87631a9d041ff9ede4d6fdc8515"
+hash = "ddfc26544311c74ae6bb8d491d31c8ef4b4377b4148ca23ed48ba7544d8a6229"
 
 [[files]]
 file = "config/alexsmobs/elephant_spawns.json"
-hash = "06a99134b31fe9866bd3c235050ae101df8472db06559915549bb12319077b7f"
+hash = "3b70c16f135add69f653f9c129a9fe6fb8b1c2b12c67c70c8846dde9070d3c58"
 
 [[files]]
 file = "config/alexsmobs/emu_spawns.json"
-hash = "cf921ef8dc515c171cf4aef51f11243f27c972b5cd2c78f172fa6a463ce5f3ab"
+hash = "07b36f66a5aa2cf157959a9e1c4452e1482b675d6f16c0ef661d9724c8a1aef5"
 
 [[files]]
 file = "config/alexsmobs/endergrade_spawns.json"
-hash = "a993153a583e717745b82c64658746ee8c6e7e0407185adeb10825050d3f10c1"
+hash = "84a948f4e9db78a433f0967192d8b8b4a13c1b23f514647dd2cce5331f7a8075"
 
 [[files]]
 file = "config/alexsmobs/enderiophage_spawns.json"
-hash = "869fdd4744dcd9022f51399d5f180283e295dc3dcf285b3fc413b3997a0d7395"
+hash = "2da9004de231ddefa054af1437c618dae7db7d955efd050027b57fbb327f4ac5"
 
 [[files]]
 file = "config/alexsmobs/flutter_spawns.json"
-hash = "0407bbf9b7a554d70d71e0b0a076332ab5577cf2bb08b17add4040caedade241"
+hash = "f729be2a0bc7bccc88cde40464f990d6074bfcf52a0d1d6719d8ebcd63c496ff"
 
 [[files]]
 file = "config/alexsmobs/fly_spawns.json"
-hash = "b3a844a4c8e3ab6e2967f0d5aeffa0cc83a42c9ca1199c120938d05951881998"
+hash = "53ef20341ac7b2d91e04a87563084d6b326eeddbeba2af6c31c1c4804d6d7e11"
 
 [[files]]
 file = "config/alexsmobs/flying_fish_spawns.json"
-hash = "12f811628d5725d4ebf650ba6955f884cd46d94cde046d19dd1981c9724214d7"
+hash = "0337f62fb26a451615a5bc3a263e076bec6310534894c32db609b8f5b1cde8a7"
 
 [[files]]
 file = "config/alexsmobs/frilled_shark_spawns.json"
-hash = "26f1718e58e3cb4f646d5bfc49d8ead03adcabbf685eb00a5800eb234619a386"
+hash = "b63970709447d3d3362768ef29998b418e07ec0f4c9d3ad22acd080c882abe49"
 
 [[files]]
 file = "config/alexsmobs/froststalker_spawns.json"
-hash = "53915780cab68621ce7150d72219f93d8cccf6c084363ee91081abbf29dd4b08"
+hash = "2cc43cdc9df3b20cc2eeb75a3c11736558f544571640607d08dec5c0a939c02d"
 
 [[files]]
 file = "config/alexsmobs/gazelle_spawns.json"
-hash = "06a99134b31fe9866bd3c235050ae101df8472db06559915549bb12319077b7f"
+hash = "3b70c16f135add69f653f9c129a9fe6fb8b1c2b12c67c70c8846dde9070d3c58"
 
 [[files]]
 file = "config/alexsmobs/gelada_monkey_spawns.json"
-hash = "552886ff059656c3dd82c1535931f39da98d1dc4fb11c9c2bf840d8aec5b5636"
+hash = "f34da73982791da505625b04a2b881bd331ef42d036a10f5f8fba96e99f23499"
 
 [[files]]
 file = "config/alexsmobs/giant_squid_spawns.json"
-hash = "87f5ca1c589ab59e16921bf65e14aafa11610dede99074c8fb4b78d411abdbd1"
+hash = "6ef9c08e437f647c633cbf41568c5528288f61ccff6d36f43e938afd3245d878"
 
 [[files]]
 file = "config/alexsmobs/gorilla_spawns.json"
-hash = "bc6bbd439b340d60552a46cdaee10a13a3eb6c79666e940a6a330bac01778393"
+hash = "9aa37a57800df38bee1f2c97a160140a83d7090f545f7321153c47e23dc4e643"
 
 [[files]]
 file = "config/alexsmobs/grizzly_bear_spawns.json"
-hash = "7d6a6132631135e7d871ec8f89e7cd25b8cdb3a079be97723403a2e358e9a893"
+hash = "2568b3ca9488c434a9664f73e150c122f695b4f1b80843903167a632b79232ad"
 
 [[files]]
 file = "config/alexsmobs/guster_spawns.json"
-hash = "67311741b0b6bdf7433652f9a33fb919adc96b90c8b85e1228be64bb2068d331"
+hash = "53752fcb9020d07fe9dcd0fcc0d64d999b2671e5bdd12ec8ec4544a522bf7e3f"
 
 [[files]]
 file = "config/alexsmobs/hammerhead_shark_spawns.json"
-hash = "d230a90784064d46a4436cec3e24ef7e3b0b03bee13691b8bf6b5ba43490ffd2"
+hash = "23dbc68c7e6b3862e99631cc033ef4c12526974ad85f8d55743cb7a845df423a"
 
 [[files]]
 file = "config/alexsmobs/hummingbird_spawns.json"
-hash = "e0f1a85488ba02f5ef91210a167267798f44745c26ce96925c8cd38841e54681"
+hash = "d15fadf707286913bee43ac591507932e403f8b50f7fc9f85cfe97c8d36e18bf"
 
 [[files]]
 file = "config/alexsmobs/jerboa_spawns.json"
-hash = "bab931ea3062bec8d85aad75bec9052bf9a07f17123aa08bb21a8a4cd712de90"
+hash = "8a10a538b2d4c3ea04fb28e40767029de8ebd9be6f18445455946f20fd9a1090"
 
 [[files]]
 file = "config/alexsmobs/kangaroo_spawns.json"
-hash = "cf921ef8dc515c171cf4aef51f11243f27c972b5cd2c78f172fa6a463ce5f3ab"
+hash = "07b36f66a5aa2cf157959a9e1c4452e1482b675d6f16c0ef661d9724c8a1aef5"
 
 [[files]]
 file = "config/alexsmobs/komodo_dragon_spawns.json"
-hash = "68b5b8cca2d4ab28561572cfb19c75fbfbaac542a2b82c2aa647b74ab76b17e1"
+hash = "9cbdb6ae8c090878c413f9ef2620eaafdcdecc9eb27859ac20269fe0c785feab"
 
 [[files]]
 file = "config/alexsmobs/laviathan_spawns.json"
-hash = "fa98a57d86a04212057d5191c72c93ba3dcd32de7dc4aea6a54a39cd96847336"
+hash = "6fad999625fa90795bb634427ca57c9ee30a8a728afb06aa0bca13d450cad0b7"
 
 [[files]]
 file = "config/alexsmobs/leafcutter_anthill_spawns.json"
-hash = "bc6bbd439b340d60552a46cdaee10a13a3eb6c79666e940a6a330bac01778393"
+hash = "9aa37a57800df38bee1f2c97a160140a83d7090f545f7321153c47e23dc4e643"
 
 [[files]]
 file = "config/alexsmobs/lobster_spawns.json"
-hash = "a9c80ad99aea621a9b8edd63ee05bac4620d3583839611961c09f3572d9ca62f"
+hash = "cf6e09b4c176a3f040827dec551c91460991a880746a8066656ee76265ae805f"
 
 [[files]]
 file = "config/alexsmobs/maned_wolf_spawns.json"
-hash = "2a4fe42a51b6fb20be1a147ca894d7884e499c1c77bb9893199a42bb87d068ea"
+hash = "7ffbe2192c379888181a7d73b6a5b26c6ef54c03353815cae2d852771da7afac"
 
 [[files]]
 file = "config/alexsmobs/mantis_shrimp_spawns.json"
-hash = "d230a90784064d46a4436cec3e24ef7e3b0b03bee13691b8bf6b5ba43490ffd2"
+hash = "23dbc68c7e6b3862e99631cc033ef4c12526974ad85f8d55743cb7a845df423a"
 
 [[files]]
 file = "config/alexsmobs/mimic_octopus_spawns.json"
-hash = "9cf8c48a4364477d51c98befbb2ffbb5a4abbe92029f7a6a18ff586bbb4dbf62"
+hash = "9900e066e510b9ed7572e20c313c7881d48266c827e709a79946f9f85c0d7b34"
 
 [[files]]
 file = "config/alexsmobs/mimicube_spawns.json"
-hash = "a993153a583e717745b82c64658746ee8c6e7e0407185adeb10825050d3f10c1"
+hash = "84a948f4e9db78a433f0967192d8b8b4a13c1b23f514647dd2cce5331f7a8075"
 
 [[files]]
 file = "config/alexsmobs/moose_spawns.json"
-hash = "f1f562d1164b695d67e5d173470e05497a853c0e71c5f1387073767fa93d5501"
+hash = "b9bb959b7a2b97bca6a705fad6f5df09437cd376e3556288c66957724bd7ed14"
 
 [[files]]
 file = "config/alexsmobs/mungus_spawns.json"
-hash = "df7329230e64ca1a91ba7a7ff15a82046be95b90bd41b4261156670dc1aee661"
+hash = "0b7d55acd342384184ebd85b52d18285ac19fcc76d452927aa19407c71210e15"
 
 [[files]]
 file = "config/alexsmobs/orca_spawns.json"
-hash = "e6a787759e13221eb6fe0325cd2826621cb6b9d390fe1855329f59168b55ce1e"
+hash = "4095b4129bf2f1dc3dc307092fade7905a95f07dff6d3fd5dee1879378c96eca"
 
 [[files]]
 file = "config/alexsmobs/platypus_spawns.json"
-hash = "6661cff2726e898ffb0aa9b5a5892de2d8d855b4a975378fbf9c050f5a4b199d"
+hash = "424dc3a66d2d387be90b70c4c7f5cdc15de42d824641a6f7042f722059387848"
 
 [[files]]
 file = "config/alexsmobs/raccoon_spawns.json"
-hash = "a7df043e3ac26c6509d91afe9f45c3d3a21db4560c1f55dfbc9b0829e3cd450f"
+hash = "6752061ab2933c05fbb786c9f75b775f0b0eee4b0534e15443de8998bb6d8e54"
 
 [[files]]
 file = "config/alexsmobs/rattlesnake_spawns.json"
-hash = "c24be68b77456dbe6e0873f1d1f32920b60d03e84227f59772182c0faad68f19"
+hash = "955967d130c06cf2e0b42d74761a3d8b94746ca99e6f24cfbbd4f5f9e0eaa47f"
 
 [[files]]
 file = "config/alexsmobs/roadrunner_spawns.json"
-hash = "c24be68b77456dbe6e0873f1d1f32920b60d03e84227f59772182c0faad68f19"
+hash = "955967d130c06cf2e0b42d74761a3d8b94746ca99e6f24cfbbd4f5f9e0eaa47f"
 
 [[files]]
 file = "config/alexsmobs/rocky_roller_spawns.json"
-hash = "12ae5178bdde51afe23759cebe45f52e1a614735cb5440a2c83ecd8e75eec7a3"
+hash = "f326ca2a7f5c040fd619f68ebbb45753717bca6ce8332bfa633f7af7fa50c0a3"
 
 [[files]]
 file = "config/alexsmobs/seagull_spawns.json"
-hash = "d99411ed1c65a2fda4df6066819af6fc9ea124a4ffa642b2ea6fecb37f4fdf37"
+hash = "7198341b94aba510d839a6ad01aa850ac17c9cd5f16a86d78e9e8c2741c4b369"
 
 [[files]]
 file = "config/alexsmobs/seal_spawns.json"
-hash = "08391b1475ddc162670e8b56c2e1243e99c5a27f1fd7f0918a779bb9b940bfc7"
+hash = "343740e2c8bd60601ae5e94651faa62a097f51f5be6dbd4da4b7d0d01a44a78b"
 
 [[files]]
 file = "config/alexsmobs/shoebill_spawns.json"
-hash = "912169bbb2102cce782a57967645445ab5017db76cd22e1f2f5bfa2604d24cfe"
+hash = "e4d96e95b9a4a77e542addc14ff68c6987269296f10a372ac60a263232a8870f"
 
 [[files]]
 file = "config/alexsmobs/skelewag_spawns.json"
-hash = "188fdaae5912b0c28f58cb1ff34eb3cfd72ad5ae77eef62b1c3f6f1672622cfe"
+hash = "1f070031e2e37b88790d23489f1ff16246793bc2c1c6bae5b9046f582cc04a3c"
 
 [[files]]
 file = "config/alexsmobs/snow_leopard_spawns.json"
-hash = "1a4297787d69c5dc14d0bdd61b81b36bd055032e95a46c656da21822bb4b629c"
+hash = "c693095dd5754d4189135e2439116317d44f6534f58c34ce57c9b476f4d35cab"
 
 [[files]]
 file = "config/alexsmobs/soul_vulture_spawns.json"
-hash = "a3eb1909920f54d0717d93a0779fa00d72cab7dbfe1494254eb939a157e80f66"
+hash = "1d31a209011d02c4cb98a047fab3aba42f50a4b45a82c54361f17242d603d6be"
 
 [[files]]
 file = "config/alexsmobs/spectre_spawns.json"
-hash = "a993153a583e717745b82c64658746ee8c6e7e0407185adeb10825050d3f10c1"
+hash = "84a948f4e9db78a433f0967192d8b8b4a13c1b23f514647dd2cce5331f7a8075"
 
 [[files]]
 file = "config/alexsmobs/straddler_spawns.json"
-hash = "778a9cb57b0c8adc9961e78d6fe4ed6f10ad37e3a23fd3624cc28e2f0b3c1fe6"
+hash = "1c658a4dd2b531486bc329f5f399332a7ac2b5077cd5948aa88e172fa7bd2308"
 
 [[files]]
 file = "config/alexsmobs/stradpole_spawns.json"
-hash = "778a9cb57b0c8adc9961e78d6fe4ed6f10ad37e3a23fd3624cc28e2f0b3c1fe6"
+hash = "1c658a4dd2b531486bc329f5f399332a7ac2b5077cd5948aa88e172fa7bd2308"
 
 [[files]]
 file = "config/alexsmobs/sunbird_spawns.json"
-hash = "bfb5de660f9b37aa659a8ebcb5937b0984fcc88642f4808c703556fb837169d5"
+hash = "b103cd1995e87472bc280daadd83aa48cb02588154d5c6bc5bdd714b017fa0ae"
 
 [[files]]
 file = "config/alexsmobs/tarantula_hawk_spawns.json"
-hash = "bab931ea3062bec8d85aad75bec9052bf9a07f17123aa08bb21a8a4cd712de90"
+hash = "8a10a538b2d4c3ea04fb28e40767029de8ebd9be6f18445455946f20fd9a1090"
 
 [[files]]
 file = "config/alexsmobs/tasmanian_devil_spawns.json"
-hash = "ea7326e84271b2c2d2daebbc9b55f908b1f170fa7a3511a099dba43ecc68a292"
+hash = "b56fad7b38b35ce0239e54950f58923e6704848098233af730497221cf5db4f1"
 
 [[files]]
 file = "config/alexsmobs/terrapin_spawns.json"
-hash = "6661cff2726e898ffb0aa9b5a5892de2d8d855b4a975378fbf9c050f5a4b199d"
+hash = "424dc3a66d2d387be90b70c4c7f5cdc15de42d824641a6f7042f722059387848"
 
 [[files]]
 file = "config/alexsmobs/tiger_spawns.json"
-hash = "06e6326063b130fb80e8d231d4d456ae32b7de01e8988959a5ab362bb5c012a4"
+hash = "9dd64ac882c60a719aa9bdc874dcc9359cdfa63b28035904ecf4cf6f9d4503ec"
 
 [[files]]
 file = "config/alexsmobs/toucan_spawns.json"
-hash = "bc6bbd439b340d60552a46cdaee10a13a3eb6c79666e940a6a330bac01778393"
+hash = "9aa37a57800df38bee1f2c97a160140a83d7090f545f7321153c47e23dc4e643"
 
 [[files]]
 file = "config/alexsmobs/tusklin_spawns.json"
-hash = "a11db59e38c75402cebd3bb430ce4667db2959ed5809ad727916bf0af8f7dafb"
+hash = "8cfdb70bdc2b07ec53fafa4c45b67474744baf9a3412723dc50404d59005ffc7"
 
 [[files]]
 file = "config/alexsmobs/void_worm_spawns.json"
-hash = "b0849eb96f4816a0c8ccbd346182d50cf300dbf002d392cbe90682c930e0f557"
+hash = "6712a2d6165ed52b7d251a8fc4cbfb6c1f834210a8bda82b55440402fd2d3273"
 
 [[files]]
 file = "config/alexsmobs/warped_mosco_spawns.json"
-hash = "b0849eb96f4816a0c8ccbd346182d50cf300dbf002d392cbe90682c930e0f557"
+hash = "6712a2d6165ed52b7d251a8fc4cbfb6c1f834210a8bda82b55440402fd2d3273"
 
 [[files]]
 file = "config/alexsmobs/warped_toad_spawns.json"
-hash = "a79f61400c2eeaf5f29ccc384638df588374cc794838c6e4529a61e2cc31412c"
+hash = "72126b26d7f3ae03b80df97dd103e0cec87d10829e86ac8b08da23abc7b318d8"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -466,11 +466,11 @@ hash = "e254fd10199336dd0e0c1c3f20a8daa1fdf9ca026b02dd9c0064ae1f058b9393"
 
 [[files]]
 file = "config/colossalchests-client.toml"
-hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "config/colossalchests-common.toml"
-hash = "adb946707889fc3649c146e65e01349640b3d60929645b87871446dfe04c2850"
+hash = "573cc009a63053df5f2e91be347a4c55980738dbce77c140daf9a4115c828585"
 
 [[files]]
 file = "config/compressiumblocks.json"
@@ -846,7 +846,7 @@ hash = "d53707bca34d3d11ef17642d819a4444550bf5d1c3557d0d8c19c5d47e46bbc4"
 
 [[files]]
 file = "config/laserbridges.json"
-hash = "191af029a204703e6a645b328ce766fc4ce296281eb04c02f8cd179b6abf5eee"
+hash = "556957bbafa61aeefc95f038cdd9a20f5449fb0a64cbb1f89c63552101d47f2b"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
@@ -1026,7 +1026,7 @@ hash = "c7c7d72c38afd1b026c58987bf569dcdfd6d726d2a694ef49f603de7f71df57e"
 
 [[files]]
 file = "config/rottencreatures-common.toml"
-hash = "e47cf96fef7b6005d96f546a55c06a6dcabfe2620e4d7a04c5123d00633714e9"
+hash = "47a7f8de299fd932bfa3107a807e8ea58cf8242d1a07c643604878db4c33c3f7"
 
 [[files]]
 file = "config/rsrequestify-common.toml"
@@ -1066,15 +1066,15 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/storagedrawers-client.toml"
-hash = "d415eb8cd30b4cefca7f3ff1d0249c39447fb3f1cec618d5491ef9e88b880402"
+hash = "408d6e9ab08e514d6d1e72aaf818afe26a62cf379057c203db0176c96af4d9ad"
 
 [[files]]
 file = "config/storagedrawers-common.toml"
-hash = "b2d712148b2602c408fab803ae950f77569cec60555ef6c8fad1e38473b730bc"
+hash = "47147121a7e7e935ca1865f37d3ce3325a888dcdbb1c22888646364ea6ce7b2b"
 
 [[files]]
 file = "config/storagenetwork.toml"
-hash = "7f8d56d09201cef633996be90d0214b45f5e25cfbf474483538dd7039c305b7b"
+hash = "b6225d474f29ea801ce73c71902733f0a8022c4fbb966c71782f6b48a8314afc"
 
 [[files]]
 file = "config/supplementaries-client-1.toml.bak"
@@ -13834,43 +13834,43 @@ hash = "3940248651afaf0f27adf3709a5ce9ebafff02602a86dfff712d72439183c268"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "a1e2b159a36444019f29f5b55c3ba48c511dd3a3a23a027162c180ab7f64eae6"
+hash = "bac016e1e35444e70e96f6cbddd6cb8ebf8dd0504975a088b0f838179d64aac2"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "284fc30e41233dcbcd1e08e4375bd563c2b71979bb3a696f7acecc6962162c72"
+hash = "0d0629b38a333550488fca563ff4b799d28191a591100c1fd9bd9117b802ad71"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
-hash = "a46fd7bd7a44cffcd235ff238cd970e2fbbefd2599b7a528eab5b06f6725f012"
+hash = "6ef3e4d5b171cca2def7756c11b28753567f7e5e1f60624f34b62f0b1b16f6fa"
 
 [[files]]
 file = "defaultconfigs/pickupnotifier/pickupnotifier-server.toml"
-hash = "f3899afbfa24695d72d02f8fc785cc1e72d345769557f0e1efc2f6542139bb48"
+hash = "28202a0ba8a1f82638bb6f3c1bafbd4676ba4686792e9ce5892912c1defb09bd"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "f2da817843eda50c3b3b248b677cf730ada9a75db7372ed5ffc2235e00a55df7"
+hash = "4421e8db912be202456bce38a68438b398a88a9bf61f99d50f452a81c12cc0ae"
 
 [[files]]
 file = "defaultconfigs/sophisticatedcore-server.toml"
-hash = "251f0ef1974ff96a59f79aabe721ff5954ae823f907375b652021ffbf05d0cd3"
+hash = "004ec0622a1cb49cf0e44e0e44863c10e317dfbbdae6f9e7c34cede29e965a60"
 
 [[files]]
 file = "defaultconfigs/vaultfilters-server.toml"
-hash = "df96d9fde7b876d3d082fff17edd0548ba528dd6917799b5c82508bc4a0cde65"
+hash = "0ab2c18a6ef28de56d589b85365836865325f3709b838bc062bcca473523600f"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_leveling.json"
-hash = "ab6b2cbcf1aa5b002b696e2b3c17a38f199b02ab0850b218c8b213cace3e2c81"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save.json"
-hash = "5f1bab10454d17090db7888c9f7c37a35be1d98cea02505691382cf66df41b91"
+hash = "b87ab978abbfd3b1c17034d177aa5fc0ca2844f015d4ce4b47051dfbaf8a68fb"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "248dfa3911bc2d0da73ece6ba817b5859c62a164a2d4db09fe06ff4f04922fba"
+hash = "ce1f1870b01465cc18b21ab43c1cc75c9d542ebeb56f7d627587c248d73667fb"
 
 [[files]]
 file = "mods/ae2-things-forge.pw.toml"
@@ -14558,11 +14558,6 @@ hash = "e6cbf651a33f49184ccca12f0852d82347b28477a7658d6ccfd2580802dc3019"
 metafile = true
 
 [[files]]
-file = "mods/qol-hunters.pw.toml"
-hash = "dcaa43dc07c5a6e2449c889145447366c9bfb616e0398276730dc93c3937680d"
-metafile = true
-
-[[files]]
 file = "mods/quark.pw.toml"
 hash = "323bf0949b42dbb97a7c35d17f436a7b2c7eb463cc97f46a54469ff3a0bad027"
 metafile = true
@@ -14808,11 +14803,6 @@ hash = "ba81c94e140482aaae921de97416abdd212621885a98d8527e3e4bf0497918b8"
 metafile = true
 
 [[files]]
-file = "mods/vaultarhud-respawned.pw.toml"
-hash = "a1c9c303f5d64b97a7785dc43a232b42043d09d8b0a40e8382bdc154718dc592"
-metafile = true
-
-[[files]]
 file = "mods/vaultlootbeams.pw.toml"
 hash = "fe92e1aa6a924ddf81cb9d5b6d0e60a89d6bf4c41ed9320769eb70101bff908b"
 metafile = true
@@ -14830,11 +14820,6 @@ metafile = true
 [[files]]
 file = "mods/vh-xaero-integration-fix.pw.toml"
 hash = "3a633a6fed87eab42738e2c15c53cadd6a51e977ccb78cfa754efe0c7c520fdf"
-metafile = true
-
-[[files]]
-file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
-hash = "6af1812f033528c272ecd1b664be6693c89e18e2b8de2740f171edd54f381479"
 metafile = true
 
 [[files]]
@@ -14864,47 +14849,47 @@ metafile = true
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/accessibility.json"
-hash = "597267bca062b64eef1de92d9d86d1c1132ffa2a9598751af2d43e4ec9cc3219"
+hash = "f8d557a33e995afe2112881b52d8259f6f0423843b983a1add401a2ce6b96977"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/discord.json"
-hash = "29a63d85dff23c9c5de3aca151008e7a9227fd48399e77c8a301f76d4b8ed0b0"
+hash = "dcd9dcba3ad8effa57df4a5a583c42f52502f120d6fdaa08f9343e9b4b060936"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/language.json"
-hash = "81886f867999a63ad629fcab46bc7fc901116191190bdd1f0dc96a6750ab401c"
+hash = "aa4d9e9276f2d9e526af2590717a3d16a065fbaa7a5e57c38c26050a294d9435"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/multiplayer.json"
-hash = "ff2b2c8fc6bc78fe9505d26b6fdbc8b401ccddf7e77892fc5c1c4e1b9a3c0dfc"
+hash = "06629636135cd2c81f0471ba848fbbe69e60bc05de96dea3c377eca021494e43"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/options.json"
-hash = "3357ff82756dc2223b0003b15e521fc2efb473b40bf48158b87a0ec1941589d3"
+hash = "13fe7a630182b3422fddaa554a695f722fa74782b93ff2a2b3644093110f36c2"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/patchnotes.json"
-hash = "354f600c78fcd998e42ff0328315268f33fae77bb74f37f57be37408e5c9dc2d"
+hash = "481c81bc4c5587b5bbc14d705cdf3cd00a78193a86af6bf1f5c2fc79669e7e85"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/quit.json"
-hash = "aed6d2a80bf7c4d9b973e710c42a1293c4a461b64df4fdec2c459e6e00865d9b"
+hash = "1a4f3b08dd7b3a56421194704fa53ddbdc2e36b09825d0c8adb87621c42cd9a4"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/reloadbutton.json.disable"
-hash = "e2e094afa3a1daab0ba3e0945c094c46ddab02751d4d662821a3d87b1b59bafe"
+hash = "cd751512f196a72b0d4ec51408590fec154d43598d88b2d0dbc5133650cd17de"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/singleplayer.json"
-hash = "52421b0bd13e4734512da3714e4c3c3e388b5471460056d2ff6aff4279e03dbe"
+hash = "ad6bef09111f858417d8d82a9945e961ce278d83874564505b7a821a4e2d6c51"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/buttons/wiki.json"
-hash = "89af97194d95d1a00dfd9486a29fda1d5431a6e184d8ea8e59ee5a8693aaf941"
+hash = "4b9a91e7842a8457a1d9d45cb05f34a0401aa1997b9781e94018051aae87feed"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/lang/en_us.json"
-hash = "294523eb3a34824852ff9e40ea1497d0327fde7007617600a12f37b9b198a8c5"
+hash = "0852d2fa8a205c2385073525c947a66eb97e23b31474c51d696166dd8d4107f2"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/texts/supporters.txt"
@@ -14944,7 +14929,7 @@ hash = "f05e7ead455e09e5da79dd6f3d289b0ac885fc38b593a40ddea5c432d306d224"
 
 [[files]]
 file = "packmenu/resources/pack.mcmeta"
-hash = "c92d7a6dc58ca7168bda2dfc3cc0a5acde7af7a4d2134ec54d2014ecf47d9928"
+hash = "157a33d968ad30a59edae72d0a1b870a9d8b1867601f45494072f9773e7bc21d"
 
 [[files]]
 file = "packmenu/resources/pack.png"
@@ -14952,267 +14937,259 @@ hash = "db4ba9188052b75c67fe536e5e7fc127499611abcb98b3542cf79a450fa13ece"
 
 [[files]]
 file = "packmenu/resources/packmenu.cfg"
-hash = "99959e4e950755e3a333ac506eb3281c9d386833837185b06069c756ff676bcc"
+hash = "21864a61ddd04b3b361074da80f204dfe0252dc3f04aab9fe5ccbd6ca4a4f95a"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/book.json"
-hash = "a7955f89f88cbaecd4d96069db1fbfcf418078c4a5d0fded519825cf41e461dc"
+hash = "7c94a6267c632d1b8b26786738983267e3518ebc93df1238cfc4ed0c7b3b4797"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/game_mechanics_category.json"
-hash = "ed27dacaf3cda8b57d19f20968000bfc1045e20fb4aa9c54c799bc4486d201a6"
+hash = "b3bae9d33693f5da0e6085290f6eb4095b6bb076b8ccc72af59d0529abdbfd24"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/getting_started_category.json"
-hash = "a6ba5c0d37af54666f675f185a0c530fd11768c3a2c4ae837ad5154043efb6c3"
+hash = "0977bacfaa53860f585242a25b18bc899cce1ee84f2ca3dc7ee72861a049c1f0"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/modifiers_category.json"
-hash = "249ba30273730abb2d5702fc12884d84cc15751b1beb1a8629981b1909f37b42"
+hash = "d0db4e3e7a1caa3b72847ee0f05e202c10a33ba3201b44eeed5311c4ef516d0d"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/skills_category.json"
-hash = "f03b2b4efcd6d55bafc993c73910d28e70f930dc8b26687546db867598468fbd"
+hash = "e587aff469bb0db344102798e509157c131791c9af544a621f5386e816609b68"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/the_vault_category.json"
-hash = "6bb4adb55401bc693c6c7c6af2c2efecba8542346b4a2beadf6897f20ca76365"
+hash = "8670060cbf6e772c74690845d9e2f99f7a43c78344b7f18b14ebbcd4de8e5a9d"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/useful_commands_category.json"
-hash = "314499e125d51c84ccd48be0419ffe0e545e21140b7d3224ee58a7d532f86dcf"
+hash = "31cb2b5eea1654fffc619151a011e64eadc3d8530151e227d1d44cb5522a40ac"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/vault_gear_category.json"
-hash = "3affac80f539eabde1b1209b68b11a334321ee904fe6fffc2eb2172a91dc139d"
+hash = "0c67fc96804d75f1162d4eb07bc1f1e8fa84d33fb1c9fd174b03785c7b39f064"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/vault_potions_category.json"
-hash = "5c14418339bbd70a8851a7dcb275d655e64ee0a995713e5481317c76b9efade7"
+hash = "67428f36041c44c75f7017f768735b2c6d428901677829637d2e125feb476536"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/categories/vault_tools_category.json"
-hash = "889fbc9767be16d76477b2a37d25750d1df1a7493404d76ad71942c05202b6e1"
+hash = "54a0c9915629d538f1f24f8bc262e896e097cfd580e1ea472362236e487bc279"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/altar_automation.json"
-hash = "9f5a27036360198d53e29b4af1d0b88b1ea3efc04507e4513d51c99a5cb046ff"
+hash = "71aab0cab104c47ca2ed10d1b8cf65a87d3ee0770c218f56ddedd0e01e443127"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/bounties.json"
-hash = "b1f719f5ac1ad8cd1195a4beeeb45e5fefc314bd43fd25210983785c61071d50"
+hash = "36b2caaa76c73f4833663a169f7a95775be9c99f1fc52dd5c551855d5b617b29"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/crystal_modification.json"
-hash = "df0c92276ff1fc0bc15fc0b3fc4f3a020543b9f42a572ea88764a5cb3017ce42"
+hash = "b08c2ee31f809139b93e4557668de31bb7af7b1e9eb6bb13e2c3b85c9a8da5d0"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/relics.json"
-hash = "085cfa61e8397f925771282264f58f538572215e253dfe29bd5c581d1dc02900"
+hash = "ca709c8fe83f1ab23a4fb2bc9bffc2a26c92a7e2978df213357d87efc2a3a8dc"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/soul_shards.json"
-hash = "c695c1b458a3a25a1902489904cbfc65381679bccbfdb916678ea148bc0abe52"
+hash = "624e7e9438a7ec7b90aefc136313f4076f9e9918b362ae77a44e2f9cf26b17d2"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/spirits.json"
-hash = "6ae05f88d6f51af6f7b430440e90c6f67060d6992a44735f4c8ed233e194bfdb"
+hash = "60f0847e8267fe3b09c936b7edafb44131ece59b0fc35957a215bc38b0656955"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/vault_dolls.json"
-hash = "11067b1709979ec102a34540f6ca4977401ba5048c30cee1aeb72127377acb3d"
+hash = "9512e6fc0b51f8537023378d89162362a75466dba18d26826c6b12a6be65c983"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/game_mechanics/vault_enchanter.json"
-hash = "510d464eca10fdf2e9c98f8beac095555f7f1c7c0a21336da8967f84f8c024f3"
+hash = "5e3ece3cd06f4e5b9e04f88769cc5cadbbd3548410fe1b2c0403d3b1995c0e8f"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/chromatic_iron.json"
-hash = "6e573f715e97ccc042792e983a90d1dd9d0bf35bb3926c2c69d0d4cbadc1bc5c"
+hash = "e477afe549ad6dc53aa86e068cd746162991ecb2838b814112730431245dc420"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/introduction.json"
-hash = "8713d244d3215fe586bdd8e962647c0e3e59b46748a3e250e4e63e5f5d434c96"
+hash = "e349eaa4b335d8d0d7690a70fb555d545c5f408ba2a8d415715a81cbcfee73d8"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/leveling.json"
-hash = "82f0a050fb51fe0e91a109aff489c8ead5e9ffdf50ae334fc0097dd8bd610f14"
+hash = "8b5319a602fd025071d079efa81c246d49b5fb81c2809650349cdf12b888226b"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/portal.json"
-hash = "ea1efedc3a748f6194b136694a97fef27ba5c29bcf78758fa1d372d13beb0e16"
+hash = "95ab1deed42d55407128e3d972805a69b9aa9aff8bcd697642534d2606cc83d5"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/useful_commands.json"
-hash = "bafc9755f9e0406d9fcf646ba9b0b617b62f1bd53574c120913c78a89bfe7985"
+hash = "7616dd6141ec927a968f39c4e0e619dafbdaf029ebb75d1a84be79d3c5257043"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/vault_crystal.json"
-hash = "62aede589c80e1ec959deeb8fa6f246293d5de47876c9dfd9e0165976a15ea7a"
+hash = "6b2d97ae612fc77d8b4c9c49cf43ff93ee920b724d3e61936bdc3a7e8a21a138"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/getting_started/vault_rock.json"
-hash = "5d51ebae69fa7f4a751b53c0c4718fbe4d4ec4b6aacacce07a2352075fd341e5"
+hash = "dc6117e827083151b30dfbe8d323d268c7d8db4962132289069390fd40fa4539"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/abilities.json"
-hash = "e260eba4193dedc1db53bcb9db83757603101ce6632671e88f6c97fd1b097891"
+hash = "bfafd66488dbb17dfea787a5684a4dd6e65f58871de4085a7fc6e4351b99bdc8"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/expertises.json"
-hash = "298de12e0210677ab65a161130989b548daceca1b3a8b09f4d9dc461460db211"
+hash = "ba41347f6b2fc6f2e2c3bb4913f5d99ca3513cbd82e0a1dbab152dc8e7bb9b64"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/mana.json"
-hash = "d325601526327a6191bef4bd1efd41501abea378efa11e8e360bb0cee498fbf2"
+hash = "41d322c195a85d7827f0bb7a01b132edeab5dd2a4a038a5563dd504a44f3911e"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/researches.json"
-hash = "138aacb388081c1b81225eb9a3ace7aa390cb475d2560692dd94e63ed09f407a"
+hash = "17228192e11641f20e68aa00a0b29476ef315bed5de351442a8b910febe7c6b2"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/skill_building.json"
-hash = "8241f7a1dfdacb78020db1f5b0942f15125a11ffc7537ce70d855eacfb2b261f"
+hash = "ab210b216bbe2bdd29699d7d9f8a54cc189a3b3f5bd991bec8d764f1bc0b9775"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/skills/talents.json"
-hash = "4f065bcc3d08c23727f03605729243b6430962f8ba47e94caf38db1c8917d06f"
+hash = "0bd1bcc95cc4fe3f8032fa2aa1a6e13b4fe923e3915ee13c4da05e16c9afa91b"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/cooperative_vaults.json"
-hash = "d4d0eb0910fcaa1f0860d3e611d6404069e9bd2c1fb0fdf96b552126a38e6971"
+hash = "b6ba352909320a3b9e9c8321212fc60d92312595c57a52b73cc86167189be428"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/layout.json"
-hash = "9ba0d5a55b23630619134ea6b395cf59c1afcf4c6fde779409db374791c7559f"
+hash = "f0b0efa3a4af3902dba8b5d7281db17d933b115676ea1b16b4ded2d2cf4266a4"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/loot.json"
-hash = "60cf435d4fb9bb67a98b9857881f406127c66c265658b70700accfafec506d1a"
+hash = "16a0bb4ee2f2b78eb7031532b14e9edd0c90859c90e0f1b879524100160f0fe1"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/mobs.json"
-hash = "c52a2e64553a878026e818082324b2114eb928dc526b40427ef190b92c8b16bb"
+hash = "423ddb480e511ffbf98a52f3b330d0ded79fd03160a3213847e7b8880c31126a"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/objectives.json"
-hash = "69d3c3e217d785e33a3d9711b3c8abfdebdaba1f394035e1e521112fbb4431fc"
+hash = "d3dc52fb8d6bc2dba0e012855a24f6c17c7d3b7b07f62acfe5aa727c12ba2853"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/pylons.json"
-hash = "40bf5cadfac93f907dc4750415211cca6ec4cd544c1efd9824bfbca76539c43a"
+hash = "7a28fea1ac7d1389e1a7fce90058c61010549e61b70e0fc7a734e8560a34ed28"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/treasure_rooms.json"
-hash = "c6df6928e006e3cd0133687c4f3216a7a1b2ba3a7c068800ba1c9d2ce4249da3"
+hash = "282d14ffc4662880f66f9d42bb47d5dab39bc169383e2dd67489e19f8e1081c1"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/vault_fruits.json"
-hash = "2c31d793c7688ad27d2479f84ba8e87bc8e9cb583a57dcd78abbb2dc8c15f9e5"
+hash = "18db1b43e2f206b821d67e55a99691510da8cb046caf792fd9bb00caffee154b"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/the_vault/vault_god_altars.json"
-hash = "670745a4d10140d6eb7af758be4f491a62210193beed6037d669595b632742b3"
+hash = "8267f59269d5f2abf3133bbc5911d94396f7bf91c4b26a5a879555552ea57268"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/useful_commands/difficulty_commands.json"
-hash = "b7316130d2ffdee867652a6b6149e529ef68c3fea001ced6d00574afb4cfd301"
+hash = "03ab5151df8d9e34ff350c26a534e9ecce5a8d76c85674c076f8aec381331437"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/useful_commands/gamerule_commands.json"
-hash = "dc37a3235240c32fac754e5fb3115b3edc1a9a1bbaef9f711d9852713cea9fa6"
+hash = "93e614842e352b681831d288f77eb288d9361a0e17fa5a4e600bc36dcb133769"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/useful_commands/party_commands.json"
-hash = "a4dbd4d5b83b8095fa83bdb5f9075b230894c2363d81c36e30ebf9d7d0d17efe"
+hash = "058f1d80b27bfb5495d8a50e7f016d00f2e071d62889ed42b4270a16a01a2390"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/useful_commands/research_commands.json"
-hash = "8e2938725e3a5f81ffb3ecf87d81625f464b626a0622f787c977947044d9ae61"
+hash = "28d140d30a3fa22a5378405fe7193c8539ded3f1a4b3e632bf70b3764879dff5"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_gear/crafting.json"
-hash = "eca7421b9cd5949a677c2153bc6036cc367ade7815b2a86ebccd1971955ed95d"
+hash = "6aa92c3d680db031b5c0a0fccb0d7fca7615c83410ce0d47c038194d83c96571"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_gear/identification.json"
-hash = "f9e9400981587c74a1bd93813c2ce6acc5314f10d19af08be1c138531dcfd3a5"
+hash = "741a0153677f851f2445a4a4d7bebb2247d556a15ba25141c5e11fe0e8d42cad"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_gear/modification.json"
-hash = "b09a53e0b13db325f2db1aff3a08ac1a28a4d14da8b3aa9f1311387491573fd3"
+hash = "06d621168a3fd15af75783c2f161d9c2b083fc080d0455fe04811c70db9bb1b3"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_gear/recycler.json"
-hash = "380c981e7cea77a1d7acfb9d781003d2903c89da9bbfb5e000362690ce2e649c"
+hash = "b710865e42f29239498737247c6178f719532eda5f4af60041b21a9df838cd3b"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_gear/variants.json"
-hash = "74b5e0243ade8f6aa6e57977b7416d30399d15c356c26eecff25e81742c9087c"
+hash = "96d37dfe0bc0a883b1e5a1295279eb88c93ba66c9abb94c57881c4e6be94039a"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_modifiers/curses.json"
-hash = "8eebbc54199ca01d28d931580149ec3cacf004f98b206f6160f45bd0e1263d6c"
+hash = "6bed3a21c39dcef5ee0282b63e123ba585f70f2aa25d494ec682612d52d5d76d"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_modifiers/negative_modifiers.json"
-hash = "65c2437523843a27b40466dfe51fe7371b88b8d8847e35f945e623b0f282f817"
+hash = "c02542706e3c1f1c81177042d3192da77f6dc66cd030db5a8a9c1cdb159290de"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_modifiers/positive_modifiers.json"
-hash = "b0ac47d55c7444a72fb4ff6c01560bfd26cd99221437de7ac98dbdb205808f07"
+hash = "2f7d693e6635c7767cc61724756beeaaa8f692bfcb864924c963fe48d7b2be68"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_potions/modification.json"
-hash = "cf00567adf43e0dcc6ef9aadabe88daaad7092f3ca728baac6153493cd64bd30"
+hash = "a4f8d62073d283a32671d72cb0c3ae2eb84e032c8fe473dabaa2d3c2d5762609"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_potions/variants.json"
-hash = "3c3ea1c1dfcadf2f13a087ebf4b99d2e9e2993c0f48ad47e18d201f20a8eb9ed"
+hash = "0dc21a205c870a28f03457c1423cda711e0b0436b6fd2e3b1c0672ce34f390bd"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_potions/velaras_wrath.json"
-hash = "40b02695039981daffd986b1690e8065f93f6908353881274d8ac01ef1133757"
+hash = "4974d01401c3a552385829c7c8f9102d1538da26c804048dca61012a161cd602"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/crafting.json"
-hash = "44ffe1418bfbe35c975289e591bb7b08da7308d808af6633220853c6e296ede4"
+hash = "d3381227eb9b48f58f9aa9e516463603dc4ae4a587569e2fad45082f885234ca"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/jewel_cutting.json"
-hash = "03ab63ea2c9c12a1fa77239f48cdd695232861dc9f7403a6c452f926ad1a5647"
+hash = "5414ee3fe330230e69295d6e8387194ede6bfc16987f0203a85a491f214f961a"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/jewel_modifiers.json"
-hash = "470491ee83c38c2b2cbba783c495db08c78285812eab9d6185382209bb5818de"
+hash = "65aa4266bb073e13dff9c5019a60a180701fbb1ff541460c5771acb23d9d5579"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/jewels.json"
-hash = "afefe5cef56516d9ac656a0a230acec2664617480fa9593594c69130f9ec7b0f"
+hash = "7e67eee3c5e2e9a275f65c59e2c40ac1faba5aaca34cc1457f44399a58a5feb5"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/modification.json"
-hash = "3ff237aa0bf923026fbdc67ed102381968f90110dca9708ac661f3ddd947ad5b"
+hash = "30154695d83ab52a3f5d3e29261139807d8515a0af05f303a4c2c7aa8148b895"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/recycling.json"
-hash = "6836682bcfb7bc5482d40846e92b4030ba731989bd2ffb93da318798c5148095"
+hash = "a206386bd7f7c7d899b0b05228890ae5170aee12c150acde503d6a78cfd4e73f"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/en_us/entries/vault_tools/variants.json"
-hash = "f7d0e95bb7a5ad0cab8ad1c633cb75775f1c17c3935104c4c4f64401b9280d54"
+hash = "f0ac22c91075799831792da2026b403668f7cc2b568d15a3270111755b2490b3"
 
 [[files]]
 file = "patchouli_data.json"
-hash = "af556251f5c89c6a05bd679193177a541e74148a120066abe481497f4cc7e231"
-
-[[files]]
-file = "resourcepacks/Copper Legacy Pack.zip"
-hash = "09d0a2ae46615f2ee2ee697a50c0cdd507ab75ff7b1d73eba877479654db848e"
-
-[[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
+hash = "67f9392a5dd16c0ef628721bfd20daef52ecdd733a35ec020ea6398df5662ae7"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
@@ -15388,20 +15365,16 @@ hash = "60f5bae9eefc115904a93afe495ba4f2f38db39e4fab2a384be392c490e85782"
 
 [[files]]
 file = "shaderpacks/ComplementaryiskallShaders.zip.txt"
-hash = "1cce636f174e8bf06c6800fa0b833ba426ddfbcb53888dca3fa0c7b6dfac7e02"
-
-[[files]]
-file = "temp_check4.zs"
-hash = "d4c7206d843ca99e337d4625b15b93e25b7612061e5d014a29585b8524c59650"
+hash = "a052a756a4d3ca67c651448b2d582c902ca24ec6471b57439096fc3dee415dc9"
 
 [[files]]
 file = "vault-settings/pickup_notifier_groups.json"
-hash = "8f63d4c2a949626555a7fdb1228756e42094ac7ad6fe4035a9165e0c8627939a"
+hash = "5959ed8f776c066802ffc1a1279635c60567e9cc633d4a648b21385eb40dfd31"
 
 [[files]]
 file = "vault-settings/pickup_notifier_presets.json"
-hash = "36306cffda7a15c8887ad672fb439e4e6ff6440dbc736f6912da86184ec17350"
+hash = "db3ec464e8e740ca18b0d452e747c012b865dc86dd3e44d234e982171d1fe4de"
 
 [[files]]
 file = "vault-settings/vault_soundOptions.txt"
-hash = "45ef38f1bba3697f7c43ccb67676599fc61672e9c6b523dd00fb38f76fd4a526"
+hash = "d4b295b1ca88c66a7b30722cb7d81db5602b97f63335693fad7f1c00d76e6606"
