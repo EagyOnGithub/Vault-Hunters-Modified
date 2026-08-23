@@ -1,1 +1,4 @@
-* text=auto eol=lf
+*.pw.toml text eol=lf
+*.toml text eol=lf
+index.toml text eol=lf
+pack.toml text eol=lf

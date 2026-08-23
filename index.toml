@@ -13874,7 +13874,7 @@ hash = "248dfa3911bc2d0da73ece6ba817b5859c62a164a2d4db09fe06ff4f04922fba"
 
 [[files]]
 file = "gitattributes"
-hash = "f70d755466b101646b043fe3c62c4f8a39eae827c1a2a303a2d39ccd93f534f8"
+hash = "f21e71fbe08077288b56fd5d4cd0db16b8b752244f7131aa9d5bb2856ff9b804"
 
 [[files]]
 file = "mods/ae2-things-forge.pw.toml"
