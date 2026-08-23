@@ -857,10 +857,6 @@ file = "config/lootbeams-client.toml"
 hash = "c15a1bb1fe75c6589aed33cd26588a4c7ad15ccfc20606c830d5eebf1c2b5709"
 
 [[files]]
-file = "config/mantle-client.toml"
-hash = "6644e92bfaff6604d045bd09995a4168da7312e5d89781190bc9999a10c8f286"
-
-[[files]]
 file = "config/mcjtylib-client.toml"
 hash = "d1e8040321a75d58a472dec80d22df4010ea5965e2e73dee1ddc28e2ff69cf36"
 
