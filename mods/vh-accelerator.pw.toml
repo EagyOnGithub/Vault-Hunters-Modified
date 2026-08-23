@@ -1,0 +1,13 @@
+name = "VH Accelerator"
+filename = "VH-Accelerator-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2da2f3d70102cb9a6247d7d9d252d0a9352ab2df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8547986
+project-id = 1629601

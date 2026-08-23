@@ -1,0 +1,13 @@
+name = "Buildscape"
+filename = "buildscape-3.0.8-VH.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c65d80dcd53ed8d1bb291dd8c12d52aab34a0de1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8502717
+project-id = 1377354

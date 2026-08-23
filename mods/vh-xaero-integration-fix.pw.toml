@@ -1,0 +1,13 @@
+name = "VH Xaero Integration Fix"
+filename = "vhxaerofix-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "133b4061d776468655fa315de630a4e613c02492"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8036579
+project-id = 1533425

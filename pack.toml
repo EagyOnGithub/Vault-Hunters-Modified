@@ -1,0 +1,13 @@
+name = "Vault Hunters Modified"
+author = "Eagy"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "416da8ef9454e2ad99973d4f8ba31c32835d03617afff351d403d4c796ca27b0"
+
+[versions]
+forge = "40.3.12"
+minecraft = "1.18.2"

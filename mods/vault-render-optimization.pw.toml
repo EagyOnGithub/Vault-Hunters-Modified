@@ -1,0 +1,13 @@
+name = "Vault Render Optimization"
+filename = "vault_render_optimization.0.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d29a03ee730d22c2734f75efdd4415fb6e6c4081"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8568947
+project-id = 1637635
