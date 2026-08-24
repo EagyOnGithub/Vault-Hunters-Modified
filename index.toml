@@ -5,10 +5,6 @@ file = "config/ChunkyMcChunkFace-common.toml"
 hash = "3a453d16e5d2c6150a87b979a0871889226aa7217588fc494ab39f5e4ef29bb5"
 
 [[files]]
-file = "config/InventoryHUD/curios.json"
-hash = "985d92173d708f0f479e923200ce4468e3a15fcac74107e5bcbd4f6e74b4ac32"
-
-[[files]]
 file = "config/Mekanism/client.toml"
 hash = "0e0c4f0eec8faf5c3f207d27f3ee53faecd513d6805d1e60b8eae9d2e8a0d4a5"
 
@@ -51,10 +47,6 @@ hash = "c9bac7a9ff512efaf495ce5d89299a5c6533cecae11d3c87c9bc2a28595db77e"
 [[files]]
 file = "config/Mekanism/world.toml"
 hash = "1262a35a82c2949b9d6f68d08c128a29020493ba25ecc3c282fbf740861dc215"
-
-[[files]]
-file = "config/MouseTweaks.cfg"
-hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
 file = "config/WeirdingGadget.toml"
@@ -573,14 +565,6 @@ file = "config/ecologics.toml"
 hash = "01af8e1acbe71cdf87a2d2190c8d86d55906b137fe049721317f11b517b15a87"
 
 [[files]]
-file = "config/embeddium-mixins.properties"
-hash = "abcfe48332f4c5128a8f2184f09c7dc6b6878b008e274ea5ec88b24dc70ea77d"
-
-[[files]]
-file = "config/embeddium-options.json"
-hash = "32b360b8a7f37c5151dbe96039eb3582c5ff0c816c1abc71a7e671f828f8f38b"
-
-[[files]]
 file = "config/enercell/enercell.json"
 hash = "7c1e64768038901f3de0ae18d78f30e5489c9b1f3cb26bbe0fc55b119218b43f"
 
@@ -713,10 +697,6 @@ file = "config/industrialforegoing/machine-resource-production.toml"
 hash = "aea38fdf85ac3470d63d0c6d8ea6a9d01437d1fb7bfe1d271be314ecbd6c7122"
 
 [[files]]
-file = "config/inventoryhud-client.toml"
-hash = "752a7beae16ec7b4a4f54f1aa0123b8c7ee3fe5cbacc8b0ad47594deb0bca483"
-
-[[files]]
 file = "config/ironfurnaces-client.toml"
 hash = "f1bee9b35cb49d590a0f70b92b9ebe8cda0db910167706bb1674070ddbe90a9e"
 
@@ -825,10 +805,6 @@ file = "config/jeresources.toml"
 hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
 
 [[files]]
-file = "config/justzoom/config.txt"
-hash = "353b16a2b088c0da6a6bacb1bfdc2bbdf483f2b07d06440656f674832840fb88"
-
-[[files]]
 file = "config/konkrete/locals/de_de.local"
 hash = "9cf580b889772edd244b5ea7cf42439bbae7bf2834bd759b819052d8f147e5fd"
 
@@ -911,10 +887,6 @@ hash = "4215398614d28a24d2fe39593bf25981dd67ae46f85bc710ee07ba2d37c74c0b"
 [[files]]
 file = "config/naturescompass-common.toml"
 hash = "eebe4b4c01047b3d8cbf1106fcfe8af8e912ca62dfbb5258f46b36623b535fa2"
-
-[[files]]
-file = "config/oculus.properties"
-hash = "49962fafdd4869a55aa983a7f5ee1424f9de184235fbbaa256dc4fe6f2c57549"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
