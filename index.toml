@@ -13873,6 +13873,10 @@ file = "fancymenu_data/last_world.fmdata"
 hash = "ce1f1870b01465cc18b21ab43c1cc75c9d542ebeb56f7d627587c248d73667fb"
 
 [[files]]
+file = "mods/FastWorkbench-1.18.2-6.1.1.jar"
+hash = "f6bc20027a7ae63cf5d29480dc20bcaa8a7b2a364cb5045994dd83c031a4ea88"
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "954e95463edeb24b8a13e06940077ce4a0b1e03198f3caf46d9ca20c3ecabe3e"
 metafile = true
@@ -14235,11 +14239,6 @@ metafile = true
 [[files]]
 file = "mods/fastload.pw.toml"
 hash = "18e115dc1bca2f3f14d65f26e03a9f6d396d03b2b24a7bbd9bb0fc7dd7b7560f"
-metafile = true
-
-[[files]]
-file = "mods/fastworkbench.pw.toml"
-hash = "3192433f940257c03b21f7c13cdf0af8195c797c08d3f762da5eaf102a061cbc"
 metafile = true
 
 [[files]]
