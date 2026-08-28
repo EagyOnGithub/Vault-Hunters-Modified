@@ -14699,6 +14699,11 @@ hash = "453fab5cfb7444477255e6526f98b22bfe2847884c3a10d9534486064b42e781"
 metafile = true
 
 [[files]]
+file = "mods/temporal-index.pw.toml"
+hash = "cae7bab06f02b70099d0716595dec2bcacbff1b4cf5ce4c68b1ebc71e6141f97"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "526f1411f2287247b09ebe85ce4ba29daaad56f1a817d163ec194f78b11bb8ef"
 metafile = true
