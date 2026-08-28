@@ -1,0 +1,13 @@
+name = "Vault Hunters Companion Notification"
+filename = "vh_companion_notification-20.2-1.2.0-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0ebac1df8035b4250cb12f78fd76658ad308f352"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7358446
+project-id = 1316497

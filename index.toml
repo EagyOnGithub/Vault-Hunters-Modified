@@ -14019,6 +14019,11 @@ hash = "ec07a59e95ec3c531c1e6b51e876e6afa5430fe5fb9b022067fa37dc0461b740"
 metafile = true
 
 [[files]]
+file = "mods/companion-codex.pw.toml"
+hash = "dce4b0eafd36f8e1b42cf8dd4d591d68e867de80553a3d231a87424c6802a79a"
+metafile = true
+
+[[files]]
 file = "mods/compressium.pw.toml"
 hash = "d8f0f75951f5dbcdb0248a7862bec0810125f6b23e9551a4d8e3e56f9a6dde27"
 metafile = true
@@ -14619,11 +14624,6 @@ hash = "34441e9b2f6c0b9ec69ab07591db2ff26c6b49f543764e7b3ec473a39ff6b64d"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "1e6aaffbba170cd179b9327d8f11b97cade22dad9938e9cb6f6ae7246aafb776"
-metafile = true
-
-[[files]]
 file = "mods/simply-light.pw.toml"
 hash = "d5e72639b18259af90929dd891be82105589b006d8bf8131cae4e9c9e09563d1"
 metafile = true
@@ -14749,6 +14749,11 @@ hash = "7487bc2e3dc8cc4e90bc34f3e0ae013b588c3b1414c9328c0e031b74b8ca6f92"
 metafile = true
 
 [[files]]
+file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
+hash = "9eda0f087b2c6ab840cc19b68389c1b6557b81cd9c0b7e928ad7c4952679096b"
+metafile = true
+
+[[files]]
 file = "mods/vault-curios-enhancements.pw.toml"
 hash = "f6952ebd6a6ef00e2fd3ee8c4a65c7b482e78f5c841568acbb38511adee0e3e9"
 metafile = true
@@ -14759,6 +14764,11 @@ hash = "a87eddc81c59f27c1c23acd2e26c5021506fe2d690304c987167329fc0e4f9d3"
 metafile = true
 
 [[files]]
+file = "mods/vault-hunters-companion-notification.pw.toml"
+hash = "ae1d07a56f1e91f48b50b4d533751e1b6878a09e59aa12ef67cc94bb14f20f91"
+metafile = true
+
+[[files]]
 file = "mods/vault-hunters-official-mod.pw.toml"
 hash = "5a2176654bee6d46a69560a2bbfeaa3e7dfa1a7827cc377b742f351923db0418"
 metafile = true
@@ -14766,6 +14776,11 @@ metafile = true
 [[files]]
 file = "mods/vault-integrations.pw.toml"
 hash = "70f9079798a18a91b1c620413865655be10577b89a89ea99d317294096cc2007"
+metafile = true
+
+[[files]]
+file = "mods/vault-party-ui.pw.toml"
+hash = "734a896505c76747841ac1b65e2c88816f095daf38f4b1bb27c351cf33a2b993"
 metafile = true
 
 [[files]]
