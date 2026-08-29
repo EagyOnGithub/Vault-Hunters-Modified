@@ -13924,11 +13924,6 @@ hash = "f38c5f05ae0aefe8180261e5b2a9ad398526352a9c9818dd8a6b6d58610ffab5"
 metafile = true
 
 [[files]]
-file = "mods/bisecthosting-server-integration-menu-forge.pw.toml"
-hash = "00706383801612c2cce06c29e64daa0ad83ba2d71cc61b80537107844f40e8b3"
-metafile = true
-
-[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "1d7f95592de63e85db46a17cb90c0386b9810954ae55dea2da7ba6291db0cb4d"
 metafile = true
