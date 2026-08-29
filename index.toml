@@ -14799,11 +14799,6 @@ hash = "fe92e1aa6a924ddf81cb9d5b6d0e60a89d6bf4c41ed9320769eb70101bff908b"
 metafile = true
 
 [[files]]
-file = "mods/vaultoptimise.pw.toml"
-hash = "4156d8e27df4f3f1fa381c7d82f4f11338a11f46ec2206d3c6e33db3cbe1126a"
-metafile = true
-
-[[files]]
 file = "mods/vh-accelerator.pw.toml"
 hash = "c90a7fad51bf1eca45bbe57c536957e13db0cd93b8017d32a4949b04fb30c01a"
 metafile = true
