@@ -13845,10 +13845,6 @@ file = "fancymenu_data/last_world.fmdata"
 hash = "ce1f1870b01465cc18b21ab43c1cc75c9d542ebeb56f7d627587c248d73667fb"
 
 [[files]]
-file = "mods/FastWorkbench-1.18.2-6.1.1.jar"
-hash = "f6bc20027a7ae63cf5d29480dc20bcaa8a7b2a364cb5045994dd83c031a4ea88"
-
-[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "954e95463edeb24b8a13e06940077ce4a0b1e03198f3caf46d9ca20c3ecabe3e"
 metafile = true
@@ -14015,7 +14011,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion-codex.pw.toml"
-hash = "dce4b0eafd36f8e1b42cf8dd4d591d68e867de80553a3d231a87424c6802a79a"
+hash = "f26c32a5815108d4a8df0566ff9488ee9de97cfcfbf4311a884f7bfcce314ed6"
 metafile = true
 
 [[files]]
@@ -14214,6 +14210,11 @@ hash = "18e115dc1bca2f3f14d65f26e03a9f6d396d03b2b24a7bbd9bb0fc7dd7b7560f"
 metafile = true
 
 [[files]]
+file = "mods/fastworkbench.pw.toml"
+hash = "3192433f940257c03b21f7c13cdf0af8195c797c08d3f762da5eaf102a061cbc"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "3086f596aebd6826fae8aef103c18b12776670fc34020f0de8edff471f8cb4a9"
 metafile = true
@@ -14305,7 +14306,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-vh.pw.toml"
-hash = "9d27d411395bf4d53b2766f46d9d565d043ed812141a1ec44b7c8a9257602bac"
+hash = "48030051a2d63b301015149280bbd78c1ae32f96e60ca0d1dad4129f33a79e6f"
 metafile = true
 
 [[files]]
@@ -14785,7 +14786,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-render-optimization.pw.toml"
-hash = "ba81c94e140482aaae921de97416abdd212621885a98d8527e3e4bf0497918b8"
+hash = "8cf2d497f3e7c6d7645f3f73c82e6c35992c72c3d92d6a94b5e1ba198f37da6e"
 metafile = true
 
 [[files]]
@@ -14795,12 +14796,17 @@ metafile = true
 
 [[files]]
 file = "mods/vh-accelerator.pw.toml"
-hash = "c90a7fad51bf1eca45bbe57c536957e13db0cd93b8017d32a4949b04fb30c01a"
+hash = "d45de4e20fef0856b48ec69d4b97f024bb1822cd3def00d9974726a82b40cb8c"
 metafile = true
 
 [[files]]
 file = "mods/vh-xaero-integration-fix.pw.toml"
 hash = "3a633a6fed87eab42738e2c15c53cadd6a51e977ccb78cfa754efe0c7c520fdf"
+metafile = true
+
+[[files]]
+file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
+hash = "6cc79a3ed16b776dd2c3efa731a92e084b28b339814caf49ea0f1855652dd904"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "Companion Codex  - Vault Hunters Addon"
-filename = "companioncodex-1.1.5.jar"
+filename = "companioncodex-1.1.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ed3084bfaeb7bd6410f78d3dd940fe01e3bd06a6"
+hash = "78eb59b3f42c1207851f1e20c9f064b167904e77"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8672842
+file-id = 8785445
 project-id = 1564485
