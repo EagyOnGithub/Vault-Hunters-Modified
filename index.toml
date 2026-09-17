@@ -14015,7 +14015,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion-codex.pw.toml"
-hash = "f26c32a5815108d4a8df0566ff9488ee9de97cfcfbf4311a884f7bfcce314ed6"
+hash = "4a4dd0efd7e2e5712ae0817df688e3fcd74fed87f9f4a6e43aee57ebbabf2acc"
 metafile = true
 
 [[files]]
@@ -14785,7 +14785,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-render-optimization.pw.toml"
-hash = "8cf2d497f3e7c6d7645f3f73c82e6c35992c72c3d92d6a94b5e1ba198f37da6e"
+hash = "96c83f3f2c70265c40628a47e7a7a7ea10818fd21ef17e3324753186c34d7e26"
 metafile = true
 
 [[files]]
