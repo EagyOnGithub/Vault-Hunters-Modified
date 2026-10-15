@@ -14015,7 +14015,7 @@ metafile = true
 
 [[files]]
 file = "mods/companion-codex.pw.toml"
-hash = "4a4dd0efd7e2e5712ae0817df688e3fcd74fed87f9f4a6e43aee57ebbabf2acc"
+hash = "be5d6c0b0c55548c74651423205035d8c6bda2c78869262adcbd6af1b43b3643"
 metafile = true
 
 [[files]]
@@ -14659,6 +14659,11 @@ hash = "67bcff9d20e71ad75a16a3de2c07652fa4041a5ed68f076592ee8f44c7c7ae8c"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-vh-compat.pw.toml"
+hash = "f8bc32288c379210c70b1c69ed113bd15c80015ab8fc05809a9c323685cda99d"
+metafile = true
+
+[[files]]
 file = "mods/spark-1-18-client-profiling-fix.pw.toml"
 hash = "894f1a6d9786b617b95023df59b3468893cdecdbfe87ecf51b9278ff5b623b90"
 metafile = true
@@ -14785,7 +14790,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-render-optimization.pw.toml"
-hash = "96c83f3f2c70265c40628a47e7a7a7ea10818fd21ef17e3324753186c34d7e26"
+hash = "83e03d48626403f94da9715d803904b32cbb33bfe80c66f8471952b4ad22ffb7"
 metafile = true
 
 [[files]]
@@ -14795,7 +14800,7 @@ metafile = true
 
 [[files]]
 file = "mods/vh-accelerator.pw.toml"
-hash = "d45de4e20fef0856b48ec69d4b97f024bb1822cd3def00d9974726a82b40cb8c"
+hash = "773e9061249d0a4668879f9e5a81b267656fc9ab4ceffe6339c63077157d7ca4"
 metafile = true
 
 [[files]]

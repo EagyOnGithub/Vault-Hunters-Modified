@@ -1,0 +1,13 @@
+name = "Sophisticated VH Compat"
+filename = "SophisticatedVHCompat-1.18.2-0.0.2-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e9fe9fec351a1646745216e94b838169ae2b0863"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8901300
+project-id = 1599839
