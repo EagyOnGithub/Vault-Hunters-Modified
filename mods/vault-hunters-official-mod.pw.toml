@@ -1,13 +1,13 @@
 name = "The Vault Mod (Standalone)"
-filename = "the_vault-1.18.2-20.0.3-remastered.6872.jar"
+filename = "the_vault-1.18.2-21.6.1-remastered.6956.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ced5b791eb6e8f2ec50067a7bc8c45df8b321d20"
+hash = "95c71e7efbafc71fd7beb642fba1dc12dd143653"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8502584
+file-id = 9190888
 project-id = 458203

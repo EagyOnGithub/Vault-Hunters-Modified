@@ -1,0 +1,25 @@
+filename = 'foregoing_tweaker-1.18-1.1.5.jar'
+name = 'Industrial Foregoing Tweaker'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Industrial Foregoing Tweaker 1.1.5 for 1.18.2'
+
+[download]
+hash = '2bed60b3bdb9297352c3c9d1943b6be8fc43e5ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3838784
+project-id = 536223
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '266515'
+type = 'REQUIRED'

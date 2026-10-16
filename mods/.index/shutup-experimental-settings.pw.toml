@@ -1,0 +1,18 @@
+filename = 'shutupexperimentalsettings-1.0.5.jar'
+name = 'Shutup Experimental Settings!'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'shutupexperimentalsettings-1.0.5.jar'
+
+[download]
+hash = 'ad722f0e86a61310bdcea8975a106f0a4148ccb2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3759881
+project-id = 407174

@@ -1,0 +1,21 @@
+filename = 'AkashicTome-1.5-20.jar'
+name = 'Akashic Tome'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AkashicTome-1.5-20.jar'
+
+[download]
+hash = '4aa94016e7b13dcd6fe9dc5bb6e23fa0946f36b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3740180
+project-id = 250577
+
+[[x-prismlauncher-dependencies]]
+addonId = '250363'
+type = 'REQUIRED'

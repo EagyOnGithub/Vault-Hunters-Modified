@@ -1,0 +1,18 @@
+filename = 'gateways-1.18.2-0.1.0.jar'
+name = 'The Gateways'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gateways-1.18.2-0.1.0.jar'
+
+[download]
+hash = 'fb71dcfd9ff396b5aafb1b48409d0594b64b6852'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8492461
+project-id = 1557486

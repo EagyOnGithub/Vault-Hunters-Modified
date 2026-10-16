@@ -1,0 +1,18 @@
+filename = 'cristellib-forge-1.0.0.jar'
+name = 'Cristel Lib'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cristellib-forge-1.0.0.jar'
+
+[download]
+hash = '9b86685c9fa6717b758a5acc84e3165a98fb2397'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4531755
+project-id = 856996

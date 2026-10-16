@@ -1,0 +1,33 @@
+filename = 'Quark-3.2-358.jar'
+name = 'Quark'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Quark-3.2-358.jar'
+
+[download]
+hash = '18919f757e7fd1b4d4b4e0e0de1ea978ead34179'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3840125
+project-id = 243121
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '250363'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '407174'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '563928'
+type = 'OPTIONAL'

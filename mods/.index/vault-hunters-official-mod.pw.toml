@@ -1,0 +1,18 @@
+filename = 'the_vault-1.18.2-21.6.1-remastered.6956.jar'
+name = 'The Vault Mod (Standalone)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'the_vault-1.18.2-21.6.1-remastered.6956.jar'
+
+[download]
+hash = '95c71e7efbafc71fd7beb642fba1dc12dd143653'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9190888
+project-id = 458203

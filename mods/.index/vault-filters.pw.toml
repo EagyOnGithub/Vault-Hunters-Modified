@@ -1,0 +1,21 @@
+filename = 'vaultfilters-1.33.0.jar'
+name = 'Vault Filters'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vaultfilters-1.33.0.jar'
+
+[download]
+hash = '64493ac27738cdb3fb86b0f81a2b91b1e42004c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7859828
+project-id = 952507
+
+[[x-prismlauncher-dependencies]]
+addonId = '458203'
+type = 'REQUIRED'

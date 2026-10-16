@@ -1,0 +1,18 @@
+filename = 'balm-3.2.6.jar'
+name = 'Balm'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'balm-3.2.6.jar'
+
+[download]
+hash = 'a0be48540d7d9661db8db54cbc96a94b59793fcb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4442615
+project-id = 531761

@@ -1,0 +1,18 @@
+filename = 'libnonymous-2.1.0.jar'
+name = 'Libnonymous'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'libnonymous-2.1.0.jar'
+
+[download]
+hash = '85dac1ccc7b0b14ff5a61a9dc81a3a22b34f3758'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3677573
+project-id = 357557

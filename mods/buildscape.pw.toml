@@ -1,13 +1,13 @@
 name = "Buildscape"
-filename = "buildscape-3.0.8-VH.jar"
+filename = "buildscape-4.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c65d80dcd53ed8d1bb291dd8c12d52aab34a0de1"
+hash = "db1a66718871ad407627e12eb2ef462f48610821"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8502717
+file-id = 9014840
 project-id = 1377354

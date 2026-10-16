@@ -1,0 +1,45 @@
+filename = 'mcw-fences-1.0.7-mc1.18.2forge.jar'
+name = "Macaw's Fences and Walls"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.0.7 / mc1.18.2 - Forge '
+
+[download]
+hash = '0d1a06c4e16d5a1ef8e0f8b6e95c8d3180841b51'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4204541
+project-id = 453925
+
+[[x-prismlauncher-dependencies]]
+addonId = '351725'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '352039'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '359540'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '363569'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '378646'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '400933'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '438116'
+type = 'OPTIONAL'

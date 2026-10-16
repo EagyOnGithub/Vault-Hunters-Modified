@@ -1,0 +1,18 @@
+filename = 'Ping-1.18-1.8.0.jar'
+name = 'Ping'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18', '1.18.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ping-1.18-1.8.0.jar'
+
+[download]
+hash = 'ca5467a172f1277c570dff8a7b00768a00977174'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3544622
+project-id = 222967

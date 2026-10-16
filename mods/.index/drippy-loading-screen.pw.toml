@@ -1,0 +1,25 @@
+filename = 'drippyloadingscreen_forge_3.0.12_MC_1.18.2.jar'
+name = 'Drippy Loading Screen'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge] v3.0.12 MC 1.18.2'
+
+[download]
+hash = '5fd0b7f647bd4cbe100b4c585a4172ab5e7754f6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6412193
+project-id = 511770
+
+[[x-prismlauncher-dependencies]]
+addonId = '410295'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '367706'
+type = 'REQUIRED'

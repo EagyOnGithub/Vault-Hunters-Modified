@@ -1,0 +1,33 @@
+filename = 'LegendaryTooltips-1.18.2-1.3.1.jar'
+name = 'Legendary Tooltips [Neo/Forge]'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LegendaryTooltips-1.18.2-1.3.1.jar'
+
+[download]
+hash = 'f10974b9e2e543b46fe92dcc646063b16b4ea5ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4035921
+project-id = 532127
+
+[[x-prismlauncher-dependencies]]
+addonId = '310111'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '638111'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '502561'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '520110'
+type = 'REQUIRED'

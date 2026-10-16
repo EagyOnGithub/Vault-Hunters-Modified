@@ -1,0 +1,18 @@
+filename = 'mcw-lights-1.0.4-mc1.18.2.jar'
+name = "Macaw's Lights and Lamps"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.0.4 / mc1.18.2 - Forge'
+
+[download]
+hash = 'd1055c6b79fd90f6865136c99fbdf96c3f6fe7d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3911487
+project-id = 502372

@@ -1,0 +1,18 @@
+filename = 'prismcraft-forge-1.18.2-1.2.0+build.18.jar'
+name = 'PrismCraft: Dyeable Blocks'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'prismcraft-forge-1.18.2-1.2.0+build.18.jar'
+
+[download]
+hash = 'fa40de36d32cd90bcedb894d02c9c0ba523bcb1d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8446615
+project-id = 1349074

@@ -1,0 +1,18 @@
+filename = 'sophisticatedbackpacksvh-1.18.2-1.0.7.15.jar'
+name = 'Sophisticated Backpacks Vault Hunters Edition'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'sophisticatedbackpacksvh-1.18.2-1.0.7.15.jar'
+
+[download]
+hash = '17756feaa8c3ee7ab20de9e6ad203fa645686420'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6712897
+project-id = 696425

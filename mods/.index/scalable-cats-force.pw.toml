@@ -1,0 +1,18 @@
+filename = 'ScalableCatsForce-2.13.10-build-12-with-library.jar'
+name = "Scalable Cat's Force"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.17.1', '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ScalableCatsForce-2.13.10-build-12-with-library.jar'
+
+[download]
+hash = '8ae9c741a7f7078a4523520d73887c46c7b95e15'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4059979
+project-id = 320926

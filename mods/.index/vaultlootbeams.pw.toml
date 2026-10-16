@@ -1,0 +1,25 @@
+filename = 'VaultLootBeams-1.18.2-1.0.2.jar'
+name = 'VaultLootBeams'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'VaultLootBeams 1.0.2 (1.18.2)'
+
+[download]
+hash = '5b6c0479907dfc663f26b852e2c7facca858d395'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8009456
+project-id = 1313069
+
+[[x-prismlauncher-dependencies]]
+addonId = '458203'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'
