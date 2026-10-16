@@ -930,6 +930,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_icebolt",
         "tags": [
           "focusAbilityPower",
@@ -977,6 +978,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_glacialblast",
         "tags": [
           "focusAbilityPower",
@@ -1024,6 +1026,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_nova",
         "tags": [
           "focusAbilityPower",
@@ -1071,6 +1074,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_frostnova",
         "tags": [
           "focusAbilityPower",
@@ -1118,6 +1122,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_poisonnova",
         "tags": [
           "focusAbilityPower",
@@ -1165,6 +1170,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_veinminer",
         "tags": [
           "focusAbilityPower",
@@ -1212,6 +1218,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_veinminerdura",
         "tags": [
           "focusAbilityPower",
@@ -1259,6 +1266,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_veinminervoid",
         "tags": [
           "focusAbilityPower",
@@ -1306,6 +1314,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_heal",
         "tags": [
           "focusAbilityPower",
@@ -1353,6 +1362,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_healgroup",
         "tags": [
           "focusAbilityPower",
@@ -1400,6 +1410,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_healcleanse",
         "tags": [
           "focusAbilityPower",
@@ -1447,6 +1458,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_dash",
         "tags": [
           "focusAbilityPower",
@@ -1494,6 +1506,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_dashbullet",
         "tags": [
           "focusAbilityPower",
@@ -1541,6 +1554,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_dashwarp",
         "tags": [
           "focusAbilityPower",
@@ -1588,6 +1602,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_ghostwalk",
         "tags": [
           "focusAbilityPower",
@@ -1635,6 +1650,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_ghostwalkspirit",
         "tags": [
           "focusAbilityPower",
@@ -1682,6 +1698,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_megajump",
         "tags": [
           "focusAbilityPower",
@@ -1729,6 +1746,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_megajumpdig",
         "tags": [
           "focusAbilityPower",
@@ -1776,6 +1794,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_rampage",
         "tags": [
           "focusAbilityPower",
@@ -1823,6 +1842,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_rampage_bloodlust",
         "tags": [
           "focusAbilityPower",
@@ -1870,6 +1890,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_rampage_berserker",
         "tags": [
           "focusAbilityPower",
@@ -1917,6 +1938,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_rampage_instinct",
         "tags": [
           "focusAbilityPower",
@@ -1964,6 +1986,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_smite",
         "tags": [
           "focusAbilityPower",
@@ -2011,6 +2034,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_smitearchon",
         "tags": [
           "focusAbilityPower",
@@ -2058,6 +2082,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_smite_blast_wave",
         "tags": [
           "focusAbilityPower",
@@ -2105,6 +2130,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_empower",
         "tags": [
           "focusAbilityPower",
@@ -2152,6 +2178,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_empowericearmor",
         "tags": [
           "focusAbilityPower",
@@ -2199,6 +2226,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_hunter",
         "tags": [
           "focusAbilityPower",
@@ -2246,6 +2274,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_manashield",
         "tags": [
           "focusAbilityPower",
@@ -2293,6 +2322,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_manabarrier",
         "tags": [
           "focusAbilityPower",
@@ -2340,6 +2370,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_taunt",
         "tags": [
           "focusAbilityPower",
@@ -2387,6 +2418,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_tauntrepel",
         "tags": [
           "focusAbilityPower",
@@ -2434,6 +2466,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_tauntdecoy",
         "tags": [
           "focusAbilityPower",
@@ -2481,6 +2514,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_tauntcharm",
         "tags": [
           "focusAbilityPower",
@@ -2528,6 +2562,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_stonefall",
         "tags": [
           "focusAbilityPower",
@@ -2575,6 +2610,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_stonefallsnow",
         "tags": [
           "focusAbilityPower",
@@ -2622,6 +2658,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_stonefallcold",
         "tags": [
           "focusAbilityPower",
@@ -2669,6 +2706,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_totem",
         "tags": [
           "focusAbilityPower",
@@ -2716,6 +2754,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_totemwrath",
         "tags": [
           "focusAbilityPower",
@@ -2763,6 +2802,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_totemmana",
         "tags": [
           "focusAbilityPower",
@@ -2810,6 +2850,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_totemhatred",
         "tags": [
           "focusAbilityPower",
@@ -2857,6 +2898,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_javelin",
         "tags": [
           "focusAbilityPower",
@@ -2904,6 +2946,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_javelinpiercing",
         "tags": [
           "focusAbilityPower",
@@ -2951,6 +2994,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_javelinscatter",
         "tags": [
           "focusAbilityPower",
@@ -2998,6 +3042,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_javelinsight",
         "tags": [
           "focusAbilityPower",
@@ -3045,6 +3090,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_shell",
         "tags": [
           "focusAbilityPower",
@@ -3092,6 +3138,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_shellporcupine",
         "tags": [
           "focusAbilityPower",
@@ -3139,6 +3186,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_shellquill",
         "tags": [
           "focusAbilityPower",
@@ -3186,6 +3234,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_fireball",
         "tags": [
           "focusAbilityPower",
@@ -3233,6 +3282,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_fireballvolley",
         "tags": [
           "focusAbilityPower",
@@ -3280,6 +3330,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_fireballshot",
         "tags": [
           "focusAbilityPower",
@@ -3327,6 +3378,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_battlecry",
         "tags": [
           "focusAbilityPower",
@@ -3374,6 +3426,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_battlecry_spectral",
         "tags": [
           "focusAbilityPower",
@@ -3421,6 +3474,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_battlecry_lucky",
         "tags": [
           "focusAbilityPower",
@@ -3468,6 +3522,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_implode_life_tap",
         "tags": [
           "focusAbilityPower",
@@ -3515,6 +3570,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_earthquake",
         "tags": [
           "focusAbilityPower",
@@ -3562,6 +3618,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_earthquake_singularity",
         "tags": [
           "focusAbilityPower",
@@ -3609,6 +3666,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_earthquake_tremor",
         "tags": [
           "focusAbilityPower",
@@ -3656,6 +3714,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_grenade_chaos",
         "tags": [
           "focusAbilityPower",
@@ -3703,6 +3762,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_grenade_sticky",
         "tags": [
           "focusAbilityPower",
@@ -3750,6 +3810,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_grenade_toxic",
         "tags": [
           "focusAbilityPower",
@@ -3797,6 +3858,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_arcane",
         "tags": [
           "focusAbilityPower",
@@ -3844,6 +3906,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_arcane_rail",
         "tags": [
           "focusAbilityPower",
@@ -3891,6 +3954,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_arcane_prism",
         "tags": [
           "focusAbilityPower",
@@ -3938,6 +4002,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_lightning_strike",
         "tags": [
           "focusAbilityPower",
@@ -3985,6 +4050,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_lightning_orbs",
         "tags": [
           "focusAbilityPower",
@@ -4032,6 +4098,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_added_ability_level_charged_bolts",
         "tags": [
           "focusAbilityPower",
@@ -5738,6 +5805,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:u_all_skills",
         "tags": [],
         "tiers": [
@@ -5764,6 +5832,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:seal_offensive_skills",
         "tags": [],
         "tiers": [
@@ -5808,6 +5877,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:seal_utility_skills",
         "tags": [],
         "tiers": [
@@ -5852,6 +5922,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:seal_powerup_skills",
         "tags": [],
         "tiers": [
@@ -5896,6 +5967,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:seal_ultimate_skills",
         "tags": [],
         "tiers": [
@@ -5960,6 +6032,7 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
+        "rollGroup": "the_vault:added_ability_level",
         "identifier": "the_vault:mod_jav_scatter",
         "tags": [],
         "tiers": [

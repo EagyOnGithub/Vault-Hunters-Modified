@@ -200,7 +200,8 @@
 		"quark:trowel",
 		"create:minecart_contraption",
 		"minecraft:golden_apple",
-		"create:chute"
+		"create:chute",
+		"buildscape:wrench"
 	],
 	"BLOCK_BLACKLIST": [
 		"!minecraft:redstone_ore",

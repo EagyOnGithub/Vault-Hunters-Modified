@@ -3967,13 +3967,6 @@
                 "ITEM": ""
               },
               "weight": 1
-            },
-            {
-              "value": {
-                "ITEM": "the_vault:helmet",
-                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/armor/iskall_ibe/helmet\",\"the_vault:state\":2}"
-              },
-              "weight": 1
             }
           ],
           "CHEST": [],
@@ -3992,13 +3985,6 @@
             {
               "value": {
                 "ITEM": ""
-              },
-              "weight": 1
-            },
-            {
-              "value": {
-                "ITEM": "the_vault:helmet",
-                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/armor/iskall_ibe/helmet\",\"the_vault:state\":2}"
               },
               "weight": 1
             }

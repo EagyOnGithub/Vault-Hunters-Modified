@@ -850,22 +850,6 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:harder_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:faster_mobs",
-                "weight": 136
-              },
-              {
                 "value": "the_vault:grievous_wounds",
                 "weight": 136
               },
@@ -882,10 +866,6 @@
                 "weight": 136
               },
               
-              {
-                "value": "the_vault:brutal_mobs",
-                "weight": 25
-              },
               {
                 "value": "the_vault:ethereal_mobs",
                 "weight": 25
@@ -958,22 +938,6 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:harder_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:faster_mobs",
-                "weight": 136
-              },
-              {
                 "value": "the_vault:grievous_wounds",
                 "weight": 136
               },
@@ -990,10 +954,6 @@
                 "weight": 136
               },
               
-              {
-                "value": "the_vault:brutal_mobs",
-                "weight": 25
-              },
               {
                 "value": "the_vault:ethereal_mobs",
                 "weight": 25
@@ -1070,22 +1030,6 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:harder_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:more_mobs",
-                "weight": 136
-              },
-              {
-                "value": "the_vault:faster_mobs",
-                "weight": 136
-              },
-              {
                 "value": "the_vault:grievous_wounds",
                 "weight": 136
               },
@@ -1102,10 +1046,6 @@
                 "weight": 136
               },
               
-              {
-                "value": "the_vault:brutal_mobs",
-                "weight": 25
-              },
               {
                 "value": "the_vault:ethereal_mobs",
                 "weight": 25

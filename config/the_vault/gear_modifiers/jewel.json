@@ -504,6 +504,7 @@
       { "attribute": "the_vault:hammer_size",
         "group": "ModReach",
         "identifier": "the_vault:hammer_size",
+        "rollWeight": 10,
         "tags": [
           "noLegendary"
         ],

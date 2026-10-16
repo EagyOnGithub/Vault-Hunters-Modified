@@ -289,6 +289,14 @@ craftingTable.remove(<item:ae2:portable_fluid_cell_16k>);
 craftingTable.remove(<item:ae2:portable_fluid_cell_64k>);
 craftingTable.remove(<item:ae2:portable_fluid_cell_256k>);
 
+// Buildscape
+craftingTable.remove(<item:buildscape:copper_biome_brush>);
+craftingTable.remove(<item:buildscape:diamond_biome_brush>);
+craftingTable.remove(<item:buildscape:netherite_biome_brush>);
+craftingTable.remove(<item:buildscape:iron_hammer>);
+craftingTable.remove(<item:buildscape:diamond_hammer>);
+craftingTable.remove(<item:buildscape:netherite_hammer>);
+
 // Twigs
 craftingTable.remove(<item:twigs:stripped_bamboo_planks>);
 
@@ -658,6 +666,10 @@ craftingTable.remove(<item:refinedstorage:wireless_grid>);
 craftingTable.remove(<item:refinedstorageaddons:wireless_crafting_grid>);
 craftingTable.remove(<tag:items:refinedstorage:controller>);
 craftingTable.remove(<item:refinedstorage:crafter>);
+craftingTable.remove(<item:extrastorage:iron_crafter>);
+craftingTable.remove(<item:extrastorage:gold_crafter>);
+craftingTable.remove(<item:extrastorage:diamond_crafter>);
+craftingTable.remove(<item:extrastorage:netherite_crafter>);
 craftingTable.remove(<item:refinedstorage:crafter_manager>);
 craftingTable.remove(<item:refinedstorage:pattern>);
 craftingTable.remove(<tag:items:refinedstorage:pattern_grid>);
@@ -963,6 +975,9 @@ craftingTable.remove(<item:industrialforegoing:diamond_gear>);
 craftingTable.remove(<item:industrialforegoing:enchantment_applicator>);
 craftingTable.remove(<item:industrialforegoing:enchantment_extractor>);
 craftingTable.remove(<item:industrialforegoing:enchantment_factory>);
+craftingTable.remove(<item:industrialforegoing:stasis_chamber>);
+craftingTable.remove(<item:industrialforegoing:enchantment_sorter>);
+craftingTable.remove(<item:industrialforegoing:potion_brewer>);
 
 // dissolution_chamber
 <recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:mechanical_dirt>);
@@ -1198,6 +1213,10 @@ JEI.hideIngredient(<item:refinedstorage:raw_improved_processor>);
 JEI.hideIngredient(<item:refinedstorage:raw_advanced_processor>);
 JEI.hideIngredient(<item:refinedstorage:portable_grid>);
 JEI.hideIngredient(<item:refinedstorage:wireless_grid>);
+JEI.hideIngredient(<item:extrastorage:iron_crafter>);
+JEI.hideIngredient(<item:extrastorage:gold_crafter>);
+JEI.hideIngredient(<item:extrastorage:diamond_crafter>);
+JEI.hideIngredient(<item:extrastorage:netherite_crafter>);
 // Botania
 JEI.hideIngredient(<item:botania:manasteel_helmet>);
 JEI.hideIngredient(<item:botania:manasteel_chestplate>);
@@ -1852,3 +1871,17 @@ JEI.hideIngredient(<item:sophisticatedstorage:copper_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:gold_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:diamond_barrel>);
 JEI.hideIngredient(<item:sophisticatedstorage:netherite_barrel>);
+// industrialforegoing
+JEI.hideIngredient(<item:industrialforegoing:enchantment_applicator>);
+JEI.hideIngredient(<item:industrialforegoing:enchantment_extractor>);
+JEI.hideIngredient(<item:industrialforegoing:enchantment_factory>);
+JEI.hideIngredient(<item:industrialforegoing:stasis_chamber>);
+JEI.hideIngredient(<item:industrialforegoing:enchantment_sorter>);
+JEI.hideIngredient(<item:industrialforegoing:potion_brewer>);
+// buildsacepe
+JEI.hideIngredient(<item:buildscape:copper_biome_brush>);
+JEI.hideIngredient(<item:buildscape:diamond_biome_brush>);
+JEI.hideIngredient(<item:buildscape:netherite_biome_brush>);
+JEI.hideIngredient(<item:buildscape:iron_hammer>);
+JEI.hideIngredient(<item:buildscape:diamond_hammer>);
+JEI.hideIngredient(<item:buildscape:netherite_hammer>);

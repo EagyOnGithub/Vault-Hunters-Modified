@@ -3642,7 +3642,7 @@
       },
       "type": "repeated"
     },
-    { "id": "complete_3_vaults_looting_2500_chests_reclaim_2",
+    { "id": "complete_3_vaults_looting_2500_chests_reclaim_4",
       "renderer": {
         "name": "Complete Vaults looting 3,250, or more, chests",
         "icon": "the_vault:textures/gui/bingo/wooden.png",

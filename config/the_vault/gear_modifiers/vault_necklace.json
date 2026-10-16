@@ -314,50 +314,6 @@
       {
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
-        "identifier": "the_vault:mod_added_ability_level_taunt_charm",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 1
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 2
-            }
-          },
-          {
-            "minLevel": 101,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 3
-            }
-          },
-          {
-            "minLevel": 102,
-            "maxLevel": -1,
-            "weight": 0,
-            "value": {
-              "abilityKey": "Taunt_Charm",
-              "levelChange": 4
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:added_ability_level",
-        "group": "ModAPLvl",
         "identifier": "the_vault:mod_added_ability_level_fireball",
         "tags": [],
         "tiers": [
@@ -1626,6 +1582,50 @@
             "weight": 60,
             "value": {
               "abilityKey": "Mega_Jump_Break_Down",
+              "levelChange": 4
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_mega_jump_break_up",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Mega_Jump_Break_Up",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Mega_Jump_Break_Up",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Mega_Jump_Break_Up",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Mega_Jump_Break_Up",
               "levelChange": 4
             }
           }
@@ -3210,6 +3210,138 @@
             "weight": 60,
             "value": {
               "abilityKey": "Shield_Bash_Battering_Ram",
+              "levelChange": 4
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_necromancy",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Base",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Base",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Base",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Base",
+              "levelChange": 4
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_necromancy_archer",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Archer",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Archer",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Archer",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Archer",
+              "levelChange": 4
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:mod_added_ability_level_necromancy_golem",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Golem",
+              "levelChange": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Golem",
+              "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Golem",
+              "levelChange": 3
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Necromancy_Golem",
               "levelChange": 4
             }
           }

@@ -3157,7 +3157,7 @@
       "name": {
         "text": "Shard Blizzard Card"
       },
-      "model": "the_vault:card/icon/blizzard#inventory",
+      "model": "the_vault:card/icon/blizzard_shard#inventory",
       "groups": [
         "Arcane",
         "Offensive"

@@ -210,7 +210,7 @@
     },
     {
       "id": "the_vault:classic_vault_flooded",
-      "name":"Flooded",
+      "name": "Flooded",
       "color": 7775663,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flooded.json"
     },

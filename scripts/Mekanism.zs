@@ -189,3 +189,69 @@ craftingTable.addShaped("mekanismgenerators_generatorgas_burning", <item:mekanis
 ]);
 
 <recipetype:mekanism:crushing>.addRecipe("buildinggadgets_block_to_paste_mekanism", ItemStackIngredient.from(<item:buildinggadgets:construction_block_dense>), <item:buildinggadgets:construction_paste> * 4);
+
+// add support for tier installer crafting recipes
+
+var upgradeableBlocks = {
+    "bin": "bin",
+    "induction_provider": "induction_provider",
+    "induction_cell": "induction_cell",
+    "energy_cube": "energy_cube",
+    "smelting_factory": "smelting_factory",
+    "enriching_factory": "enriching_factory",
+    "crushing_factory": "crushing_factory",
+    "compressing_factory": "compressing_factory",
+    "combining_factory": "combining_factory",
+    "purifying_factory": "purifying_factory",
+    "injecting_factory": "injecting_factory",
+    "infusing_factory": "infusing_factory",
+    "sawing_factory": "sawing_factory"
+};
+
+var tierInstallers = {
+    "advanced": <item:mekanism:advanced_tier_installer>,
+    "elite": <item:mekanism:elite_tier_installer>,
+    "ultimate": <item:mekanism:ultimate_tier_installer>
+};
+
+var tierUpgrades = {
+    "basic": "advanced",
+    "advanced": "elite",
+    "elite": "ultimate"
+};
+
+for blockId, blockName in upgradeableBlocks {
+    for currentTier, nextTier in tierUpgrades {
+        craftingTable.addShapeless(
+            "mekanism_" + currentTier + "_to_" + nextTier + "_" + blockName + "_upgrade",
+            <item:mekanism:${nextTier}_${blockId}>,
+            [
+                <item:mekanism:${currentTier}_${blockId}>,
+                tierInstallers[nextTier]
+            ]
+        );
+    }
+}
+
+var basicFactoryUpgrades = {
+    "metallurgic_infuser": "infusing_factory",
+    "precision_sawmill": "sawing_factory",
+    "chemical_injection_chamber": "injecting_factory",
+    "purification_chamber": "purifying_factory",
+    "energized_smelter": "smelting_factory",
+    "enrichment_chamber": "enriching_factory",
+    "osmium_compressor": "compressing_factory",
+    "crusher": "crushing_factory",
+    "combiner": "combining_factory"
+};
+
+for machineId, factoryId in basicFactoryUpgrades {
+    craftingTable.addShapeless(
+        "mekanism_" + machineId + "_to_basic_" + factoryId,
+        <item:mekanism:basic_${factoryId}>,
+        [
+            <item:mekanism:${machineId}>,
+            <item:mekanism:basic_tier_installer>
+        ]
+    );
+}

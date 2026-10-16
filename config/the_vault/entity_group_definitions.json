@@ -111,6 +111,15 @@
       "showHealthbar": true,
       "displayName": "Greed Assassins",
       "stackValue": 10
+    },
+    {
+      "id": "@the_vault:bats",
+      "icon": "the_vault:gui/mob_groups/bats",
+      "color": "#FF0000",
+      "showHealthbar": false,
+      "displayName": "Bats",
+      "stackValue": 1,
+      "hideWhenEmpty": true
     }
   ]
 }

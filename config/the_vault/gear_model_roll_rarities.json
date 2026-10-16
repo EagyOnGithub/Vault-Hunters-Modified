@@ -179,7 +179,8 @@
       "the_vault:gear/armor/terra",
       "the_vault:gear/armor/combat",
       "the_vault:gear/armor/girl_boss",
-      "the_vault:gear/armor/hellboy"
+      "the_vault:gear/armor/hellboy",
+      "the_vault:gear/armor/bloodbane"
     ]
   },
   "SWORD_MODEL_ROLLS": {
@@ -333,7 +334,8 @@
       "the_vault:gear/axe/jolly_hammer_blue",
       "the_vault:gear/axe/jolly_hammer",
       "the_vault:gear/axe/abyssal_scythe",
-      "the_vault:gear/axe/terraaxe"
+      "the_vault:gear/axe/terraaxe",
+	  "the_vault:gear/axe/bloodfang"
     ]
   },
   "SHIELD_MODEL_ROLLS": {
@@ -569,7 +571,8 @@
       "the_vault:gear/magnets/idona",
       "the_vault:gear/magnets/wendarr",
       "the_vault:gear/magnets/tenos",
-      "the_vault:gear/magnets/velara"
+      "the_vault:gear/magnets/velara",
+      "the_vault:gear/magnets/jack_o_magnet"
     ]
   }
 }

@@ -5274,7 +5274,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.25,
-                "manaCostPerSecond": 2,
+                "manaCostPerSecond": 2.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5284,7 +5284,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.35,
-                "manaCostPerSecond": 2.29,
+                "manaCostPerSecond": 2.86,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5294,7 +5294,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.45,
-                "manaCostPerSecond": 2.57,
+                "manaCostPerSecond": 3.21,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5304,7 +5304,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.55,
-                "manaCostPerSecond": 2.86,
+                "manaCostPerSecond": 3.57,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5314,7 +5314,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.65,
-                "manaCostPerSecond": 3.14,
+                "manaCostPerSecond": 3.93,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5324,7 +5324,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.75,
-                "manaCostPerSecond": 3.43,
+                "manaCostPerSecond": 4.29,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5334,7 +5334,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 0.875,
-                "manaCostPerSecond": 3.71,
+                "manaCostPerSecond": 4.64,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5344,7 +5344,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1,
-                "manaCostPerSecond": 4,
+                "manaCostPerSecond": 5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5354,7 +5354,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.125,
-                "manaCostPerSecond": 4.2,
+                "manaCostPerSecond": 5.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5364,7 +5364,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.25,
-                "manaCostPerSecond": 4.4,
+                "manaCostPerSecond": 5.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5374,7 +5374,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.375,
-                "manaCostPerSecond": 4.6,
+                "manaCostPerSecond": 5.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5384,7 +5384,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.5,
-                "manaCostPerSecond": 4.8,
+                "manaCostPerSecond": 6,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5394,7 +5394,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.625,
-                "manaCostPerSecond": 5,
+                "manaCostPerSecond": 6.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5404,7 +5404,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.75,
-                "manaCostPerSecond": 5.2,
+                "manaCostPerSecond": 6.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5414,7 +5414,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 1.875,
-                "manaCostPerSecond": 5.4,
+                "manaCostPerSecond": 6.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5424,7 +5424,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2,
-                "manaCostPerSecond": 5.6,
+                "manaCostPerSecond": 7,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5434,7 +5434,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.125,
-                "manaCostPerSecond": 5.8,
+                "manaCostPerSecond": 7.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5444,7 +5444,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.25,
-                "manaCostPerSecond": 6,
+                "manaCostPerSecond": 7.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5454,7 +5454,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.375,
-                "manaCostPerSecond": 6.2,
+                "manaCostPerSecond": 7.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5464,7 +5464,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.5,
-                "manaCostPerSecond": 6.4,
+                "manaCostPerSecond": 8,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5474,7 +5474,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.625,
-                "manaCostPerSecond": 6.6,
+                "manaCostPerSecond": 8.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5484,7 +5484,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.75,
-                "manaCostPerSecond": 6.8,
+                "manaCostPerSecond": 8.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5494,7 +5494,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 2.875,
-                "manaCostPerSecond": 7,
+                "manaCostPerSecond": 8.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5504,7 +5504,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3,
-                "manaCostPerSecond": 7.2,
+                "manaCostPerSecond": 9,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5514,7 +5514,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.125,
-                "manaCostPerSecond": 7.4,
+                "manaCostPerSecond": 9.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5524,7 +5524,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.25,
-                "manaCostPerSecond": 7.6,
+                "manaCostPerSecond": 9.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5534,7 +5534,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.375,
-                "manaCostPerSecond": 7.8,
+                "manaCostPerSecond": 9.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5544,7 +5544,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.5,
-                "manaCostPerSecond": 8,
+                "manaCostPerSecond": 10,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5554,7 +5554,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.625,
-                "manaCostPerSecond": 8.2,
+                "manaCostPerSecond": 10.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5564,7 +5564,7 @@
               {
                 "type": "rampage_damage",
                 "damageIncrease": 3.75,
-                "manaCostPerSecond": 8.4,
+                "manaCostPerSecond": 10.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5582,7 +5582,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.1625,
-                "manaCostPerSecond": 2.5,
+                "manaCostPerSecond": 3,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5596,7 +5596,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.2275,
-                "manaCostPerSecond": 2.79,
+                "manaCostPerSecond": 3.36,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5610,7 +5610,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.2925,
-                "manaCostPerSecond": 3.07,
+                "manaCostPerSecond": 3.71,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5624,7 +5624,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.3575,
-                "manaCostPerSecond": 3.36,
+                "manaCostPerSecond": 4.07,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5638,7 +5638,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.4225,
-                "manaCostPerSecond": 3.64,
+                "manaCostPerSecond": 4.43,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5652,7 +5652,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.4875,
-                "manaCostPerSecond": 3.93,
+                "manaCostPerSecond": 4.79,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5666,7 +5666,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.5687,
-                "manaCostPerSecond": 4.21,
+                "manaCostPerSecond": 5.14,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5680,7 +5680,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.65,
-                "manaCostPerSecond": 4.5,
+                "manaCostPerSecond": 5.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5694,7 +5694,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.7313,
-                "manaCostPerSecond": 4.7,
+                "manaCostPerSecond": 5.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5708,7 +5708,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.8125,
-                "manaCostPerSecond": 4.9,
+                "manaCostPerSecond": 6,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5722,7 +5722,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.8938,
-                "manaCostPerSecond": 5.1,
+                "manaCostPerSecond": 6.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5736,7 +5736,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 0.975,
-                "manaCostPerSecond": 5.3,
+                "manaCostPerSecond": 6.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5750,7 +5750,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.0563,
-                "manaCostPerSecond": 5.5,
+                "manaCostPerSecond": 6.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5764,7 +5764,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.1375,
-                "manaCostPerSecond": 5.7,
+                "manaCostPerSecond": 7,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5778,7 +5778,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.2188,
-                "manaCostPerSecond": 5.9,
+                "manaCostPerSecond": 7.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5792,7 +5792,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.3,
-                "manaCostPerSecond": 6.1,
+                "manaCostPerSecond": 7.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5806,7 +5806,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.3813,
-                "manaCostPerSecond": 6.3,
+                "manaCostPerSecond": 7.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5820,7 +5820,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.4625,
-                "manaCostPerSecond": 6.5,
+                "manaCostPerSecond": 8,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5834,7 +5834,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.5437,
-                "manaCostPerSecond": 6.7,
+                "manaCostPerSecond": 8.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5848,7 +5848,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.625,
-                "manaCostPerSecond": 6.9,
+                "manaCostPerSecond": 8.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5862,7 +5862,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.7063,
-                "manaCostPerSecond": 7.1,
+                "manaCostPerSecond": 8.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5876,7 +5876,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.7875,
-                "manaCostPerSecond": 7.3,
+                "manaCostPerSecond": 9,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5890,7 +5890,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.8688,
-                "manaCostPerSecond": 7.5,
+                "manaCostPerSecond": 9.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5904,7 +5904,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 1.95,
-                "manaCostPerSecond": 7.7,
+                "manaCostPerSecond": 9.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5918,7 +5918,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.0312,
-                "manaCostPerSecond": 7.9,
+                "manaCostPerSecond": 9.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5932,7 +5932,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.1125,
-                "manaCostPerSecond": 8.1,
+                "manaCostPerSecond": 10,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5946,7 +5946,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.1938,
-                "manaCostPerSecond": 8.3,
+                "manaCostPerSecond": 10.25,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5960,7 +5960,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.275,
-                "manaCostPerSecond": 8.5,
+                "manaCostPerSecond": 10.5,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5974,7 +5974,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.3563,
-                "manaCostPerSecond": 8.7,
+                "manaCostPerSecond": 10.75,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -5988,7 +5988,7 @@
               {
                 "type": "rampage_bloodlust",
                 "damageIncrease": 2.4375,
-                "manaCostPerSecond": 8.9,
+                "manaCostPerSecond": 11,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
                 "cooldownTicks": 1200,
@@ -6016,7 +6016,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_1",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6027,7 +6027,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_2",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6038,7 +6038,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_3",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6049,7 +6049,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_4",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6060,7 +6060,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_5",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6071,7 +6071,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_6",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6082,7 +6082,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_7",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6093,7 +6093,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_8",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6104,7 +6104,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_9",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6115,7 +6115,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_10",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6126,7 +6126,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_11",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6137,7 +6137,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_12",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6148,7 +6148,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_13",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6159,7 +6159,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_14",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6170,7 +6170,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_15",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6181,7 +6181,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_16",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6192,7 +6192,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_17",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6203,7 +6203,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_18",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6214,7 +6214,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_19",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6225,7 +6225,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_20",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6236,7 +6236,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_21",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6247,7 +6247,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_22",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6258,7 +6258,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_23",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6269,7 +6269,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_24",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6280,7 +6280,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_25",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6291,7 +6291,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_26",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6302,7 +6302,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_27",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6313,7 +6313,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_28",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6324,7 +6324,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_29",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               },
               {
                 "type": "rampage_berserker",
@@ -6335,7 +6335,7 @@
                 "cooldownTicks": 1200,
                 "unlockLevel": 0,
                 "id": "rampage_berserker_30",
-                "manaRampPerSecond": 0.5
+                "manaRampPerSecond": 1.0
               }
             ]
           },
@@ -32184,7 +32184,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32209,7 +32209,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32234,7 +32234,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32259,7 +32259,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32284,7 +32284,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32309,7 +32309,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32334,7 +32334,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32359,7 +32359,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32384,7 +32384,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32409,7 +32409,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32434,7 +32434,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32459,7 +32459,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32484,7 +32484,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32509,7 +32509,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32534,7 +32534,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32559,7 +32559,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32584,7 +32584,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32609,7 +32609,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32634,7 +32634,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32659,7 +32659,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32684,7 +32684,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32709,7 +32709,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32734,7 +32734,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32759,7 +32759,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32784,7 +32784,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32809,7 +32809,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32834,7 +32834,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32859,7 +32859,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32884,7 +32884,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32909,7 +32909,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 3,
-                "minionMovementSpeed": 0.38,
+                "minionMovementSpeed": 0.42,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32942,7 +32942,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32967,7 +32967,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -32992,7 +32992,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33017,7 +33017,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33042,7 +33042,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33067,7 +33067,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33092,7 +33092,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33117,7 +33117,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33142,7 +33142,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33167,7 +33167,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33192,7 +33192,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33217,7 +33217,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33242,7 +33242,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33267,7 +33267,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33292,7 +33292,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33317,7 +33317,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33342,7 +33342,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33367,7 +33367,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33392,7 +33392,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33417,7 +33417,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33442,7 +33442,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33467,7 +33467,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33492,7 +33492,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33517,7 +33517,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33542,7 +33542,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33567,7 +33567,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33592,7 +33592,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33617,7 +33617,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33642,7 +33642,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33667,7 +33667,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 2.4,
-                "minionMovementSpeed": 0.34,
+                "minionMovementSpeed": 0.38,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 1.5,
                 "aoeDamageMultiplier": 0.5,
@@ -33700,7 +33700,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33725,7 +33725,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33750,7 +33750,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33775,7 +33775,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33800,7 +33800,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33825,7 +33825,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33850,7 +33850,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33875,7 +33875,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33900,7 +33900,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33925,7 +33925,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33950,7 +33950,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -33975,7 +33975,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34000,7 +34000,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34025,7 +34025,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34050,7 +34050,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34075,7 +34075,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34100,7 +34100,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34125,7 +34125,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34150,7 +34150,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34175,7 +34175,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34200,7 +34200,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34225,7 +34225,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34250,7 +34250,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34275,7 +34275,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34300,7 +34300,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34325,7 +34325,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34350,7 +34350,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34375,7 +34375,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34400,7 +34400,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,
@@ -34425,7 +34425,7 @@
                 "throwPower": 1.6,
                 "distance": 28,
                 "minionHealthMultiplier": 8,
-                "minionMovementSpeed": 0.32,
+                "minionMovementSpeed": 0.36,
                 "ownerMovementSpeedMultiplier": 1.5,
                 "aoeRadius": 2.25,
                 "aoeDamageMultiplier": 0.65,

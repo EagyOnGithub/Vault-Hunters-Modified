@@ -93,6 +93,17 @@
                   "max": 1
                 }
               }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:crystal_seal_cake",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
           ]
         },
@@ -156,9 +167,20 @@
               }
             },
             {
-              "weight": 4,
+              "weight": 5,
               "item": {
                 "id": "the_vault:empowered_chaotic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:capstone_blacksmith",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -262,6 +284,32 @@
                   "max": 1
                 }
               }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:star_fruit",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:vorpal_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "reference": "the_vault:treasure_chest_crystals"
             },
             {
               "weight": 4,

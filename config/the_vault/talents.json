@@ -1530,7 +1530,7 @@
         "tiers": [
           {
             "type": "damage_lucky_hit",
-            "damageIncrease": 4.0,
+            "damageIncrease": 2.0,
             "learnPointCost": 2,
             "regretPointCost": 1,
             "unlockLevel": 0

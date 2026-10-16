@@ -905,7 +905,7 @@
       "name": "Healer",
       "entity": {
         "id": "the_vault:healer",
-        "Tags": ["no_champion", "ethereal_immune"],
+        "Tags": ["no_champion", "ethereal_immune", "soul_shards"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
