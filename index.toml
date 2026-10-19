@@ -14456,8 +14456,8 @@ hash = "453fab5cfb7444477255e6526f98b22bfe2847884c3a10d9534486064b42e781"
 metafile = true
 
 [[files]]
-file = "mods/temporal-index.pw.toml"
-hash = "cae7bab06f02b70099d0716595dec2bcacbff1b4cf5ce4c68b1ebc71e6141f97"
+file = "mods/temporal-pouch.pw.toml"
+hash = "0e8474430e737ea21f92c9861e64e83aff56980dc59669e63832877565a9bfef"
 metafile = true
 
 [[files]]
@@ -14513,6 +14513,11 @@ metafile = true
 [[files]]
 file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
 hash = "9eda0f087b2c6ab840cc19b68389c1b6557b81cd9c0b7e928ad7c4952679096b"
+metafile = true
+
+[[files]]
+file = "mods/vault-armory.pw.toml"
+hash = "daf945af3e853c2a314fd00388e4104d9a7e381d6ea962337c6fff23d1e77b44"
 metafile = true
 
 [[files]]

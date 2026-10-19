@@ -1,0 +1,13 @@
+name = "Vault Armory - Vault Hunters Addon"
+filename = "vaultarmory-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "336e87feed99be0b38610c58f3f27851218d61c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8817344
+project-id = 1683575

@@ -1,0 +1,13 @@
+name = "Temporal Pouch - Vault Hunters Addon"
+filename = "temporalpouch-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20eee291adaaa56ea174da2208939ea151ddf12d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9189011
+project-id = 1648758
