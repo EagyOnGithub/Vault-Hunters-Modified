@@ -14650,7 +14650,7 @@ hash = "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/textures/gui/background.png"
-hash = "6f5cd0ab079aca93e412e4c7c724862bb70ae86161ab791c19df079b20e09f9b"
+hash = "8f6ed083751f02a871403242317a18faf0f31544c143321ff015b5e2f66516d1"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/textures/gui/loading_splash.png"
