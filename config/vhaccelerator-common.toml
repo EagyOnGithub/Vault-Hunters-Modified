@@ -1,0 +1,375 @@
+
+[diagnostics]
+	#Disables every VH Accelerator optimization while retaining
+	#instrumentation selected by the separate timers and debug settings
+	#for an unmodified baseline.
+	#The /vha compare command changes and saves this setting.
+	#Restart after changing it before comparing client or server launch time.
+	compareMode = false
+	#Shows login, transfer, post-login, and disconnect timing
+	#messages in chat and writes their routine timing summaries to
+	#the log. The launch-time line remains visible on the main menu.
+	#The /vha timers command changes this setting.
+	#Internal lifecycle timestamps required for safe optimizations
+	#remain available when this display setting is disabled.
+	timers = false
+	#Enables detailed launch, reload, model, connection, packet,
+	#and disconnect diagnostics. This adds measurement and logging
+	#overhead and is disabled by default for normal play.
+	#Diagnostic-only mixins are selected during bootstrap, so restart
+	#after changing this setting with the /vha debug command.
+	debug = false
+	#Logs exact recipe IDs and cached-versus-live plan differences
+	#when the persistent JEI index repairs a recipe during login.
+	#This targeted audit is disabled by default and is controlled by
+	#the /vha jei_audit command independently of general debug logging.
+	jeiRecipeAudit = false
+
+[optimizations]
+	#Master switch for optimizations that are safe on both client and dedicated server.
+	enableCommonOptimizations = true
+	#Uses an instrumented preparation barrier for resource reload listeners.
+	#Minecraft 1.18.2 already overlaps listener preparation, so this mainly provides
+	#visibility and a stable place for future reload scheduling improvements.
+	#Disabled by default because it does not currently reduce server reload work.
+	parallelReloadPreparation = false
+	#EXPERIMENTAL: emulates LaunchFaster's registry-validation skipping.
+	#The original implementation skips two of every three global calls and can miss
+	#validation for unrelated registries. It is implemented for parity but disabled
+	#until profiling proves the work is material and a stage-aware replacement is ready.
+	skipRedundantRegistryValidation = false
+	#Skips Forge registry dump calls.
+	#Forge already avoids constructing dump tables unless REGISTRYDUMP debug logging
+	#is enabled, so this normally changes nothing. Opt in only when that diagnostic
+	#output is intentionally not needed.
+	skipRegistryDump = false
+	#EXPERIMENTAL: initializes deferred BlockState caches concurrently.
+	#Initializes deferred BlockState caches in parallel during block-registry bake.
+	#Ignored when lazyBlockStateCache is enabled and disabled when ModernFix is present.
+	parallelBlockStateInit = false
+	#EXPERIMENTAL: defers BlockState cache construction until selected accessors
+	#need it. Disabled by default because modded blocks may read other cached fields.
+	lazyBlockStateCache = false
+	#Caches repeated ResourceManager.listResources calls until the next reload.
+	cacheResourceListing = true
+	#Indexes immutable jar-backed mod resource packs as a lazy tree.
+	#Repeated model, blockstate, texture, and existence queries
+	#reuse the index. Folder packs, live generated packs, and failed
+	#or suspicious scans always keep Forge's original path.
+	indexImmutableModResources = true
+	#Refines redundant object-holder cleanup with early safety exits and
+	#one override-owner snapshot per registry during the cleanup pass.
+	#Requires the object-holder cleanup backport. Disable for its original
+	#per-holder checks. Restart required; does not change removal eligibility.
+	streamlineObjectHolderCleanup = true
+	#KubeJS 1802.5.5-build.569: evaluates a recipe script's remove / forEachRecipe
+	#filter across worker threads when it is built only from KubeJS's data-only
+	#filters and ingredients, then applies the matches in the original order.
+	#Script functions and custom predicates stay on the calling thread.
+	#Restart required.
+	parallelKubeJsRecipeFilters = true
+	#Reads chunk region data on the chunk IO thread before the server thread
+	#deserializes it, instead of blocking the server thread on the disk read and
+	#inflate for every loaded chunk (vanilla 1.19 made the same change).
+	#Deserialization, POI updates, Forge's ChunkDataEvent.Load and every error
+	#path still run on the server thread in the vanilla order.
+	#Integrated and dedicated server. Restart required.
+	asyncChunkDiskReads = true
+	#Skips the ServerPlayer constructor's world-spawn search (chunk loads and
+	#collision probes around the shared spawn) when its result is discarded:
+	#on login when saved player data exists, and on respawn when a valid
+	#bed or anchor position was found. New players, players without a
+	#respawn point, fake players and mod-constructed players keep the
+	#vanilla search at its original point. Restart required.
+	skipReturningPlayerSpawnSearch = true
+
+[compatibility]
+	#Fixes Target Dummy 1.18-1.5.2 writing the shared dispenser map during parallel setup.
+	#Queues only its dispenser registration onto Forge's synchronous setup work.
+	#Restart required. Independent of Compare Mode: this is a startup correctness fix.
+	#Other Target Dummy versions are not modified.
+	deferTargetDummyDispenserRegistration = true
+	#Trims Decocraft 3.0.4's parsed Blockbench models: block variants of the same
+	#model file share one parse at registration, and the base64 images and file
+	#paths Decocraft never reads again are cleared. Decocraft keeps one parsed copy
+	#per block, so these took about 1 GB in Asgard. Models, textures and hit boxes
+	#are unchanged. Restart required. Other Decocraft versions are not modified.
+	trimDecocraftModels = true
+	#With FerriteCore 4.2.2's replacePropertyMap, drops the property-map object it
+	#keeps for every block and fluid state (32 bytes each; 1.5 M states in large packs)
+	#and answers property lookups from FerriteCore's shared FastMap directly.
+	#getValues() builds FerriteCore's view on demand. Restart required.
+	compactFerriteCorePropertyMaps = true
+	#Stops references that keep a whole level in memory after leaving it: an item
+	#entity stored on the shared empty item stack, Forge's static block-entity
+	#model-data caches (cleared when the client clears its level), and Copycats+'s
+	#static server supplier (which kept the whole integrated server).
+	#Restart required.
+	releaseLevelPinningReferences = true
+	#When Smooth Boot (Reloaded) is installed, raises the Bootstrap, Main, IO and
+	#modloading-worker threads it lowers (priority 1 by default) back to normal
+	#priority 5, so VH Accelerator's parallel work is not starved under CPU contention.
+	#Smooth Boot's thread counts are kept and priorities are only raised, never lowered.
+	#Restart required. Disabled by Compare Mode.
+	restoreSmoothBootThreadPriorities = true
+
+[backports]
+	#Forge handshake batching.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	forgeHandshakeBatching = true
+	#Attribute-supplier deduplication.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	attributeSupplierDeduplication = true
+	#AttachCapabilitiesEvent dispatch.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	attachCapabilitiesDispatch = true
+	#ModFileScanData compaction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	compactModFileScanData = true
+	#Forge tag-registry concurrency.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	forgeTagConcurrencyFixes = true
+	#Server event-loop correction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	serverEventLoopFix = true
+	#VH Accelerator model loading instead of ModernFix dynamic resources.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	overrideModernFixDynamicResources = true
+	#Responsive mod-loading work queue.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	responsiveModWorkQueue = true
+	#ModernFix integrated-watchdog correction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	modernFixIntegratedWatchdogCorrection = true
+	#Graceful blockstate-definition construction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	stateDefinitionConstruction = true
+	#Guarded compact palette validation.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	compactPaletteValidation = true
+	#ModernFix JEI search snapshot correction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	modernFixJeiSearchSnapshot = true
+	#ModernFix NightConfig watcher correction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	modernFixNightConfigWatcherCorrection = true
+	#Bounded Minecraft background workers.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	backgroundWorkerLimit = true
+	#Entity-model compaction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	compactEntityModels = true
+	#World-generation material-rule iteration.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenMaterialRuleIteration = true
+	#World-generation surface-rule iteration.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenSurfaceRuleIteration = true
+	#World-generation noise-function cache lookup.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenNoiseFunctionCache = true
+	#World-generation biome-supplier reuse.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenBiomeSupplierReuse = true
+	#World-generation direct Y-condition evaluation.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenDirectYConditions = true
+	#Deferred world-generation climate tree.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	worldgenDeferredClimateTree = true
+	#Early structure-location rejection.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	earlyStructureLocationRejection = true
+	#Object-holder diagnostic compaction.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	compactObjectHolderThrowables = true
+	#Redundant Forge object-holder callback cleanup.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	removeRedundantObjectHolderCallbacks = true
+	#Loot-table resource-origin reuse.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	fasterLootLoading = true
+	#Parse-once compact client-language storage.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	dynamicClientLanguages = true
+	#Client telemetry suppression.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	disableTelemetry = true
+	#Faster ingredient tag lookups.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	fasterIngredientTagLookups = true
+	#Soft ingredient expansion cache.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	fasterIngredientExpansionCache = true
+	#Ingredient item-value deduplication.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	ingredientItemValueDeduplication = true
+	#Geometric Mojang registry growth.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	mappedRegistryGrowth = true
+	#Forge registry hot-path allocation removal.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	forgeRegistryLambdaElision = true
+	#Forge registry registration acceleration.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	forgeRegistryRegistrationAcceleration = true
+	#ResourceLocation namespace deduplication.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	deduplicateResourceLocationNamespaces = true
+	#Block-property name deduplication.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	blockPropertyNameDeduplication = true
+	#Wall-block shape deduplication.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	deduplicateWallShapes = true
+	#Forge potential-spawn copy-on-write lists.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	potentialSpawnCopyOnWrite = true
+	#Ticking chunk allocation reductions.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	reduceTickingChunkAllocations = true
+	#Allocation-light resource-key interning.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	resourceKeyInterning = true
+	#Allocation-free ingredient emptiness check.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	fasterIngredientEmptinessCheck = true
+	#Debug-generator block-state list view.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	debugLevelSourceStateView = true
+	#Stream-free Forge registry freeze validation.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	fastRegistryFreezeCheck = true
+	#Stronghold ring early rejection.
+	#Restart required. VH Accelerator only takes ownership
+	#when this option is enabled, the implementation is present,
+	#the physical side is compatible, Compare Mode is off, and
+	#VHA's compatibility and exact-option ownership checks select this implementation.
+	strongholdRingEarlyRejection = true
+

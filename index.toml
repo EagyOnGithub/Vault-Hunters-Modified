@@ -13529,6 +13529,10 @@ file = "config/vaultlootbeams.json"
 hash = "3847ef217207b222cd12934a1d89e9e83b37e89e4e296d2af1754412dc614ade"
 
 [[files]]
+file = "config/vhaccelerator-common.toml"
+hash = "e16c5adcd151b3d3c0ad665957d99d2c6179432f297f2651554fe26a0428f2df"
+
+[[files]]
 file = "config/voicechat/translations.properties"
 hash = "c96dc7334523e6f9c8a6eae804fb92af92da265f5d1e10f72bcbd1192cd2b917"
 
