@@ -14987,11 +14987,6 @@ hash = "7487bc2e3dc8cc4e90bc34f3e0ae013b588c3b1414c9328c0e031b74b8ca6f92"
 metafile = true
 
 [[files]]
-file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
-hash = "9eda0f087b2c6ab840cc19b68389c1b6557b81cd9c0b7e928ad7c4952679096b"
-metafile = true
-
-[[files]]
 file = "mods/vault-filters.pw.toml"
 hash = "a87eddc81c59f27c1c23acd2e26c5021506fe2d690304c987167329fc0e4f9d3"
 metafile = true
