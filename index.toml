@@ -14547,11 +14547,6 @@ hash = "6df57382b98024eec4ac38898d68652e9f01751639ba40b738086ab30b426b31"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-vh.pw.toml"
-hash = "48030051a2d63b301015149280bbd78c1ae32f96e60ca0d1dad4129f33a79e6f"
-metafile = true
-
-[[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "aa8ca7842ab8a8f103ccc528eda0291475b8bf025f4a82bc230cacdcfb410e73"
 metafile = true
@@ -15563,10 +15558,6 @@ hash = "718e008c6f60d14323d849b36c8cb4f55ba2fa8c6038be775b6d4414b7ca5d5c"
 [[files]]
 file = "scripts/simple_lights.zs"
 hash = "fafed89f2d8a647a79ba987a636a9bd830c5738e6359325466897582f5483c31"
-
-[[files]]
-file = "servers.dat"
-hash = "6ec2843d097b06491cd9ea6f6e40f59a60b00d7c9da203341e0040fe2169a634"
 
 [[files]]
 file = "shaderpacks/ComplementaryiskallShaders.zip"
