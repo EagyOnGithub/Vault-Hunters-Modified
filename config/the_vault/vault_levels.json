@@ -2,7 +2,7 @@
   "maxLevel": 100,
   "expMultiplier": 1,
   "postCapScalingFactor": 0.00,
-  "greedTierXpMultiplier": 0.2,
+  "greedTierXpMultiplier": 0.0,
   "levelMetas": [
     {
       "level": 0,

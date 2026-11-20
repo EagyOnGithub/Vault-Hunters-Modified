@@ -6,16 +6,14 @@
       "levels": [
         {
           "level": 0,
-          "probability": 0.00,
+          "probability": 0.0,
           "success": {
-            "the_vault:pylon{Config:{type:effect,effect:regeneration,amplifier:3,duration:300,color:695fe80d,description:\"Grants +3 Regeneration for 15 seconds\"}}": 2,
-            "the_vault:pylon{Config:{type:effect,effect:speed,amplifier:1,duration:3600,color:69e115f3,description:\"Grants +1 Speed for 3 minutes\"}}": 4,
-            "the_vault:pylon{Config:{type:effect,effect:strength,amplifier:1,duration:3600,color:69e21b1b,description:\"Grants +1 Strength for 3 minutes\"}}": 4,
-            "the_vault:pylon{Config:{type:mana,missingManaPercent:1.0,color:692060b7,description:\"Refills your mana\"}}": 6,
-            "the_vault:pylon{Config:{type:time,ticks:1200,color:69FFFF00,description:\"Adds 1 minute to the vault timer\"}}": 1,
-            "the_vault:pylon{Config:{type:attribute,attribute:generic.max_health,amount:8.0,operation:ADDITION,duration:2400,color:6900FF00,description:\"Grants 4 bonus hearts for 2 minutes\"}}": 4,
-            "the_vault:pylon{Config:{type:stat,stat:ITEM_RARITY,addend:0.20,duration:1200,color:69ff9c00,description:\"+20% Item Rarity for 1 minute\"}}": 1,
-            "the_vault:pylon{Config:{type:stat,stat:ITEM_QUANTITY,addend:0.20,duration:1200,color:69ff9c00,description:\"+20% Item Quantity for 1 minute\"}}": 1
+            "the_vault:pylon{Config:{type:potion,action:refill,color:\"90FF6FD8\",name:\"Refill Pylon\",description:\"Refills your potion\"}}": 5,
+            "the_vault:pylon{Config:{type:potion,action:brimming,color:\"90FF6A00\",name:\"Brimming Pylon\",description:\"+1 max potion charge for this vault\"}}": 3,
+            "the_vault:pylon{Config:{type:potion,action:infused,color:\"90A879FF\",name:\"Infused Pylon\",description:\"Your potion gets an extra draught for this vault\"}}": 3,
+            "the_vault:pylon{Config:{type:mana,missingManaPercent:1.0f,color:\"904FC3FF\",name:\"Mana Pylon\",description:\"Refills your mana\"}}": 4,
+            "the_vault:pylon{Config:{type:restore,color:\"90FF5A5A\",name:\"Restore Pylon\",description:\"Heals you to full\"}}": 4,
+            "the_vault:pylon{Config:{type:attribute,attribute:\"minecraft:generic.movement_speed\",amount:0.2d,operation:MULTIPLY_BASE,duration:3600,display:\"the_vault:draught_movement_speed\",color:\"90FFE068\",name:\"Swiftness Pylon\",description:\"+20% Movement Speed for 3 minutes\"}}": 3
           },
           "failure": {
             "minecraft:air": 1

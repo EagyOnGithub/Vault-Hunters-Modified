@@ -186,18 +186,6 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:bounty_pearl",
-                        "AMOUNT": 1,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 600,
-                    "maxPrice": 1200
-                },
-                "weight": 16
-            },
-            {
-                "value": {
-                    "item": {
                         "ITEM": "minecraft:emerald",
                         "AMOUNT": 32,
                         "NBT": "{}"
@@ -503,7 +491,7 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:vault_catalyst_chaos",
+                        "ITEM": "the_vault:crystal_seal_chaos",
                         "AMOUNT": 1,
                         "NBT": "{}"
                     },
@@ -726,18 +714,6 @@
                     "maxPrice": 4800
                 },
                 "weight": 4
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:bounty_pearl",
-                        "AMOUNT": 1,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 600,
-                    "maxPrice": 1200
-                },
-                "weight": 16
             },
             {
                 "value": {
@@ -1095,7 +1071,7 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:vault_catalyst_chaos",
+                        "ITEM": "the_vault:crystal_seal_chaos",
                         "AMOUNT": 1,
                         "NBT": "{}"
                     },
@@ -1342,30 +1318,6 @@
                     "maxPrice": 4800
                 },
                 "weight": 4
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:bounty_pearl",
-                        "AMOUNT": 1,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 600,
-                    "maxPrice": 1200
-                },
-                "weight": 16
-            },
-            {
-                "value": {
-                    "item": {
-                        "ITEM": "the_vault:bounty_pearl",
-                        "AMOUNT": 2,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 900,
-                    "maxPrice": 1500
-                },
-                "weight": 12
             },
             {
                 "value": {
@@ -1831,7 +1783,7 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:vault_catalyst_chaos",
+                        "ITEM": "the_vault:crystal_seal_chaos",
                         "AMOUNT": 1,
                         "NBT": "{}"
                     },
@@ -2082,18 +2034,6 @@
             {
                 "value": {
                     "item": {
-                        "ITEM": "the_vault:bounty_pearl",
-                        "AMOUNT": 1,
-                        "NBT": "{}"
-                    },
-                    "minPrice": 600,
-                    "maxPrice": 1200
-                },
-                "weight": 16
-            },
-            {
-                "value": {
-                    "item": {
                         "ITEM": "the_vault:vault_catalyst_infused",
                         "AMOUNT": 1,
                         "NBT": "{\"pool\":\"the_vault:black_market\"}"
@@ -2203,6 +2143,7 @@
         ]
     }
   ],
+  "championShardMultiplier": 10,
   "defaultShardDrops": {
     "min": 3,
     "max": 3,
@@ -2227,11 +2168,6 @@
     "@the_vault:assassin": {
         "min": 6,
         "max": 12,
-        "chance": 1.0
-    },
-    "@the_vault:mob_type/champion": {
-        "min": 60,
-        "max": 140,
         "chance": 1.0
     },
     "the_vault:healer": {

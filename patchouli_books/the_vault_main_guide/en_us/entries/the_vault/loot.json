@@ -35,7 +35,7 @@
       "type": "patchouli:spotlight",
       "item": "the_vault:wooden_chest",
       "title": "Wooden Chests",
-      "text": "Being the $(l)most commonly found$() chests within any Vault, Wooden Chests contain a big variety of $(l)frequently used$() items.$(br2)They also contain $(l)Bounty Pearls$() used for rerolling $(l:game_mechanics/bounty_system)Bounties$(). At later levels, they even include $(l)Catalyst Fragments$() and $(l)Gemstones$()."
+      "text": "Being the $(l)most commonly found$() chests within any Vault, Wooden Chests contain a big variety of $(l)frequently used$() items.$(br2)At later levels, they even include $(l)Catalyst Fragments$() and $(l)Gemstones$()."
     },
 
     {

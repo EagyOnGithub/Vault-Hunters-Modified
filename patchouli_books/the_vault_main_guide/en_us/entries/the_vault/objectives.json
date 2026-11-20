@@ -1,7 +1,7 @@
 {
   
   "name": "Objectives",
-  "icon": "the_vault:obelisk",
+  "icon": "the_vault:vault_crystal",
   "category": "patchouli:the_vault_category",
   "read_by_default": "true",
   "pages": [
@@ -19,57 +19,57 @@
 
     {
       "type": "patchouli:text",
-      "title": "Objective odds",
-      "text": "$(li)$(l)Level 0-9$()$(br)100% Monolith$(br)$(li)$(l)Level 10-19$()$(br)50% Monolith, 50% Elixir$(br)$(li)$(l)Level 20-49$()$(br)33% Monolith, 33% Elixir, 33% Scavenger$(br)$(li)$(l)Level 50+$()$(br)25% Monolith, 25% Elixir, 25% Scavenger, 25% Hunt the Guardians"
+      "title": "Unsealed crystals",
+      "text": "Unsealed crystals start with $(l)Elixir$(). Braziers join the pool at $(l)level 10$() and Scavenger Hunt at 20.$(br2)From $(l)level 50$() you can also roll Rune Boss or Bingo."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:monolith",
-      "title": "Light the Monoliths",
-      "text": "Light the required $(l)Monoliths$().$(br2)Monoliths can spawn in every room, not necessarily within sight.$(br2)Once all have been lit, $(l)exit$() the Vault through the portal to complete the objective."
+      "title": "Light the Braziers",
+      "text": "Look at a $(l)Brazier$() to see its modifier, right click it and $(l)control the ring$() while mobs attack. A mob in the ring pauses it.$(br2)Every lit Brazier makes mobs stronger and unlocks better modifiers.$(br2)Once enough are lit, $(l)exit$() through the portal."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:lodestone",
-      "title": "Elixir Rush",
+      "title": "Elixir",
       "text": "Fill the $(l)Elixir bar$() by looting chests, mining ores and killing mobs. $(br2)The amount of elixir contributed by every action $(l)differs per run$().$(br2)$(l)Small purple Elixir balls$() indicate how much Elixir is provided by a task, and $(l)don't$() need to be picked up."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_sage",
-      "title": "Elixir Rush",
-      "text": "Once the bar is full, find a $(l)Lodestone$() to complete the objective.$(br2)In a $(l)cooperative$() Elixir Vault, each player needs to find their own Lodestone.$(br2)A $(l)Seal of the Sage$() can be used to force the Elixir Rush objective."
+      "title": "Elixir",
+      "text": "Once everyone’s Elixir bar is full, each player can use the same $(l)Lodestone$() to finish.$(br2)Use a $(l)Seal of the Sage$() to choose Elixir."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:scavenger_altar",
       "title": "Scavenger Hunt",
-      "text": "Collect all required items and hand in the items at the $(l)Scavenger Altar$().$(br2)The HUD shows where to get the required items from.$(br2)Excess Scavenger Items can't be used in another vault. Use them in a $(l)Soul Diffuser$() to gain $(l)Soul Dust$()."
+      "text": "Pick up the items on your $(l)HUD$(). Each one counts straight away, and the HUD shows where to find the ones you still need."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_hunter",
       "title": "Scavenger Hunt",
-      "text": "Once all Scavenger Items are found, they can be handed in at a Scavenger Altar.$(br2)In a $(l)cooperative$() Vault, each player has their $(l)own$() set of items to collect.$(br2)A $(l)Seal of the Hunter$() can be used to force the Scavenger Hunt objective."
-    },
-
-    {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:obelisk",
-      "title": "Hunt the Guardians",
-      "text": "Find the required $(l)Obelisks$() and activate them to summon $(l)Vault Guardians$().$(br2)How many Vault Guardians need to be defeated for every Obelisk is displayed underneath the respective Obelisk in the HUD."
+      "text": "Your whole party shares one list. Once it’s full, use any Scavenger Altar with a $(l)green beam$() to finish.$(br2)A $(l)Seal of the Hunter$() gives your crystal this objective."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_executioner",
-      "title": "Hunt the Guardians",
-      "text": "This objective is completed $(l)as soon as$() all obelisks have been $(l)activated$() and all Guardians have been $(l)defeated$(). The player will then automatically be $(l)teleported$() out of The Vault.$(br2)A $(l)Seal of the Executioner$() can be used to force the Hunt the Guardians objective."
+      "title": "Rune Boss",
+      "text": "Collect runes to build $(l)Fury$(). At the altar, choose how much Fury to feed the boss.$(br2)More Fury can mean a better crate and a nastier fight."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_executioner",
+      "title": "Rune Boss",
+      "text": "$(l)Sealed Runes$() carry items. Feed one to the altar to put its item in your crate, then beat the boss to earn it.$(br2)Use a $(l)Seal of the Executioner$() to choose Rune Boss."
     },
 
     {
@@ -83,29 +83,29 @@
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_cake",
       "title": "Cake Hunt",
-      "text": "Each room has a 10% chance to spawn a $(l)Crake Pedestal$(), which completes the Vault for the player who uses it.$(br2)In a $(l)cooperative$() Vault, each player needs to find their own Crake Pedestal to complete the Vault."
-    },
-
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:cake",
-      "title": "Cake Hunt",
-      "text": "The Cake Hunt objective $(l)can't$() be rolled $(l)randomly$() on a Vault Crystal.$(br2)A $(l)Seal of the Confectioner$() can be used to force the Cake Hunt objective. This is the $(l)only way$() to initiate the Cake Hunt objective."
+      "text": "Use a $(l)Crake Pedestal$() to finish your Cake Hunt. In co-op, each player needs a fresh pedestal."
     },
 
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:crystal_seal_cake",
       "title": "Cake Hunt",
-      "text": "The Cake Hunt has several $(l)modifiers$() that get $(l)added$() when finding a cake.$(br)$(li)$(l)Delicious$()$(li2)+1% Item Quantity$()$(li)$(l)Sweet$()$(li2)+1% Item Rarity$()$(li)$(l)Heavy$()$(li2)+1% Mob Health$()$(li)$(l)Anger$()$(li2)+1% Mob Damage$()"
+      "text": "Put a $(l)Glazed Vault Rock$() on a $(l)Vault Altar$() to make a Cake Crystal."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_cake",
+      "title": "Cake Hunt",
+      "text": "Each cake adds a $(l)Cake Layer$(). Later rooms offer more loot and tougher mobs, and your Crake can hold more rewards.$(br2)How many rooms are you willing to push?"
     },
 
     {
       "anchor": "architect",
       "type": "patchouli:spotlight",
-      "item": "the_vault:crystal_seal_architect",
-      "title": "Architect Vault",
-      "text": "An Architect Vault has $(l)no objective$().$(br2)It is a Vault built with inscriptions after combining a Vault Crystal with a $(l)Seal of the Architect$().$(br2)The higher the completion, the more blocks of The Vault will be $(l)generated$()."
+      "item": "the_vault:inscription",
+      "title": "Adding rooms",
+      "text": "For a room of your choice, add its inscription to a Vault Crystal at the $(l)Crystal Workbench$(). Check the rooms and capacity on the preview before taking the crystal."
     },
 
     {
@@ -113,6 +113,20 @@
       "item": "the_vault:scavenger_goblet",
       "title": "The Final Challenge",
       "text": "Ready for the $(l)final challenge$()?$(br2)More to come ..."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_collector",
+      "title": "Collector",
+      "text": "Pick up the scavenger items on your board. Complete one line to finish.$(br2)The Seal of the Collector gives you a 4×4 board and the Seal of the Big Collector gives you a 5×5."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_chaos",
+      "title": "Chaos",
+      "text": "You get timed tasks in the Chaos theme. Finish a task for a blessing. Miss it and you get a curse.$(br2)Use a Seal of Chaos to choose this objective."
     }
 
   ]

@@ -1,13 +1,13 @@
 name = "Auxiliary Blocks"
-filename = "auxiliaryblocks-1.18.2-0.4.6.jar"
+filename = "auxiliaryblocks-1.18.2-0.4.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "073284bc7ac40a4d760246e8790b829d177496d8"
+hash = "f3f856533588d657f55ba4f4709da33fa31c04c6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7354451
+file-id = 9691081
 project-id = 711533

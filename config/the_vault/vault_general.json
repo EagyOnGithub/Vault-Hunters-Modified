@@ -2,6 +2,7 @@
 	"ITEM_BLACKLIST": [
 		"!minecraft:redstone_ore",
 		"the_vault:animatrix_block",
+		"the_vault:vault_stash",
 		"ecologics:coconut_boat",
 		"ecologics:walnut_boat",
 		"ecologics:azalea_boat",
@@ -12,6 +13,7 @@
 		"twigs:stripped_bamboo_boat",
 		"darkutils:*",
 		"minecraft:ender_chest",
+		"the_vault:enigma_chest",
 		"minecraft:lava_bucket",
 		"industrialforegoing:mob_crusher",
 		"industrialforegoing:mob_slaughter_factory",
@@ -144,6 +146,7 @@
 		"the_vault:bounty_block",
 		"supplementaries:cage",
 		"dummmmmmy:target_dummy_placer",
+		"the_vault:training_dummy",
 		"easy_piglins:piglin",
 		"easy_villagers:*",
 		"cagerium:*",
@@ -206,6 +209,7 @@
 	"BLOCK_BLACKLIST": [
 		"!minecraft:redstone_ore",
 		"the_vault:animatrix_block",
+		"the_vault:vault_stash",
 		"darkutils:*",
 		"refinedstorage:portable_grid",
 		"darkutils:vector_plate",

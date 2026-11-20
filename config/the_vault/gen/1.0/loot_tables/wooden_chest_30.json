@@ -7,7 +7,7 @@
         "max": 15
       },
       "pool": [
-        { "weight": 70,
+        { "weight": 700,
           "pool": [
             {
                 "weight": 14,
@@ -66,7 +66,7 @@
             }
           ]
         },
-        { "weight": 20,
+        { "weight": 200,
         "pool": [
           {
               "weight": 6,
@@ -114,7 +114,7 @@
           }
         ]
         },
-        { "weight": 8,
+        { "weight": 80,
           "pool": [
             {
               "weight": 2,
@@ -148,6 +148,17 @@
                   "max": 1
                   }
               }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:wooden_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
           ]
         },
@@ -156,29 +167,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:wooden_chest_scroll",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
                 "id": "the_vault:mod_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 8,
-              "item": {
-                "id": "the_vault:bounty_pearl",
                 "count": {
                   "type": "uniform",
                   "min": 1,

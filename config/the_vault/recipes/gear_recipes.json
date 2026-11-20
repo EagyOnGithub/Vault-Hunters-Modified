@@ -9,8 +9,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -29,8 +44,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -49,8 +79,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -69,8 +114,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -89,8 +149,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -109,8 +184,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -129,8 +219,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -149,8 +254,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -169,8 +289,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -189,8 +324,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 2,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {
@@ -208,8 +358,23 @@
       },
       "inputs": [
         {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:vault_alloy",
+          "AMOUNT": 128,
+          "ITEM": "the_vault:vault_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:gem_painite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 128,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:carbon",
           "NBT": "{}"
         },
         {

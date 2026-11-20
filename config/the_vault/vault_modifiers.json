@@ -66,9 +66,19 @@
         "display": {
           "name": "Greedy",
           "color": "#f2c94c",
-          "description": "Scales vault mobs and Greed Assassin spawns to the vault owner's Greed Tier",
-          "descriptionFormatted": "Scales vault mobs and Greed Assassin spawns to the vault owner's Greed Tier",
+          "description": "No longer has an effect. Greed Tier only scales mobs in Greed Rush vaults.",
+          "descriptionFormatted": "No longer has an effect. Greed Tier only scales mobs in Greed Rush vaults.",
           "icon": "the_vault:gui/modifiers/greedy"
+        }
+      },
+      "the_vault:vessel_effigy": {
+        "properties": {},
+        "display": {
+          "name": "Vessel Effigy",
+          "color": "#f2c94c",
+          "description": "This rematch pays out: the coins you hold and a Greed Crate of its tier.",
+          "descriptionFormatted": "This rematch pays out: the coins you hold and a Greed Crate of its tier.",
+          "icon": "the_vault:gui/modifiers/vessel_effigy"
         }
       }
     },
@@ -691,6 +701,26 @@
       }
     },
     "the_vault:modifier_type/drop_on_kill": {
+      "the_vault:fruitful": {
+        "properties": {
+          "filter": "",
+          "lootTable": [
+            {
+              "level": 0,
+              "lootTable": "the_vault:fruitful"
+            }
+          ],
+          "chance": 0.02,
+          "singleItem": true
+        },
+        "display": {
+          "name": "Fruitful",
+          "color": "#7FD3F0",
+          "description": "Kills have a 2% chance to drop a Vault Fruit",
+          "descriptionFormatted": "Kills have a %d%% chance to drop a Vault Fruit",
+          "icon": "the_vault:gui/modifiers/extended"
+        }
+      },
       "the_vault:bronze_nuke": {
         "properties": {
           "filter": "",
@@ -759,7 +789,7 @@
           "singleItem": true
         },
         "display": {
-          "name": "Gilded Mob Drops",
+          "name": "Gilded Spoils",
           "color": "#FFEC00",
           "description": "Killing a mob has a 10% chance to drop Gilded Chest loot.",
           "descriptionFormatted": "Killing a mob has a %d%% chance to drop Gilded Chest loot.",
@@ -795,7 +825,7 @@
           "singleItem": true
         },
         "display": {
-          "name": "Ornate Mob Drops",
+          "name": "Ornate Spoils",
           "color": "#c90d73",
           "description": "Killing a mob has a 10% chance to drop Ornate Chest loot.",
           "descriptionFormatted": "Killing a mob has a %d%% chance to drop Ornate Chest loot.",
@@ -831,7 +861,7 @@
           "singleItem": true
         },
         "display": {
-          "name": "Living Mob Drops",
+          "name": "Living Spoils",
           "color": "#38d800",
           "description": "Killing a mob has a 10% chance to drop Living Chest loot.",
           "descriptionFormatted": "Killing a mob has a %d%% chance to drop Living Chest loot.",
@@ -859,7 +889,7 @@
         "display": {
           "name": "Fuller Chests",
           "color": "#9eff20",
-          "description": "+15% Item Quantity",
+          "description": "+20% Item Quantity",
           "descriptionFormatted": "+%d%% Item Quantity",
           "icon": "the_vault:gui/modifiers/item_quant_2"
         }
@@ -1018,7 +1048,7 @@
         "display": {
           "name": "Luckier Chests",
           "color": "#9eff20",
-          "description": "+200% Item Rarity",
+          "description": "+20% Item Rarity",
           "descriptionFormatted": "+%d%% Item Rarity",
           "icon": "the_vault:gui/modifiers/lucky"
         }
@@ -1160,6 +1190,20 @@
       }
     },
     "the_vault:modifier_type/mob_attribute": {
+      "the_vault:chaos_tempo_mobs": {
+        "properties": {
+          "type": "speed_additive_percentile",
+          "amount": 0.15,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Tempo",
+          "color": "#bc2525",
+          "description": "+15% Mob Speed",
+          "descriptionFormatted": "+%d%% Mob Speed",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
       "the_vault:daycare_scale": {
         "properties": {
           "type": "scale",
@@ -1776,6 +1820,48 @@
       }
     },
     "the_vault:modifier_type/player_attribute": {
+      "the_vault:chaos_moon_boots": {
+        "properties": {
+          "type": "gravity_additive_percentile",
+          "amount": -0.25,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Moon Boots",
+          "color": "#bbf333",
+          "description": "-25% Gravity: you jump higher and fall slower",
+          "descriptionFormatted": "-%d%% Gravity: you jump higher and fall slower",
+          "icon": "the_vault:gui/modifiers/weightless"
+        }
+      },
+      "the_vault:chaos_heavy": {
+        "properties": {
+          "type": "gravity_additive_percentile",
+          "amount": 0.25,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Heavy",
+          "color": "#bc2525",
+          "description": "+25% Gravity: you jump lower",
+          "descriptionFormatted": "+%d%% Gravity: you jump lower",
+          "icon": "the_vault:gui/modifiers/jupiter_gravity"
+        }
+      },
+      "the_vault:chaos_tempo_players": {
+        "properties": {
+          "type": "speed_additive_percentile",
+          "amount": 0.15,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Tempo",
+          "color": "#bc2525",
+          "description": "+15% Movement Speed",
+          "descriptionFormatted": "+%d%% Movement Speed",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
       "the_vault:draining": {
         "properties": {
           "type": "mana_regen_additive_percentile",
@@ -2775,7 +2861,7 @@
       },
       "the_vault:idona_favour_ap": {
         "properties": {
-          "stat": "ability_power_percent",
+          "stat": "ability_power_multiplier",
           "addend": 0.5
         },
         "display": {
@@ -2801,7 +2887,7 @@
       },
       "the_vault:ability_power": {
         "properties": {
-          "stat": "ability_power_percent",
+          "stat": "ability_power_multiplier",
           "addend": 0.05
         },
         "display": {
@@ -3385,6 +3471,71 @@
           "icon": "the_vault:gui/modifiers/wealthy"
         }
       },
+      "the_vault:greed_cascade_wooden": {
+        "properties": {
+          "filter": "the_vault:wooden_chest",
+          "chance": 0.05
+        },
+        "display": {
+          "name": "Wooden",
+          "color": "#c7b281",
+          "description": "+5% Wooden Chests",
+          "descriptionFormatted": "+%d%% Wooden Chests",
+          "icon": "the_vault:gui/modifiers/wooden"
+        }
+      },
+      "the_vault:greed_cascade_ornate": {
+        "properties": {
+          "filter": "the_vault:ornate_chest",
+          "chance": 0.05
+        },
+        "display": {
+          "name": "Ornate",
+          "color": "#FFEC00",
+          "description": "+5% Ornate Chests",
+          "descriptionFormatted": "+%d%% Ornate Chests",
+          "icon": "the_vault:gui/modifiers/ornate"
+        }
+      },
+      "the_vault:greed_cascade_gilded": {
+        "properties": {
+          "filter": "the_vault:gilded_chest",
+          "chance": 0.05
+        },
+        "display": {
+          "name": "Gilded",
+          "color": "#FFEC00",
+          "description": "+5% Gilded Chests",
+          "descriptionFormatted": "+%d%% Gilded Chests",
+          "icon": "the_vault:gui/modifiers/gilded"
+        }
+      },
+      "the_vault:greed_cascade_living": {
+        "properties": {
+          "filter": "the_vault:living_chest",
+          "chance": 0.05
+        },
+        "display": {
+          "name": "Living",
+          "color": "#38d800",
+          "description": "+5% Living Chests",
+          "descriptionFormatted": "+%d%% Living Chests",
+          "icon": "the_vault:gui/modifiers/living"
+        }
+      },
+      "the_vault:greed_coin_cascade": {
+        "properties": {
+          "filter": "the_vault:coin_pile",
+          "chance": 0.05
+        },
+        "display": {
+          "name": "Wealthy",
+          "color": "#ffae00",
+          "description": "+5% Coin Piles",
+          "descriptionFormatted": "+%d%% Coin Piles",
+          "icon": "the_vault:gui/modifiers/wealthy"
+        }
+      },
       "the_vault:soul_coin_cascade": {
         "properties": {
           "filter": "the_vault:coin_pile",
@@ -3448,6 +3599,36 @@
       }
     },
     "the_vault:modifier_type/grouped": {
+      "the_vault:chaos_tempo": {
+        "properties": {
+          "children": {
+            "the_vault:chaos_tempo_players": 1,
+            "the_vault:chaos_tempo_mobs": 1
+          }
+        },
+        "display": {
+          "name": "Tempo",
+          "color": "#bc2525",
+          "description": "You and the mobs move 15% faster",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
+      "the_vault:chaos_scattered": {
+        "properties": {
+          "children": {
+            "the_vault:wooden_cascade": 2,
+            "the_vault:gilded_cascade": 2,
+            "the_vault:living_cascade": 2,
+            "the_vault:ornate_cascade": 2
+          }
+        },
+        "display": {
+          "name": "Scattered",
+          "color": "#bbf333",
+          "description": "+50% Chests",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
       "the_vault:royale": {
         "properties": {
           "children": {
@@ -3803,6 +3984,24 @@
           "icon": "the_vault:gui/modifiers/cake_layer"
         }
       },
+      "the_vault:greed_tier": {
+        "properties": {
+          "children": {
+            "the_vault:greed_cascade_wooden": 1,
+            "the_vault:greed_cascade_ornate": 1,
+            "the_vault:greed_cascade_gilded": 1,
+            "the_vault:greed_cascade_living": 1,
+            "the_vault:greed_coin_cascade": 1
+          }
+        },
+        "display": {
+          "name": "Greed Tier",
+          "color": "#f2c94c",
+          "description": "This vault plays your greed tier: one stack per tier. Mobs and the objective grow with it, every tier spawns 5% more chests and coin piles, and completing the vault pays Greed Reputation.",
+          "descriptionFormatted": "This vault plays your greed tier: one stack per tier. Mobs and the objective grow with it, every tier spawns 5% more chests and coin piles, and completing the vault pays Greed Reputation.",
+          "icon": "the_vault:gui/modifiers/greed"
+        }
+      },
       "the_vault:thiccening": {
         "properties": {
           "children": {
@@ -3965,7 +4164,7 @@
         "properties": {
           "children": {
             "the_vault:idona_favour_1": 1,
-            "the_vault:idona_ap": 1
+            "the_vault:idona_favour_ap": 1
           }
         },
         "display": {
@@ -3990,16 +4189,54 @@
           "icon": "the_vault:gui/modifiers/daycare"
         }
       },
+      "the_vault:challenge_rules": {
+        "properties": {
+          "children": {
+            "the_vault:no_companion": 1,
+            "the_vault:rotten": 1,
+            "the_vault:locked": 1,
+            "the_vault:no_temporal": 1
+          }
+        },
+        "display": {
+          "name": "Challenge",
+          "color": "#FFB347",
+          "description": "This vault is a challenge: no companions, Vault Fruit does not extend time, temporal modifiers can't be used and you can't bail out.",
+          "icon": "the_vault:gui/modifiers/challenging"
+        }
+      },
       "the_vault:greed_trial": {
         "properties": {
           "children": {
-            "the_vault:rotten": 1
+            "the_vault:rotten": 1,
+            "the_vault:no_companion": 1
           }
         },
         "display": {
           "name": "Greed Trial",
           "color": "#1e31b0",
           "description": "This vault is a Greed Trial, you will face the increasingly powerful Vessel.",
+          "icon": "the_vault:gui/modifiers/greed"
+        }
+      },
+      "the_vault:greed_rush": {
+        "properties": {
+          "children": {
+            "the_vault:no_companion": 1,
+            "the_vault:wooden_cascade": 1,
+            "the_vault:living_cascade": 1,
+            "the_vault:gilded_cascade": 1,
+            "the_vault:ornate_cascade": 1,
+            "the_vault:plentiful": 1,
+            "the_vault:more_mobs_cata": 1,
+            "the_vault:rotten": 1,
+            "the_vault:no_temporal": 1
+          }
+        },
+        "display": {
+          "name": "Greed",
+          "color": "#f2c94c",
+          "description": "This vault is a Greed Rush. More chests, ores and mobs than a normal vault. Vault Fruit and temporal modifiers can't be used and companions will not join you in this vault.",
           "icon": "the_vault:gui/modifiers/greed"
         }
       }
@@ -4134,7 +4371,7 @@
         "properties": {
           "entries": [
             {
-              "filter": "the_vault:pylon",
+              "filter": "the_vault:pylon{Consumed:0b}",
               "radius": 64.0,
               "target": "pylons",
               "color": 8501759
@@ -4200,6 +4437,60 @@
           "color": "#ffba00",
           "description": "Highlights Vendoors in this vault",
           "icon": "the_vault:gui/modifiers/vendoor_doors"
+        }
+      },
+      "the_vault:chest_hunter": {
+        "properties": {
+          "entries": [
+            {
+              "filter": "the_vault:wooden_chest",
+              "radius": 64.0,
+              "target": "wooden",
+              "color": 14912768
+            },
+            {
+              "filter": "the_vault:gilded_chest",
+              "radius": 64.0,
+              "target": "gilded",
+              "color": 16776960
+            },
+            {
+              "filter": "the_vault:gilded_strongbox",
+              "radius": 64.0,
+              "target": "gilded",
+              "color": 16776960
+            },
+            {
+              "filter": "the_vault:ornate_chest",
+              "radius": 64.0,
+              "target": "ornate",
+              "color": 15597568
+            },
+            {
+              "filter": "the_vault:ornate_strongbox",
+              "radius": 64.0,
+              "target": "ornate",
+              "color": 15597568
+            },
+            {
+              "filter": "the_vault:living_chest",
+              "radius": 64.0,
+              "target": "living",
+              "color": 65280
+            },
+            {
+              "filter": "the_vault:living_strongbox",
+              "radius": 64.0,
+              "target": "living",
+              "color": 65280
+            }
+          ]
+        },
+        "display": {
+          "name": "Chest Hunter",
+          "color": "#ffba00",
+          "description": "Highlights chests nearby",
+          "icon": "the_vault:gui/modifiers/kill_hunter"
         }
       }
     },
@@ -4388,31 +4679,6 @@
       }
     },
     "the_vault:modifier_type/mob_spawn_ticks": {
-      "the_vault:time_bomb_spawn": {
-        "properties": {
-          "tickInverval": 500,
-          "spawnsPerInterval": 1,
-          "maxMobsPerChunk": 2,
-          "maxTotalMobs": 20,
-          "spawnRadius": 4,
-          "verticalRange": 2,
-          "entity": {
-            "nbt": {
-              "id": "the_vault:time_bomb"
-            }
-          },
-          "roomTypeWhitelist": [
-            "COMMON",
-            "ORE"
-          ]
-        },
-        "display": {
-          "name": "Time Bomb",
-          "color": "#a996ca",
-          "description": "Mobs will spawn in this vault at a random interval, up to a maximum of 20 mobs per chunk.",
-          "icon": "the_vault:gui/modifiers/time_bomb"
-        }
-      }
     },
     "the_vault:modifier_type/companion_experience_death": {
       "the_vault:companion_experience_death": {
@@ -4435,7 +4701,7 @@
         "display": {
           "name": "Gemstone Frenzy",
           "color": "#a996ca",
-          "description": "A Small chance to genmerate gemstones when killing a mob",
+          "description": "A Small chance to generate gemstones when killing a mob",
           "icon": "the_vault:gui/modifiers/gemstone_frenzy"
         }
       }
@@ -4452,7 +4718,7 @@
           "name": "Omega Bloom",
           "color": "#6AFF00",
           "description": "10x Omega Room Chance",
-          "icon": "the_vault:gui/modifiers/omega_fortune"
+          "icon": "the_vault:gui/modifiers/omega"
         }
       },
       "the_vault:challenge_fortune": {
@@ -4465,8 +4731,8 @@
         "display": {
           "name": "Challenge Vein",
           "color": "#FF4500",
-          "description": "10x Challenge Room Chance",
-          "icon": "the_vault:gui/modifiers/challenge_fortune"
+          "description": "5x Challenge Room Chance",
+          "icon": "the_vault:gui/modifiers/challenging"
         }
       }
     },
@@ -4512,10 +4778,10 @@
           "enabled": true
         },
         "display": {
-          "name": "Chaos Return",
-          "color": "#DB7C00",
-          "description": "Completing a chaos task teleports you back to the start",
-          "icon": "the_vault:gui/modifiers/shuffle"
+          "name": "Rewind",
+          "color": "#bc2525",
+          "description": "Completing a task sends you back to the start (not the last one)",
+          "icon": "the_vault:gui/modifiers/chaos_rewind"
         }
       }
     },
@@ -4530,6 +4796,17 @@
         }
       }
     },
+    "the_vault:modifier_type/no_temporal": {
+      "the_vault:no_temporal": {
+        "properties": {},
+        "display": {
+          "name": "Temporal Lock",
+          "color": "#5FB8D8",
+          "description": "Temporal modifiers don't work in this vault.",
+          "icon": "the_vault:gui/modifiers/no_temporal"
+        }
+      }
+    },
     "the_vault:modifier_type/player_one_hit": {
       "the_vault:one_hit": {
         "properties": {},
@@ -4538,6 +4815,17 @@
           "color": "#8B0000",
           "description": "You will get one-shot.",
           "icon": "the_vault:gui/modifiers/frenzy"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_no_abilities": {
+      "the_vault:no_abilities": {
+        "properties": {},
+        "display": {
+          "name": "No Abilities",
+          "color": "#6E8BB8",
+          "description": "Abilities can't be used in this vault.",
+          "icon": "the_vault:gui/modifiers/ability_break"
         }
       }
     },
@@ -4606,6 +4894,247 @@
           "description": "Looting chests have a 5% chance to spawn a dweller.",
           "descriptionFormatted": "Looting chests have a %d%% chance to spawn a dweller.",
           "icon": "the_vault:gui/modifiers/impossible"
+        }
+      }
+    },
+    "the_vault:modifier_type/chest_respawn": {
+      "the_vault:chaos_chest_respawn": {
+        "properties": {
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ],
+          "chance": 0.25,
+          "delayTicks": 60,
+          "radius": 4
+        },
+        "display": {
+          "name": "Chest Respawn",
+          "color": "#bbf333",
+          "description": "Looted chests have a 25% chance to come back nearby",
+          "descriptionFormatted": "Looted chests have a %d%% chance to come back nearby",
+          "icon": "the_vault:gui/modifiers/hoard"
+        }
+      },
+      "the_vault:wooden_respawn": {
+        "properties": {
+          "whitelist": [
+            "WOODEN"
+          ],
+          "chance": 0.25,
+          "delayTicks": 60,
+          "radius": 4
+        },
+        "display": {
+          "name": "Wooden Respawn",
+          "color": "#c7b281",
+          "description": "Looted Wooden Chests have a 25% chance to come back nearby.",
+          "descriptionFormatted": "Looted Wooden Chests have a %d%% chance to come back nearby.",
+          "icon": "the_vault:gui/modifiers/wooden"
+        }
+      },
+      "the_vault:gilded_respawn": {
+        "properties": {
+          "whitelist": [
+            "GILDED"
+          ],
+          "chance": 0.25,
+          "delayTicks": 60,
+          "radius": 4
+        },
+        "display": {
+          "name": "Gilded Respawn",
+          "color": "#FFEC00",
+          "description": "Looted Gilded Chests have a 25% chance to come back nearby.",
+          "descriptionFormatted": "Looted Gilded Chests have a %d%% chance to come back nearby.",
+          "icon": "the_vault:gui/modifiers/gilded"
+        }
+      },
+      "the_vault:living_respawn": {
+        "properties": {
+          "whitelist": [
+            "LIVING"
+          ],
+          "chance": 0.25,
+          "delayTicks": 60,
+          "radius": 4
+        },
+        "display": {
+          "name": "Living Respawn",
+          "color": "#38d800",
+          "description": "Looted Living Chests have a 25% chance to come back nearby.",
+          "descriptionFormatted": "Looted Living Chests have a %d%% chance to come back nearby.",
+          "icon": "the_vault:gui/modifiers/living"
+        }
+      },
+      "the_vault:ornate_respawn": {
+        "properties": {
+          "whitelist": [
+            "ORNATE"
+          ],
+          "chance": 0.25,
+          "delayTicks": 60,
+          "radius": 4
+        },
+        "display": {
+          "name": "Ornate Respawn",
+          "color": "#c90d73",
+          "description": "Looted Ornate Chests have a 25% chance to come back nearby.",
+          "descriptionFormatted": "Looted Ornate Chests have a %d%% chance to come back nearby.",
+          "icon": "the_vault:gui/modifiers/ornate"
+        }
+      }
+    },
+    "the_vault:modifier_type/chaos_task_rule": {
+      "the_vault:chaos_patience": {
+        "properties": {
+          "taskTimePercent": 20,
+          "carryOverPercent": 0,
+          "mysteryChance": 0,
+          "taskTargetPercent": 0
+        },
+        "display": {
+          "name": "Patience",
+          "color": "#bbf333",
+          "description": "Tasks get 20% more time",
+          "icon": "the_vault:gui/modifiers/extended"
+        }
+      },
+      "the_vault:chaos_carry_over": {
+        "properties": {
+          "taskTimePercent": 0,
+          "carryOverPercent": 100,
+          "mysteryChance": 0,
+          "taskTargetPercent": 0
+        },
+        "display": {
+          "name": "Carry Over",
+          "color": "#bbf333",
+          "description": "Time left on a finished task carries into the next one",
+          "icon": "the_vault:gui/modifiers/time_accel"
+        }
+      },
+      "the_vault:chaos_rush": {
+        "properties": {
+          "taskTimePercent": -15,
+          "carryOverPercent": 0,
+          "mysteryChance": 0,
+          "taskTargetPercent": 0
+        },
+        "display": {
+          "name": "Rush",
+          "color": "#bc2525",
+          "description": "Tasks get 15% less time",
+          "icon": "the_vault:gui/modifiers/rush"
+        }
+      },
+      "the_vault:chaos_blindfold": {
+        "properties": {
+          "taskTimePercent": 0,
+          "carryOverPercent": 0,
+          "mysteryChance": 0.35,
+          "taskTargetPercent": 0
+        },
+        "display": {
+          "name": "Blindfold",
+          "color": "#bc2525",
+          "description": "35% chance a task stays hidden until you make progress on it",
+          "icon": "the_vault:gui/modifiers/confused"
+        }
+      },
+      "the_vault:chaos_demanding": {
+        "properties": {
+          "taskTimePercent": 0,
+          "carryOverPercent": 0,
+          "mysteryChance": 0,
+          "taskTargetPercent": 25
+        },
+        "display": {
+          "name": "Demanding",
+          "color": "#bc2525",
+          "description": "Tasks ask for 25% more",
+          "icon": "the_vault:gui/modifiers/chaos_demanding"
+        }
+      }
+    },
+    "the_vault:modifier_type/player_friction": {
+      "the_vault:chaos_friction": {
+        "properties": {
+          "floorFriction": 0.98
+        },
+        "display": {
+          "name": "Friction",
+          "color": "#bc2525",
+          "description": "Every floor is as slippery as ice",
+          "icon": "the_vault:gui/modifiers/chaos_friction"
+        }
+      }
+    },
+    "the_vault:modifier_type/mob_respawn_on_kill": {
+      "the_vault:chaos_restless": {
+        "properties": {
+          "chance": 0.25,
+          "delayTicks": 40
+        },
+        "display": {
+          "name": "Restless",
+          "color": "#bc2525",
+          "description": "Killed mobs have a 25% chance to come back (no soul shards)",
+          "descriptionFormatted": "Killed mobs have a %d%% chance to come back (no soul shards)",
+          "icon": "the_vault:gui/modifiers/chaos_restless"
+        }
+      }
+    },
+    "the_vault:modifier_type/devotion": {
+      "the_vault:devotion": {
+        "properties": {
+          "reputation": 1
+        },
+        "display": {
+          "name": "Devotion",
+          "color": "#F5D76E",
+          "description": "Completing a God Altar gives +1 Reputation",
+          "descriptionFormatted": "Completing a God Altar gives +%d Reputation",
+          "icon": "the_vault:gui/modifiers/god_token_tenos"
+        }
+      }
+    },
+    "the_vault:modifier_type/renowned": {
+      "the_vault:renowned": {
+        "properties": {
+          "renownIncrease": 0.5
+        },
+        "display": {
+          "name": "Renowned",
+          "color": "#E8B04B",
+          "description": "Bounties completed in this vault pay +50% Renown",
+          "descriptionFormatted": "Bounties completed in this vault pay +%d%% Renown",
+          "icon": "the_vault:gui/modifiers/rare"
+        }
+      }
+    },
+    "the_vault:modifier_type/jackpot_chests": {
+      "the_vault:jackpot_chests": {
+        "properties": {
+          "whitelist": [
+            "WOODEN",
+            "GILDED",
+            "LIVING",
+            "ORNATE"
+          ],
+          "chestsMin": 3,
+          "chestsMax": 5,
+          "withinLootedChests": 3,
+          "landingRadius": 4
+        },
+        "display": {
+          "name": "Chest Jackpots",
+          "color": "#FFD34E",
+          "description": "One of your next 3 looted chests erupts and 3 to 5 chests burst out of it",
+          "descriptionFormatted": "Jackpots left: %d. Each one fires within your next 3 looted chests and 3 to 5 chests burst out",
+          "icon": "the_vault:gui/modifiers/treasure"
         }
       }
     }

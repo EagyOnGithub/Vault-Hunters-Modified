@@ -8,14 +8,14 @@
 
     {
       "type": "patchouli:text",
-      "text": "Pylons can be found in Vaults.$(br2)They grant a $(l)temporary statistic increase$() to the player. The $(l)effect$() it gives and the $(l)duration$() of it is displayed $(l)above$() the Pylon.$(br2)A Pylon can be $(l)consumed$() by $(l)right-clicking$() it."
+      "text": "Pylons can be found in Vaults.$(br2)$(l)Right-click$() one and you and your party members within 10 blocks get its buff. Look at a Pylon to see what it does.$(br2)Used Pylons go dark. Breaking one instead can drop a $(l)Temporal Relic$()."
     },
     
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:pylon",
       "title": "Effects",
-      "text": "The available $(l)effects$() it may apply to the player are:$(br)$(li)Regeneration$()$(li)Increased Health$()$(li)Regenerate all Mana$()$(li)Speed$()$(li)Strength$()$(li)Item Quantity$()$(li)Item Rarity$()"
+      "text": "The Pylons are:$(br)$(li)$(l)Time$(): more time for the whole party$(li)$(l)Refill$(): fills your potion$(li)$(l)Brimming$(): +1 potion charge$(li)$(l)Infused$(): an extra potion slot$(li)$(l)Mana$(): fills your mana$(li)$(l)Restore$(): heals you to full$(li)$(l)Swiftness$(): more speed"
     }
 
   ]

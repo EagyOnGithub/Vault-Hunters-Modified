@@ -105,11 +105,20 @@
       "stackValue": 30
     },
     {
+      "id": "@the_vault:taxman",
+      "icon": "the_vault:gui/mob_groups/greed_assassin",
+      "color": "#FF0000",
+      "showHealthbar": false,
+      "displayName": "The Taxman",
+      "stackValue": 10,
+      "hideWhenEmpty": true
+    },
+    {
       "id": "@the_vault:greed_assassin",
       "icon": "the_vault:gui/mob_groups/greed_assassin",
       "color": "#FF0000",
       "showHealthbar": true,
-      "displayName": "Greed Assassins",
+      "displayName": "Greed Mobs",
       "stackValue": 10
     },
     {

@@ -9,7 +9,7 @@
 
     {
       "type": "patchouli:text",
-      "text": "Curses influence the Vault to the player's $(l)heavy disadvantage$().$(br2)Curses can only occur during a Vault if the Vault Crystal has been $(l:game_mechanics/crystal_modification)$(l)modified$() with $(l)Vault Catalysts$(), $(l)Inscriptions$(), a $(l)Soul Flame$() or $(l)Wither Skeleton Skulls$()."
+      "text": "Curses influence the Vault to the player's $(l)heavy disadvantage$().$(br2)Curses can only occur during a Vault if the Vault Crystal has been $(l:game_mechanics/crystal_modification)$(l)modified$() with $(l)Vault Catalysts$(), $(l)Inscriptions$() or $(l)Wither Skeleton Skulls$()."
     },
 
     {

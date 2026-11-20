@@ -2,14 +2,14 @@
 
   "sortnum": 6,
   "name": "Modification",
-  "icon": "the_vault:vault_anvil",
+  "icon": "the_vault:tool_station",
   "category": "patchouli:vault_tools_category",
   "read_by_default": "true",
   "pages": [
 
     {
       "type": "patchouli:text",
-      "text": "A Vault Tool can be $(l)enhanced$() with Jewels in an $(l)Anvil$().$(br2)If the $(l)capacity$() of the Vault Tool is $(l)higher$() than the $(l)size$() of the Jewel, it $(l)can$() be applied. This $(l)lowers$() the $(l)capacity$() by the Jewel's size.$(br2)The $(l)level requirement$() for the Vault Tool $(l)raises$() if a Jewel is applied to it that has a $(l)higher$() level than that of the Vault Tool."
+      "text": "Put your tool in the $(l)Tool Station$() and open $(l)Apply Jewels$().$(br2)Add the jewels you want, check the remaining capacity and the level on the preview, then take the result to apply them."
     },
 
     {

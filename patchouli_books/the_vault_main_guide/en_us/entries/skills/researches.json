@@ -9,7 +9,7 @@
 
     {
       "type": "patchouli:text",
-      "text": "Most Mods in Vault Hunters are $(l)locked$() behind $(l)Researches$().$(br2)Researches are $(l)grouped$(), which makes unlocking a Research potentially $(l)increase$() the $(l)cost$() of $(l)other$() Researches in the $(l)same group$().$(br2)Some Researches also discover a $(l:vault_gear/identification#model)$(t:Model)$(l)Model$() for $(l)Vault Gear$().$(br2)Researches can be $(l:useful_commands/research_commands)$(l)shared$() together with other players."
+      "text": "Most Mods in Vault Hunters are $(l)locked$() behind $(l)Researches$().$(br2)Researches are $(l)grouped$(), which makes unlocking a Research potentially $(l)increase$() the $(l)cost$() of $(l)other$() Researches in the $(l)same group$().$(br2)Some Researches also discover a $(l:vault_gear/identification#model)$(t:Model)$(l)Model$() for $(l)Vault Gear$().$(br2)Researches are $(l:useful_commands/research_commands)$(l)shared$() with your team if it shares Research."
     },
 
     {

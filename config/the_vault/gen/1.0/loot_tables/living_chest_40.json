@@ -149,6 +149,17 @@
                   "max": 1
                   }
               }
+            },
+            {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:living_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
         ]
         },
@@ -191,17 +202,6 @@
               "weight": 56,
               "item": {
                 "id": "the_vault:vault_moss",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:living_chest_scroll",
                 "count": {
                   "type": "uniform",
                   "min": 1,

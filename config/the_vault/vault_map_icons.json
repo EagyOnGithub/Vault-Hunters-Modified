@@ -64,7 +64,6 @@
         ],
         "the_vault:gui/map/vendor": [
             "the_vault:vault/rooms/omega/vendor1",
-            "the_vault:vault/rooms/omega/vendor2",
             "the_vault:vault/rooms/omega/vendor3"
         ],
         "the_vault:gui/map/paint": [

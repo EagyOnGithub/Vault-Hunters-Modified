@@ -1,7 +1,7 @@
 {
   
   "sortnum": 4,
-  "name": "Research Commands",
+  "name": "Team Commands",
   "icon": "the_vault:mod_box",
   "category": "patchouli:useful_commands_category",
   "read_by_default": "true",
@@ -9,24 +9,23 @@
 
     {
       "type": "patchouli:text",
-      "text": "Research Teams can be created to progressively unlock all $(l:game_mechanics/researches)$(l)Researches$() together with $(l)others$().$(br2)Working together on discovering Researches adds a small $(l)increase$() to the costs of Researches.$(br2)Researches unlocked $(l)prior to joining$() a Research Team do $(l)not$() get unlocked $(l)retrospectively$()."
+      "text": "A $(l)Team$() is for playing together for good.$(br2)Make one in the $(l)Team$() tab of the Statistics screen ($(l)H$()): give it a name and pick what it shares. That can't be changed later, to change it you leave and make a new team.$(br2)Joining a teammate's vault puts you in their $(l:useful_commands/party_commands)$(l)party$()."
     },
 
     {
       "type": "patchouli:text",
-      "title": "Research Commands",
-      "text": "$(li)$(8)$(l)/the_vault research_team invite <player>$()$(li2)Invites a player$()$(br)$(li)$(8)$(l)/the_vault research_team accept_invite <player>$()$(li2)Accepts the invite of a player to their research team$()$(br)$(li)$(c:/the_vault research_team list)$(t:Click to execute this command)$(l)/the_vault research_team list$()$(li2)Lists all members$()"
+      "text": "$(l)Vault XP$(): all vault XP a teammate earns, from anything, also goes to everyone, even while they are $(l)offline$(). A vault you run together pays everyone the best run once.$(br2)$(l)Research$(): every new $(l:skills/researches)$(l)Research$() one teammate unlocks is unlocked for the whole team."
     },
 
     {
       "type": "patchouli:text",
-      "title": "Research Commands",
-      "text": "$(li)$(c:/the_vault research_team leave)$(t:Click to execute this command)$(l)/the_vault research_team leave$()$(li2)Leaves the research team$()"
+      "text": "$(l)Transmogs$(): every new transmog a teammate discovers is discovered for everyone. Patreon and reward transmogs stay personal.$(br2)Only what's unlocked $(l)while you're in the team$() is shared, nothing from before.$(br2)Leaving a team keeps every level, Research and transmog you have."
     },
 
     {
       "type": "patchouli:text",
-      "text": ""
+      "title": "Team Commands",
+      "text": "$(li)$(8)$(l)/the_vault team create <name>$()$(li2)Makes a team that shares Vault XP and Research$()$(br)$(li)$(8)$(l)/the_vault team invite <player>$()$(li2)Invites a player to your team$()$(br)$(li)$(8)$(l)/the_vault team accept <player>$()$(li2)Accepts a team invite$()$(br)$(li)$(c:/the_vault team list)$(t:Click to execute this command)$(l)/the_vault team list$()$(li2)Lists all members$()$(br)$(li)$(c:/the_vault team leave)$(t:Click to execute this command)$(l)/the_vault team leave$()$(li2)Leaves the team$()"
     }
 
   ]

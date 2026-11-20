@@ -1,36 +1,34 @@
 {
-  
   "sortnum": 1,
-  "name": "Variants",
-  "icon": "the_vault:bottle{charges:6,recharge:\"time\",type:\"potion\",vaultGearData:[L;-6653475995900397510L,3031496174923122195L,1514722424829610010L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}",
+  "name": "The Vault Potion",
+  "icon": "the_vault:vault_potion",
   "category": "patchouli:vault_potions_category",
   "read_by_default": "true",
   "pages": [
-
     {
       "type": "patchouli:text",
-      "text": "Vault Potions are used to $(l)regenerate health$() inside of Vaults.$(br2)They are crafted by the player in a $(l)Crafting Table$().$(br2)They can be modified to also apply temporary $(l)modifiers$() to the player after consumption.$(br2)After $(l)exiting$() a Vault, the Vault Potion gets $(l)reset$() to its $(l)initial$() state."
+      "text": "Your Vault Potion $(l)heals you$() and applies the $(l)effects$() in its slots.$(br2)It lives in the $(l)Potion slot$() next to your Companion slot. Only the potion in that slot works in a Vault, and it stays there until you leave.$(br2)Leaving a Vault refills it, and so does opening your Alchemy Station."
     },
-
     {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:bottle{charges:6,recharge:\"time\",type:\"potion\",vaultGearData:[L;-6653475995900397510L,3031496174923122195L,1514722424829610010L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}",
-      "title": "Variants",
-      "text": "Each Vault Potion has $(l)6 charges$() at the $(l)start$() of a Vault. Drinking the Vault Potion $(l)requires a charge$().$(br2)These charges can be regenerated depending on the $(l)recharger$() used by the Vault Potion.$(br2)Only $(l)one$() Vault Potion is $(l)functional$() inside of a Vault."
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_potion",
+      "title": "Vault Potion",
+      "text": "Your first one comes from the $(l)Vault Potions$() quest. A lost one is crafted again from a glass bottle and a chromatic iron ingot."
     },
-
+    {
+      "type": "patchouli:text",
+      "title": "Charges",
+      "text": "$(br)Inside a Vault one fill bar refills your charges from $(l)kills$() (bigger mobs count more) and $(l)vault chests$(). Every refill in the same Vault costs a bit more than the one before, and higher Vaults need more.$(br2)Drinking is instant and has a $(l)4 second$() cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Drink Mode",
+      "text": "$(br)Right-click the potion in its slot to switch:$(br)$(li)$(l)Below 25% health$() (default)$(li)$(l)Below 50% health$()$(li)$(l)Manual Key$()$(br2)Below the threshold the potion drinks itself. The Drink key is unbound, set it in Controls."
+    },
     {
       "type": "patchouli:text",
       "title": "Tiers",
-      "text": "$(br)There are various tiers of Vault Potions. This determines the $(l)health$() it $(l)regenerates$() and the number of $(l)modifiers$().$(br2)The available tiers are:$(br)$(li)$(l)Vial$()$(li)$(l)Potion$()$(li)$(l)Mixture$()$(li)$(l)Brew$()$(br2)All tiers, except Vials, are locked behind $(l)Research$()."
-    },
-
-    {
-      "type": "patchouli:text",
-      "title": "Rechargers",
-      "text": "$(br)Each Vault Potion also has a recharger that is $(l)determined$() upon $(l)crafting$() it.$(br2)The recharger is the method of $(l)regenerating$() a $(l)charge$() on the Vault Potion.$(br2)The recharge can either occur every $(l)5 minutes$() or every $(l)150 mob unalived$()."
+      "text": "$(br)Researching $(l)Potions$(), $(l)Mixtures$() and $(l)Brews$() upgrades your potion on its own:$(br)$(li)$(l)Vial$(): 4 charges, 1 slot$(li)$(l)Potion$(): 5 charges, 2 slots$(li)$(l)Mixture$(): 6 charges, 3 slots$(li)$(l)Brew$(): 7 charges, 4 slots$(br2)Every charge heals 6 Hit Points."
     }
-
   ]
-
 }

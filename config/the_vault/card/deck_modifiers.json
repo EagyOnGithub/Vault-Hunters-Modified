@@ -2,30 +2,20 @@
   "values": {
     "equilibrium": {
       "modifierValue": {
-        "min": 0.25,
-        "max": 0.4,
+        "min": 0.1,
+        "max": 0.15,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.08,
-            "max": 0.08,
+            "min": 0.03,
+            "max": 0.03,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_equilibrium_deck_core#inventory",
           "name": "Lesser Equilibrium Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.5,
-            "max": 0.7,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_equilibrium_deck_core#inventory",
-          "name": "Greater Equilibrium Core",
-          "colour": 16769382
         }
       },
       "type": "stat_efficiency",
@@ -49,16 +39,6 @@
           "modelId": "the_vault:deck_cores/lesser_harvest_deck_core#inventory",
           "name": "Lesser Harvest Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.3,
-            "max": 0.5,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_harvest_deck_core#inventory",
-          "name": "Greater Harvest Core",
-          "colour": 16769382
         }
       },
       "type": "resource_requirement",
@@ -82,16 +62,6 @@
           "modelId": "the_vault:deck_cores/lesser_fortune_deck_core#inventory",
           "name": "Lesser Fortune Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.3,
-            "max": 0.5,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_fortune_deck_core#inventory",
-          "name": "Greater Fortune Core",
-          "colour": 16769382
         }
       },
       "type": "resource_double",
@@ -144,34 +114,25 @@
     },
     "shiny": {
       "modifierValue": {
-        "min": 0.5,
-        "max": 1.5,
+        "min": 0.25,
+        "max": 0.7,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.3,
-            "max": 0.3,
+            "min": 0.12,
+            "max": 0.12,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_shiny_deck_core#inventory",
           "name": "Lesser Shiny Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 1.5,
-            "max": 2.5,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_shiny_deck_core#inventory",
-          "name": "Greater Shiny Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [
-        "Foil"
+        "Foil",
+        "Stat"
       ],
       "requiredColors": [],
       "type": "global",
@@ -181,30 +142,20 @@
     },
     "steadfast": {
       "modifierValue": {
-        "min": 0.6,
-        "max": 1.2,
+        "min": 0.2,
+        "max": 0.45,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.3,
-            "max": 0.3,
+            "min": 0.1,
+            "max": 0.1,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_steadfast_deck_core#inventory",
           "name": "Lesser Steadfast Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 1.3,
-            "max": 1.8,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_steadfast_deck_core#inventory",
-          "name": "Greater Steadfast Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [
@@ -218,30 +169,20 @@
     },
     "crimson": {
       "modifierValue": {
-        "min": 0.1,
-        "max": 0.4,
+        "min": 0.05,
+        "max": 0.2,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.05,
-            "max": 0.05,
+            "min": 0.025,
+            "max": 0.025,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_crimson_deck_core#inventory",
           "name": "Lesser Crimson Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.4,
-            "max": 0.7,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_crimson_deck_core#inventory",
-          "name": "Greater Crimson Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [],
@@ -255,30 +196,20 @@
     },
     "azure": {
       "modifierValue": {
-        "min": 0.1,
-        "max": 0.4,
+        "min": 0.05,
+        "max": 0.2,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.05,
-            "max": 0.05,
+            "min": 0.025,
+            "max": 0.025,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_azure_deck_core#inventory",
           "name": "Lesser Azure Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.4,
-            "max": 0.7,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_azure_deck_core#inventory",
-          "name": "Greater Azure Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [],
@@ -292,30 +223,20 @@
     },
     "viridian": {
       "modifierValue": {
-        "min": 0.1,
-        "max": 0.4,
+        "min": 0.05,
+        "max": 0.2,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.05,
-            "max": 0.05,
+            "min": 0.025,
+            "max": 0.025,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_viridian_deck_core#inventory",
           "name": "Lesser Viridian Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.4,
-            "max": 0.7,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_viridian_deck_core#inventory",
-          "name": "Greater Viridian Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [],
@@ -329,30 +250,20 @@
     },
     "golden": {
       "modifierValue": {
-        "min": 0.1,
-        "max": 0.4,
+        "min": 0.05,
+        "max": 0.2,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.05,
-            "max": 0.05,
+            "min": 0.025,
+            "max": 0.025,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_golden_deck_core#inventory",
           "name": "Lesser Golden Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.4,
-            "max": 0.7,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_golden_deck_core#inventory",
-          "name": "Greater Golden Core",
-          "colour": 16769382
         }
       },
       "requiredGroups": [],
@@ -409,30 +320,20 @@
     },
     "pure": {
       "modifierValue": {
-        "min": 0.02,
-        "max": 0.05,
+        "min": 0.005,
+        "max": 0.0125,
         "type": "uniform"
       },
       "modifierValues": {
         "lesser": {
           "value": {
-            "min": 0.01,
-            "max": 0.01,
+            "min": 0.0025,
+            "max": 0.0025,
             "type": "uniform"
           },
           "modelId": "the_vault:deck_cores/lesser_pure_deck_core#inventory",
           "name": "Lesser Pure Core",
           "colour": 13618375
-        },
-        "greater": {
-          "value": {
-            "min": 0.07,
-            "max": 0.1,
-            "type": "uniform"
-          },
-          "modelId": "the_vault:deck_cores/greater_pure_deck_core#inventory",
-          "name": "Greater Pure Core",
-          "colour": 16769382
         }
       },
       "type": "non_foil_efficiency",
@@ -600,5 +501,8 @@
         "weight": 1.0
       }
     ]
+  },
+  "recycleJuice": {
+    "normal": 16
   }
 }

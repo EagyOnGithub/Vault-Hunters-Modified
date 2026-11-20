@@ -833,7 +833,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.1,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -844,7 +844,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.2,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -855,7 +855,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.3,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -866,7 +866,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.4,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -877,7 +877,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.5,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -888,7 +888,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.6,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -899,7 +899,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.7,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -910,7 +910,7 @@
           {
             "type": "high_health_gear_attribute",
             "attribute": "the_vault:mana_regen",
-            "healthThreshold": 0.99,
+            "healthThreshold": 0.8,
             "value": 0.8,
             "effect": "the_vault:sorcery",
             "learnPointCost": 1,
@@ -926,9 +926,9 @@
         "name": "Prime Amplification",
         "tiers": [
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.05,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -937,9 +937,9 @@
             "id": "primeamp_1"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.1,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -948,9 +948,9 @@
             "id": "primeamp_2"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.15,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -959,9 +959,9 @@
             "id": "primeamp_3"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.2,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -970,9 +970,9 @@
             "id": "primeamp_4"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.25,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -981,9 +981,9 @@
             "id": "primeamp_5"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
             "value": 0.3,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
@@ -992,10 +992,10 @@
             "id": "primeamp_6"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
-            "value": 0.35,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
+            "value": 0.4,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1003,10 +1003,10 @@
             "id": "primeamp_7"
           },
           {
-            "type": "high_health_gear_attribute",
-            "attribute": "the_vault:area_of_effect",
-            "healthThreshold": 0.8,
-            "value": 0.4,
+            "type": "high_mana_gear_attribute",
+            "attribute": "the_vault:area_of_effect_amplification",
+            "manaThreshold": 0.8,
+            "value": 0.5,
             "effect": "the_vault:prime_amplification",
             "learnPointCost": 1,
             "regretPointCost": 1,
@@ -1145,7 +1145,7 @@
           {
             "type": "lightning_stun",
             "stunChance": 0.25,
-            "stunDuration": 2,
+            "stunDuration": 6,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1153,7 +1153,7 @@
           {
             "type": "lightning_stun",
             "stunChance": 0.3,
-            "stunDuration": 3,
+            "stunDuration": 6,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0
@@ -1161,7 +1161,7 @@
           {
             "type": "lightning_stun",
             "stunChance": 0.35,
-            "stunDuration": 4,
+            "stunDuration": 6,
             "learnPointCost": 1,
             "regretPointCost": 1,
             "unlockLevel": 0

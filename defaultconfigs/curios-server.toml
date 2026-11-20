@@ -42,7 +42,7 @@
 	size = 1
 	visible = true
 	cosmetic = false
-	icon = "curios:item/empty_cosmetic_slot"
+	icon = "the_vault:gui/slot/curios/trinket_slot"
 
 [[curiosSettings]]
 	identifier = "blue_trinket"
@@ -50,7 +50,7 @@
 	size = 1
 	visible = true
 	cosmetic = false
-	icon = "curios:item/empty_cosmetic_slot"
+	icon = "the_vault:gui/slot/curios/trinket_slot"
 
 [[curiosSettings]]
 	identifier = "charm"

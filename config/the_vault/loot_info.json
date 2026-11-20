@@ -56,9 +56,9 @@
     "the_vault:completion_crate_elixir": {
       "display": "Elixir Completion Crates",
       "lootTableKeys": {
-        "the_vault:base_crate_0": {"level": 0},
+        "the_vault:completion_elix_lvl0": {"level": 0},
         "the_vault:base_crate_20": {"level": 20},
-        "the_vault:base_crate_50": {"level": 50}
+        "the_vault:base_crate_2_50": {"level": 50}
       }
     },
     "the_vault:completion_crate_guardian": {
@@ -80,9 +80,9 @@
     "the_vault:completion_crate_brazier": {
       "display": "Brazier Completion Crates",
       "lootTableKeys": {
-        "the_vault:base_crate_0": {"level": 0},
+        "the_vault:completion_elix_lvl0": {"level": 0},
         "the_vault:base_crate_20": {"level": 20},
-        "the_vault:brazier_crate_50": {"level": 50}
+        "the_vault:base_crate_2_50": {"level": 50}
       }
     },
     "the_vault:completion_crate_scavenger": {
@@ -91,6 +91,14 @@
         "the_vault:base_crate_2_0": {"level": 0},
         "the_vault:base_crate_2_20": {"level": 20},
         "the_vault:base_crate_2_50": {"level": 50}
+      }
+    },
+    "the_vault:completion_crate_chaos": {
+      "display": "Chaos Completion Crates",
+      "lootTableKeys": {
+        "the_vault:chaos_crate_0": {"level": 0},
+        "the_vault:chaos_crate_20": {"level": 20},
+        "the_vault:chaos_crate_50": {"level": 50}
       }
     },
     "the_vault:completion_crate_paradox": {
@@ -152,9 +160,8 @@
     "the_vault:champion": {
       "display": "Champions",
       "lootTableKeys": {
-        "the_vault:champion_loot_lvl0": {"level": 0},
-        "the_vault:champion_loot_lvl20": {"level": 20},
-        "the_vault:champion_loot_lvl50": {"level": 50}
+        "the_vault:champion_loot": {"level": 0},
+        "the_vault:champion_loot_50": {"level": 50}
       }
     }
   }

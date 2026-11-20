@@ -377,7 +377,7 @@
             "type": "weighted_target",
             "target": "minecraft:mossy_stone_bricks",
             "output": {
-                "minecraft:cracked_stripped_jungle_log": 1
+                "minecraft:stripped_jungle_log": 1
             }
         },
         {

@@ -185,10 +185,6 @@
       "value": "Läcker"
     },
     {
-      "item": "the_vault:soul_flame",
-      "value": "Placera denna Vault-sten på ett Vault-altare för att skapa einen Herausforderer-kristall zu erstellen, der <#19ebef>Aufstieg <gray>zu deinem kristall hinzufügt"
-    },
-    {
       "item": "the_vault:plunderer_pearl",
       "value": "Placera denna Vault-sten på ett Vault-altare för att skapa einen Plünderer-kristall zu erstellen, der keine erfarenhet oder Artefakte gewährt, aber die Beutemenge för att <yellow>10% <gray>und die Vault-Erzgeneration för att <yellow>25% <gray>erhöht"
     },

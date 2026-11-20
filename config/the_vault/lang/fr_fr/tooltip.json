@@ -185,10 +185,6 @@
       "value": "Delicieux"
     },
     {
-      "item": "the_vault:soul_flame",
-      "value": "Placez cette Roche de Caveau sur un Autel de Caveau pour creer un Cristal du Challenger, qui ajoute l'<#19ebef>Ascension <gray>a votre Cristal"
-    },
-    {
       "item": "the_vault:plunderer_pearl",
       "value": "Placez cette Roche de Caveau sur un Autel de Caveau pour creer un Cristal du Pilleur, le caveau ne rapportera ni experience ni artefacts, mais augmente la quantite de butin de <yellow>10% <gray>et la generation de minerai de caveau de <yellow>25%"
     },

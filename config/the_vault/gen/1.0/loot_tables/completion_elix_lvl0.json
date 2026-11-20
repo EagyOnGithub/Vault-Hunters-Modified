@@ -3,10 +3,21 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
+        {
+          "weight": 9,
+          "item": {
+            "id": "minecraft:air",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
         {
           "weight": 1,
           "pool": [
@@ -14,13 +25,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:sword",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -28,13 +39,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:axe",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -42,13 +53,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:helmet",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -56,13 +67,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:chestplate",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -70,13 +81,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:leggings",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -84,13 +95,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:boots",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -98,13 +109,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:shield",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
                 }
               }
             },
@@ -112,13 +123,480 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:wand",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_omega"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        {
+          "weight": 7,
+          "item": {
+            "id": "minecraft:air",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:wand",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_epic"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        {
+          "weight": 3,
+          "item": {
+            "id": "minecraft:air",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:wand",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "minecraft:air",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sword",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:axe",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:helmet",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:chestplate",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:leggings",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:boots",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:shield",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:wand",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
                 }
               }
             }
@@ -140,13 +618,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:sword",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -154,13 +632,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:axe",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -168,13 +646,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:helmet",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -182,13 +660,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:chestplate",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -196,13 +674,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:leggings",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -210,13 +688,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:boots",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -224,13 +702,13 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:shield",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             },
@@ -238,13 +716,27 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:wand",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_kill"
-                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                },
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_completion_crate_mono"
                 }
               }
             }
@@ -263,12 +755,9 @@
           "weight": 1,
           "pool": [
             {
-              "weight": 16,
+              "weight": 35,
               "item": {
-                "id": "the_vault:sword",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
+                "id": "the_vault:gemstone",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -276,269 +765,8 @@
                 }
               }
             },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:axe",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:helmet",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:chestplate",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:leggings",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:boots",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:shield",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:wand",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_elix"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 3,
-        "max": 3
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 32,
-              "item": {
-                "id": "the_vault:jewel",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "jewel_completion_crate"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 2,
-        "max": 2
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 32,
-              "item": {
-                "id": "the_vault:jewel",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "jewel_completion_crate_two"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 1,
-        "max": 1
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:vault_gold",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 16
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 1,
-        "max": 1
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:bitter_lemon",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:mystery_egg",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 5,
-        "max": 5
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:sweet_kiwi",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:crystal_seal_empty",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:bounty_pearl",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            }
-          ]
+{ "weight": 65, "item": { "id": "minecraft:air" } }
+]
         }
       ]
     }

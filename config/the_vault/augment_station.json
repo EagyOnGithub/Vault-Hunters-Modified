@@ -137,6 +137,11 @@
       "craftable": true
     },
     {
+      "augment": "Holidays",
+      "tier": 2,
+      "craftable": true
+    },
+    {
       "augment": "Nether",
       "tier": 3,
       "craftable": true

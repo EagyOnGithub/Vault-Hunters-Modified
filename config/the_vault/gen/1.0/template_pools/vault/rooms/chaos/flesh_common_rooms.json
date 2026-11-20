@@ -356,7 +356,7 @@
     "value": {
       "template": "the_vault:vault/rooms/common/ore1",
       "palettes": [
-        "the_vault:generic/ore_placeholder_alternate_flesh",
+        "the_vault:generic/ore_placeholder_alternate",
         "the_vault:chaos/chaos_chest_randomize",
         "the_vault:universal_flesh",
 		"the_vault:chaos/chaos_antique_tags"
@@ -368,7 +368,7 @@
     "value": {
       "template": "the_vault:vault/rooms/common/ore2",
       "palettes": [
-        "the_vault:generic/ore_placeholder_alternate_flesh",
+        "the_vault:generic/ore_placeholder_alternate",
         "the_vault:chaos/chaos_chest_randomize",
         "the_vault:universal_flesh",
 		"the_vault:chaos/chaos_antique_tags"
@@ -380,7 +380,7 @@
     "value": {
       "template": "the_vault:vault/rooms/common/ore3",
       "palettes": [
-        "the_vault:generic/ore_placeholder_alternate_flesh",
+        "the_vault:generic/ore_placeholder_alternate",
         "the_vault:chaos/chaos_chest_randomize",
         "the_vault:universal_flesh",
 		"the_vault:chaos/chaos_antique_tags"
@@ -392,7 +392,7 @@
     "value": {
       "template": "the_vault:vault/rooms/common/ore4",
       "palettes": [
-        "the_vault:generic/ore_placeholder_alternate_flesh",
+        "the_vault:generic/ore_placeholder_alternate",
         "the_vault:chaos/chaos_chest_randomize",
         "the_vault:universal_flesh",
 		"the_vault:chaos/chaos_antique_tags"

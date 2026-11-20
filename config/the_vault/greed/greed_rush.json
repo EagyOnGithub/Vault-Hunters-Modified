@@ -2,12 +2,20 @@
   "baseVaultTimeTicks": 18000,
   "cashoutObjectiveProbability": 0.1,
   "targetIncreasePerBar": 0.5,
-  "sourceValueIncreasePerBar": 0.15,
+  "mobValueIncreasePerBar": 0.15,
+  "mobHealthAtGreedTierZero": 4.0,
+  "mobHealthOverridesByGreedTier": {
+    "1": 2.0,
+    "2": 5.0
+  },
+  "mobDamageAtGreedTierZero": 1.0,
+  "vaultXpPercentPerGreedTier": 10.0,
   "timeRewardTicks": {
     "min": 1200,
     "max": 6000,
     "type": "uniform"
   },
+  "timeGainFalloffPerCompletedBar": 0.85,
   "greedCrystalCostIncreasePerCraft": 0.05,
   "greedCrystalMaxCostMultiplier": 6.0,
   "greedCrystalPillars": {
@@ -34,7 +42,7 @@
           "the_vault:wild_focus", "the_vault:amplifying_focus", "the_vault:nullifying_focus", "the_vault:opportunistic_focus",
           "the_vault:resilient_focus", "the_vault:fundamental_focus", "the_vault:faceted_focus", "the_vault:chaotic_focus",
           "the_vault:waxing_focus", "the_vault:waning_focus", "the_vault:empowered_chaotic_focus", "the_vault:cryonic_focus",
-          "the_vault:pyretic_focus", "the_vault:adaptive_focus"
+          "the_vault:pyretic_focus"
         ],
         "minAmount": 240, "maxAmount": 400
       },
@@ -67,8 +75,8 @@
       "target": [
         {
           "value": {
-            "min": 900,
-            "max": 1100,
+            "min": 1125,
+            "max": 1375,
             "type": "uniform"
           },
           "weight": 1.0
@@ -78,15 +86,15 @@
         {
           "value": {
             "min": 1,
-            "max": 5,
+            "max": 2,
             "type": "uniform"
           },
           "weight": 9.0
         },
         {
           "value": {
-            "min": 6,
-            "max": 14,
+            "min": 4,
+            "max": 8,
             "type": "uniform"
           },
           "weight": 1.0
@@ -95,8 +103,16 @@
       "livingChest": [
         {
           "value": {
-            "min": 1,
-            "max": 14,
+            "min": 2,
+            "max": 4,
+            "type": "uniform"
+          },
+          "weight": 19.0
+        },
+        {
+          "value": {
+            "min": 20,
+            "max": 30,
             "type": "uniform"
           },
           "weight": 1.0
@@ -105,8 +121,16 @@
       "gildedChest": [
         {
           "value": {
-            "min": 1,
-            "max": 14,
+            "min": 2,
+            "max": 4,
+            "type": "uniform"
+          },
+          "weight": 19.0
+        },
+        {
+          "value": {
+            "min": 20,
+            "max": 30,
             "type": "uniform"
           },
           "weight": 1.0
@@ -115,8 +139,16 @@
       "ornateChest": [
         {
           "value": {
-            "min": 1,
-            "max": 14,
+            "min": 2,
+            "max": 4,
+            "type": "uniform"
+          },
+          "weight": 19.0
+        },
+        {
+          "value": {
+            "min": 20,
+            "max": 30,
             "type": "uniform"
           },
           "weight": 1.0
@@ -136,7 +168,15 @@
         {
           "value": {
             "min": 1,
-            "max": 14,
+            "max": 2,
+            "type": "uniform"
+          },
+          "weight": 19.0
+        },
+        {
+          "value": {
+            "min": 15,
+            "max": 25,
             "type": "uniform"
           },
           "weight": 1.0
@@ -148,16 +188,16 @@
           "rolls": [
             {
               "value": {
-                "min": 0,
-                "max": 5,
+                "min": 2,
+                "max": 7,
                 "type": "uniform"
               },
               "weight": 9.0
             },
             {
               "value": {
-                "min": 6,
-                "max": 14,
+                "min": 9,
+                "max": 18,
                 "type": "uniform"
               },
               "weight": 1.0
@@ -169,8 +209,8 @@
           "rolls": [
             {
               "value": {
-                "min": 1,
-                "max": 14,
+                "min": 4,
+                "max": 22,
                 "type": "uniform"
               },
               "weight": 1.0
@@ -182,8 +222,8 @@
           "rolls": [
             {
               "value": {
-                "min": 1,
-                "max": 14,
+                "min": 4,
+                "max": 22,
                 "type": "uniform"
               },
               "weight": 1.0

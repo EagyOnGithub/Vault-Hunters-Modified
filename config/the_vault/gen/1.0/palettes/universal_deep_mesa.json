@@ -305,7 +305,7 @@
       "target": "minecraft:oak_door",
       "output": {
         "mcwdoors:oak_cottage_door": 2,
-        "mcwdoors:oak_classic_door": 1
+        "minecraft:oak_door": 1
       }
     },
     {

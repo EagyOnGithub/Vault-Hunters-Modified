@@ -1,13 +1,13 @@
 name = "Chestmonster"
-filename = "chestmonster-1.18.2-1.0.0.jar"
+filename = "chestmonster-1.18.2-1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c38272acec92c90baa0c3e4b115788c0a8c34802"
+hash = "e2751089e876519209f525ff2b3eec42d2eb9b77"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8164243
+file-id = 9690964
 project-id = 1557354

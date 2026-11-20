@@ -268,6 +268,10 @@
           {
             "value": "Epic",
             "weight": 5
+          },
+          {
+            "value": "Omega",
+            "weight": 1
           }
         ]
       }
@@ -552,6 +556,48 @@
           {
             "value": "Omega",
             "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_found": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 70
+          },
+          {
+            "value": "Epic",
+            "weight": 22
+          },
+          {
+            "value": "Omega",
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "jewel_pouch": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 690
+          },
+          {
+            "value": "Epic",
+            "weight": 217
+          },
+          {
+            "value": "Omega",
+            "weight": 79
+          },
+          {
+            "value": "Unique",
+            "weight": 15
           }
         ]
       }

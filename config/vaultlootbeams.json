@@ -12,6 +12,7 @@
     "the_vault:focus",
     "the_vault:shield",
     "the_vault:vault_god_charm",
+    "the_vault:greedy_charm",
     "the_vault:axe",
     "the_vault:sword",
     "the_vault:magnet",
@@ -21,7 +22,8 @@
     "the_vault:blank_key",
     "the_vault:unidentified_treasure_key",
     "the_vault:knowledge_star",
-    "the_vault:antique"
+    "the_vault:antique",
+    "the_vault:fury_rune"
   ],
   "renderBlacklist": [],
   "beamRadius": 1.0,

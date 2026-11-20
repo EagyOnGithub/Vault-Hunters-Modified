@@ -135,6 +135,7 @@
     "the_vault:ore_echo": 256.0
   },
   "treasureRoomsOpened": 3400.0,
+  "championsKilled": 4000.0,
   "mobsKilled": {
     "minecraft:default": 0.0,
 
@@ -409,7 +410,7 @@
     "monolith": {
       "BAILED": 0,
       "FAILED": 0,
-      "COMPLETED": 7000
+      "COMPLETED": 12000
     },
     "cake": {
       "BAILED": 0,
@@ -435,6 +436,11 @@
       "BAILED": 0,
       "FAILED": 0,
       "COMPLETED": 0
+    },
+    "raw": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 2000
     }
   }
 }

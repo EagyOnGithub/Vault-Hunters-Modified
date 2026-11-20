@@ -15,7 +15,8 @@
       },
       "name": "Entangled",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -32,7 +33,8 @@
       },
       "name": "Industrial Foregoing",
       "cost": 8,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -49,7 +51,8 @@
       },
       "name": "Pneumaticraft",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -66,7 +69,8 @@
       },
       "name": "Laser IO",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -89,7 +93,8 @@
         "the_vault:gear/armor/scout/chestplate",
         "the_vault:gear/armor/scout/leggings",
         "the_vault:gear/armor/scout/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -106,7 +111,8 @@
       },
       "name": "Waystones",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -129,7 +135,8 @@
         "the_vault:gear/armor/torch/chestplate",
         "the_vault:gear/armor/torch/leggings",
         "the_vault:gear/armor/torch/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -152,7 +159,8 @@
         "the_vault:gear/armor/trash/chestplate",
         "the_vault:gear/armor/trash/leggings",
         "the_vault:gear/armor/trash/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -176,7 +184,8 @@
         "the_vault:gear/armor/builder/chestplate",
         "the_vault:gear/armor/builder/leggings",
         "the_vault:gear/armor/builder/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -193,7 +202,8 @@
       },
       "name": "Mining Gadgets",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -216,7 +226,8 @@
         "the_vault:gear/armor/arcade/chestplate",
         "the_vault:gear/armor/arcade/leggings",
         "the_vault:gear/armor/arcade/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -239,7 +250,8 @@
         "the_vault:gear/armor/robotic/chestplate",
         "the_vault:gear/armor/robotic/leggings",
         "the_vault:gear/armor/robotic/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -256,7 +268,8 @@
       },
       "name": "Iron Furnaces",
       "cost": 4,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -273,7 +286,8 @@
       },
       "name": "Elevators",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -296,7 +310,8 @@
         "the_vault:gear/armor/xnet/chestplate",
         "the_vault:gear/armor/xnet/leggings",
         "the_vault:gear/armor/xnet/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -313,7 +328,8 @@
       },
       "name": "Modular Routers",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -330,7 +346,8 @@
       },
       "name": "Chunk Loading",
       "cost": 5,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -353,7 +370,8 @@
         "the_vault:gear/armor/zombie/chestplate",
         "the_vault:gear/armor/zombie/leggings",
         "the_vault:gear/armor/zombie/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -376,7 +394,8 @@
         "the_vault:gear/armor/botania/chestplate",
         "the_vault:gear/armor/botania/leggings",
         "the_vault:gear/armor/botania/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -399,7 +418,8 @@
         "the_vault:gear/armor/meka_light/chestplate",
         "the_vault:gear/armor/meka_light/leggings",
         "the_vault:gear/armor/meka_light/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -422,7 +442,8 @@
         "the_vault:gear/armor/villager/chestplate",
         "the_vault:gear/armor/villager/leggings",
         "the_vault:gear/armor/villager/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -439,7 +460,8 @@
       },
       "name": "Easy Piglins",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -456,7 +478,8 @@
       },
       "name": "Dark Utilities",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -483,7 +506,8 @@
         "the_vault:gear/armor/create/leggings",
         "the_vault:gear/armor/create/boots",
         "the_vault:gear/sword/create_sword"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -500,7 +524,8 @@
       },
       "name": "SNAD",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -517,7 +542,8 @@
       },
       "name": "Cagerium",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -540,7 +566,8 @@
         "the_vault:gear/armor/fairy/chestplate",
         "the_vault:gear/armor/fairy/leggings",
         "the_vault:gear/armor/fairy/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -563,7 +590,8 @@
         "the_vault:gear/armor/flux/chestplate",
         "the_vault:gear/armor/flux/leggings",
         "the_vault:gear/armor/flux/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -586,7 +614,8 @@
         "the_vault:gear/armor/thermal/chestplate",
         "the_vault:gear/armor/thermal/leggings",
         "the_vault:gear/armor/thermal/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -609,7 +638,8 @@
         "the_vault:gear/armor/powah/chestplate",
         "the_vault:gear/armor/powah/leggings",
         "the_vault:gear/armor/powah/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -632,7 +662,8 @@
         "the_vault:gear/armor/meka_dark/chestplate",
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "modIds": [
@@ -649,7 +680,8 @@
       },
       "name": "Creeper Power",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     }
   ],
   "CUSTOM_RESEARCHES": [
@@ -695,7 +727,8 @@
       "entityRestrictions": {},
       "name": "Iron Generators",
       "cost": 1,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -759,7 +792,8 @@
         "the_vault:gear/armor/atomatic/chestplate",
         "the_vault:gear/armor/atomatic/leggings",
         "the_vault:gear/armor/atomatic/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -838,7 +872,8 @@
       "entityRestrictions": {},
       "name": "Mekanism QIO",
       "cost": 6,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -886,7 +921,7 @@
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
-      "name": "Augment Station",
+      "name": "Augment Crafting",
       "cost": 3,
       "usesKnowledge": true
     },
@@ -999,18 +1034,11 @@
       "entityRestrictions": {},
       "name": "Thermal Dynamos",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"potion\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
+      "itemRestrictions": {},
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Potions",
@@ -1018,15 +1046,7 @@
       "usesKnowledge": true
     },
     {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"mixture\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
+      "itemRestrictions": {},
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Mixtures",
@@ -1034,15 +1054,7 @@
       "usesKnowledge": true
     },
     {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"brew\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
+      "itemRestrictions": {},
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Brews",
@@ -1063,7 +1075,8 @@
       "entityRestrictions": {},
       "name": "Digital Miner",
       "cost": 6,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -1079,7 +1092,8 @@
       "entityRestrictions": {},
       "name": "Phytogenic Insulator",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -1124,7 +1138,8 @@
         "the_vault:gear/armor/dank/chestplate",
         "the_vault:gear/armor/dank/leggings",
         "the_vault:gear/armor/dank/boots"
-      ]
+      ],
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -1301,7 +1316,8 @@
       "entityRestrictions": {},
       "name": "Barrels",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -1324,7 +1340,8 @@
       "entityRestrictions": {},
       "name": "Industrial Mob Farm",
       "cost": 3,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {
@@ -1340,7 +1357,8 @@
       "entityRestrictions": {},
       "name": "Botania Flux Field",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "gameruleLock": true
     },
     {
       "itemRestrictions": {

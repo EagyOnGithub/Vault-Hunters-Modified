@@ -82,7 +82,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:xmark\", data:{color:7012096,model:15}, display:{Name:'{\"text\":\"X-Mark Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:xmark\", data:{color:15769088,model:15}, display:{Name:'{\"text\":\"X-Mark Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -127,12 +127,12 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:dragon\", data:{color:7012096,model:7}, display:{Name:'{\"text\":\"Dragon Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:dragon\", data:{color:15769088,model:7}, display:{Name:'{\"text\":\"Dragon Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
           "AMOUNT": 32,
-          "ITEM": "the_vault:bounty_pearl",
+          "ITEM": "the_vault:vault_diamond",
           "NBT": "{}"
         },
         {
@@ -153,7 +153,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:wildwest\", data:{color:7012096,model:14}, display:{Name:'{\"text\":\"Wild West Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:wildwest\", data:{color:15769088,model:14}, display:{Name:'{\"text\":\"Wild West Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -178,7 +178,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:crystal_cave\", data:{color:7012096,model:5}, display:{Name:'{\"text\":\"Crystal Caverns Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:crystal_cave\", data:{color:15769088,model:5}, display:{Name:'{\"text\":\"Crystal Caverns Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -203,7 +203,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:factory\", data:{color:7012096,model:8}, display:{Name:'{\"text\":\"Factory Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:factory\", data:{color:15769088,model:8}, display:{Name:'{\"text\":\"Factory Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -233,7 +233,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:village\", data:{color:7012096,model:13}, display:{Name:'{\"text\":\"Village Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:village\", data:{color:15769088,model:13}, display:{Name:'{\"text\":\"Village Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -268,7 +268,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:raid_room\", data:{color:7012096,model:19}, display:{Name:'{\"text\":\"Raid Room Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:raid_room\", data:{color:15769088,model:19}, display:{Name:'{\"text\":\"Raid Room Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -298,7 +298,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:the_lab\", data:{color:7012096,model:20}, display:{Name:'{\"text\":\"The Laboratory Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:the_lab\", data:{color:15769088,model:20}, display:{Name:'{\"text\":\"The Laboratory Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -328,7 +328,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:temple\", data:{color:7012096,model:22}, display:{Name:'{\"text\":\"Temple Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:temple\", data:{color:15769088,model:22}, display:{Name:'{\"text\":\"Temple Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -358,7 +358,7 @@
       "output": {
         "AMOUNT": 1,
         "ITEM": "the_vault:inscription",
-        "NBT": "{pool:\"the_vault:memory\", data:{color:7012096,model:23}, display:{Name:'{\"text\":\"Memory Inscription\",\"color\":\"#F09E00\"}' }}"
+        "NBT": "{pool:\"the_vault:memory\", data:{color:15769088,model:23}, display:{Name:'{\"text\":\"Memory Inscription\",\"color\":\"#F09E00\"}' }}"
       },
       "inputs": [
         {
@@ -515,7 +515,7 @@
       "inputs": [
         {
           "AMOUNT": 32,
-          "ITEM": "the_vault:bounty_pearl",
+          "ITEM": "the_vault:vault_diamond",
           "NBT": "{}"
         },
         {
@@ -560,7 +560,7 @@
         },
         {
           "AMOUNT": 8,
-          "ITEM": "the_vault:bounty_pearl",
+          "ITEM": "the_vault:vault_diamond",
           "NBT": "{}"
         },
         {

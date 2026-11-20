@@ -78,6 +78,11 @@
                   "count": 1
                 },
                 {
+                  "action": "raid_uniques",
+                  "probability": 0.055,
+                  "count": 1
+                },
+                {
                   "action": "negative",
                   "probability": 1.0,
                   "count": 1

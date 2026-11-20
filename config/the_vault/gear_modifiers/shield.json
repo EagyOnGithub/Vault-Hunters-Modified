@@ -787,7 +787,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Healing",
               "potion": "minecraft:empty",
@@ -810,7 +810,7 @@
           {
             "minLevel": 32,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Healing II",
               "potion": "minecraft:empty",
@@ -833,7 +833,7 @@
           {
             "minLevel": 64,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Healing III",
               "potion": "minecraft:empty",
@@ -856,7 +856,7 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 4,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Healing IV",
               "potion": "minecraft:empty",
@@ -879,7 +879,7 @@
           {
             "minLevel": 102,
             "maxLevel": -1,
-            "weight": 4,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Healing V",
               "potion": "minecraft:empty",
@@ -912,7 +912,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Chilling",
               "potion": "minecraft:empty",
@@ -935,7 +935,7 @@
           {
             "minLevel": 32,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Chilling II",
               "potion": "minecraft:empty",
@@ -958,7 +958,7 @@
           {
             "minLevel": 64,
             "maxLevel": -1,
-            "weight": 100,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Chilling III",
               "potion": "minecraft:empty",
@@ -981,7 +981,7 @@
           {
             "minLevel": 101,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Chilling IV",
               "potion": "minecraft:empty",
@@ -1004,7 +1004,7 @@
           {
             "minLevel": 102,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 0,
             "value": {
               "tooltipDisplayName": "Chilling V",
               "potion": "minecraft:empty",
@@ -1022,6 +1022,106 @@
               "color": 3138042,
               "affectsOwner": false,
               "triggerChance": 0.05
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:healing_cloud_when_hit_chance",
+        "group": "ModOnHit",
+        "identifier": "the_vault:healing_cloud_when_hit_chance",
+        "tags": [
+          "focusHealingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.04,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 51,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "min": 0.17,
+              "max": 0.19,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 4,
+            "value": {
+              "min": 0.2,
+              "max": 0.22,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:chilling_cloud_when_hit_chance",
+        "group": "ModOnHit",
+        "identifier": "the_vault:chilling_cloud_when_hit_chance",
+        "tags": [
+          "focusChillingCloud"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.04,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 51,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.16,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.17,
+              "max": 0.19,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.2,
+              "max": 0.22,
+              "step": 0.01
             }
           }
         ]
@@ -2656,7 +2756,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 0,
             "value": {
               "levelChange": 1,
               "abilityKey": "ULTIMATE"
@@ -2665,7 +2765,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 0,
             "value": {
               "levelChange": 2,
               "abilityKey": "ULTIMATE"
@@ -2674,7 +2774,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 0,
             "value": {
               "levelChange": 3,
               "abilityKey": "ULTIMATE"
@@ -2683,7 +2783,7 @@
           {
             "minLevel": 0,
             "maxLevel": -1,
-            "weight": 250,
+            "weight": 0,
             "value": {
               "levelChange": 4,
               "abilityKey": "ULTIMATE"
@@ -2862,6 +2962,164 @@
               "min": 0.21,
               "max": 0.5,
               "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:cloud_mana",
+        "group": "ModCloudMana",
+        "identifier": "the_vault:u_cloud_mana",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 1,
+              "max": 4,
+              "step": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:crystal_edge",
+        "group": "ModCrystalEdge",
+        "identifier": "the_vault:u_crystal_edge",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 0.2,
+              "max": 0.5,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:overflowing_heart",
+        "group": "ModOverflowingHeart",
+        "identifier": "the_vault:u_overflowing_heart",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 0.15,
+              "max": 0.25,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:shackles",
+        "group": "ModShackles",
+        "identifier": "the_vault:u_shackles",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 1,
+              "max": 4,
+              "step": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:war_mark",
+        "group": "ModWarMark",
+        "identifier": "the_vault:u_war_mark",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 1,
+              "max": 3,
+              "step": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:sticky_honey",
+        "group": "ModStickyHoney",
+        "identifier": "the_vault:u_sticky_honey",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:pacifist",
+        "group": "ModPacifist",
+        "identifier": "the_vault:u_pacifist",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 0.15,
+              "max": 0.3,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:pox",
+        "group": "ModPox",
+        "identifier": "the_vault:u_pox",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 4,
+              "max": 8,
+              "step": 1
             }
           }
         ]

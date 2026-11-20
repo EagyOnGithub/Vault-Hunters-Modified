@@ -277,11 +277,14 @@
       }
     },
     "Storm_Arrow": {
-      "x": 0,
-      "y": 265,
+      "x": 385,
+      "y": 17,
       "specializationStyles": {
         "Storm_Arrow_Base": {
           "icon": "the_vault:gui/abilities/thunderstorm"
+        },
+        "Storm_Arrow_Meteor": {
+          "icon": "the_vault:gui/abilities/meteor_arrow"
         }
       }
     },
@@ -418,15 +421,6 @@
       },
       "x": -15,
       "y": 97
-    },
-    {
-      "label": {
-        "description": {
-          "text": "Ultimate"
-        }
-      },
-      "x": -15,
-      "y": 228
     }
   ],
   "lines": [

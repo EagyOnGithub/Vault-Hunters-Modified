@@ -226,7 +226,7 @@
     "the_vault:ship_in_a_bottle": {
       "info": {
         "name": "Ship in a Bottle",
-        "rewardDescription": "Lost Bounty",
+        "rewardDescription": "1 Cove Inscription",
         "subtext": "The spirit of adventure\nIn a bottle",
         "requiredCount": 3
       },
@@ -234,7 +234,9 @@
         "results": [
           {
             "item": {
-              "item": "the_vault:lost_bounty"
+              "item": "the_vault:inscription",
+              "amount": 1,
+              "nbt": "{pool:\"the_vault:cove\", data:{color:7012096,model:4}, display:{Name:'{\"text\":\"Cove Inscription\",\"color\":\"#6AFF00\"}' }}"
             },
             "weight": 1.0
           }
@@ -1003,10 +1005,10 @@
           },
           {
             "tag": [
-              "THEME_HONEY_CAVE"
+              "THEME_LIVING_CAVE"
             ],
             "type": "the_vault:tag",
-            "display": "In the Honey Cave Theme"
+            "display": "In Glimmergrove's Honey biome"
           },
           {
             "types": [
@@ -1174,7 +1176,7 @@
     "the_vault:nazar_boncugu": {
       "info": {
         "name": "Nazar Boncugu",
-        "rewardDescription": "2 Chaotic Vault Rock",
+        "rewardDescription": "2 Seals of Chaos",
         "subtext": "It will protect you from the evil eye",
         "requiredCount": 21
       },
@@ -1182,7 +1184,7 @@
         "results": [
           {
             "item": {
-              "item": "the_vault:vault_catalyst_chaos"
+              "item": "the_vault:crystal_seal_chaos"
             },
             "weight": 1.0
           }
@@ -1246,7 +1248,7 @@
         "results": [
           {
             "item": {
-              "item": "the_vault:vault_catalyst_chaos"
+              "item": "the_vault:crystal_seal_chaos"
             },
             "weight": 1.0
           },
@@ -1772,7 +1774,7 @@
           {
             "item": {
               "item": "the_vault:augment",
-              "nbt": "{theme:\"the_vault:classic_vault_factory_void\"}"
+              "nbt": "{series:\"Void\"}"
             },
             "weight": 1.0
           }

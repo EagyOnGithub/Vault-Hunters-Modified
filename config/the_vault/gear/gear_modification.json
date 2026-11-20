@@ -87,11 +87,11 @@
       "negativePotentialCostMultiplier": 1.0,
       "additionalItemCost": 128
     },
-    "the_vault:improve_gear_level": {
-      "potentialUseMin": 32,
-      "potentialUseMax": 32,
-      "baseCostMultiplier": 55.0,
-      "negativePotentialCostMultiplier": 12.0
+    "the_vault:legendary_affix": {
+      "potentialUseMin": 48,
+      "potentialUseMax": 48,
+      "baseCostMultiplier": 32.0,
+      "negativePotentialCostMultiplier": 1.2
     }
   }
 }

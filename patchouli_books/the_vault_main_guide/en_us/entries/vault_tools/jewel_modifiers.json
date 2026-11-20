@@ -15,13 +15,13 @@
     {
       "type": "patchouli:text",
       "title": "Jewel Modifiers",
-      "text": "$(br)Jewel Modifiers can give a Vault Tool the corresponding $(l)functionality$(). This means a base Pick could function as an Axe.$(br2)Chests within Vaults can be broken with their $(l)Affinities$(). These are required to $(l)instantly$() break all Chest types, except Wooden Chests."
+      "text": "$(br)Jewel Modifiers can give a Vault Tool the corresponding $(l)functionality$(). This means a base Pick could function as an Axe.$(br2)Chests within Vaults can be broken with $(l)Affinities$(). $(l)Looter Affinity$() slices Wooden, Ornate, Gilded and Living Chests, one stack per hit.$(br2)Coin Piles need no Affinity, they break by hand."
     },
 
     {
       "type": "patchouli:text",
       "title": "Prefixes",
-      "text": "$(li)$(l)Wooden Affinity$()$(li2)Wooden Chest mining speed$()$(br)$(li)$(l)Gilded Affinity$()$(li2)Gilded Chest mining speed$()$(br)$(li)$(l)Living Affinity$()$(li2)Living Chest mining speed$()$(br)$(li)$(l)Ornate Affinity$()$(li2)Ornate Chest mining speed$()$(br)$(li)$(l)Coin Affinity$()$(li2)Coin Pile mining speed$()"
+      "text": "$(li)$(l)Looter Affinity$()$(li2)Slices Wooden, Ornate, Gilded and Living Chests$()"
     },
 
     {

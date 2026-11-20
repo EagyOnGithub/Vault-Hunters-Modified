@@ -2371,7 +2371,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 10
+              "weight": 22
             }
 
           ],
@@ -2435,7 +2435,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 12
+              "weight": 25
             }
 
           ],
@@ -2465,7 +2465,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 50
+              "weight": 150
             }
 
           ],
@@ -2497,7 +2497,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 12
+              "weight": 25
             }
 
           ],
@@ -2526,7 +2526,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 50
+              "weight": 150
             }
 
           ],
@@ -2557,7 +2557,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 50
+              "weight": 150
             }
 
           ],
@@ -2586,7 +2586,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 50
+              "weight": 150
             }
 
           ],
@@ -3079,7 +3079,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 12
+              "weight": 25
             }
 
           ],
@@ -3108,7 +3108,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 10
+              "weight": 22
             }
 
           ],
@@ -3139,7 +3139,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 12
+              "weight": 25
             }
 
           ],
@@ -3168,7 +3168,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 10
+              "weight": 22
             }
 
           ],
@@ -3348,7 +3348,7 @@
                 "ITEM": "minecraft:iron_sword",
                 "NBT": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
               },
-              "weight": 0
+              "weight": 6
             }
 
           ],

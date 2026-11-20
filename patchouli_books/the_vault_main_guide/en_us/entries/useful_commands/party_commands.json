@@ -15,7 +15,7 @@
     {
       "type": "patchouli:text",
       "title": "Party Commands",
-      "text": "$(li)$(c:/party create)$(t:Click to execute this command)$(l)/party create$()$(li2)Creates a party$()$(br)$(li)$(8)$(l)/party invite <player>$()$(li2)Invites a player to the party$()$(br)$(li)$(8)$(l)/party remove <player>$()$(li2)Removes a player from the party$()$(br)$(li)$(c:/party disband)$(t:Click to execute this command)$(l)/party disband$()$(li2)Disbands the party$()"
+      "text": "$(li)$(c:/party create)$(t:Click to execute this command)$(l)/party create$()$(li2)Creates a party$()$(br)$(li)$(8)$(l)/party invite <player>$()$(li2)Invites a player to the party$()$(br)$(li)$(8)$(l)/party remove <player>$()$(li2)Removes a player from the party (leader only)$()$(br)$(li)$(c:/party disband)$(t:Click to execute this command)$(l)/party disband$()$(li2)Disbands the party (leader only)$()"
     }
 
   ]

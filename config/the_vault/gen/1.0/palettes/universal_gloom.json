@@ -565,7 +565,7 @@
             "target": "quark:azalea_planks_stairs",
             "output": {
                 "auxiliaryblocks:gloomy_bricks_stairs": 4,
-                "minecraft:gloomy_crushed_rocks_stairs": 1
+                "auxiliaryblocks:gloomy_crushed_rocks_stairs": 1
             }
         },
         {

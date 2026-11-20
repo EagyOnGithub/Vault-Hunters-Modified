@@ -417,7 +417,7 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:vault_catalyst_chaos"
+              "item": "the_vault:crystal_seal_chaos"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 32,
@@ -852,17 +852,6 @@
         {
           "value": {
               "OFFER": {
-                  "item": "the_vault:lost_bounty"
-              },
-              "CURRENCY": "the_vault:vault_gold",
-              "MIN_COST": 24,
-              "MAX_COST": 64
-          },
-          "weight": 26
-        },
-        {
-          "value": {
-              "OFFER": {
                   "item": "the_vault:capstone_dungeon_hunter"
               },
               "CURRENCY": "the_vault:vault_gold",
@@ -907,7 +896,7 @@
         {
           "value": {
               "OFFER": {
-                  "item": "the_vault:vault_catalyst_chaos"
+                  "item": "the_vault:crystal_seal_chaos"
               },
               "CURRENCY": "the_vault:vault_gold",
               "MIN_COST": 32,
@@ -1352,17 +1341,6 @@
         },
         {
           "value": {
-            "OFFER": {
-              "item": "the_vault:lost_bounty"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 16,
-            "MAX_COST": 48
-          },
-          "weight": 27
-        },
-        {
-          "value": {
               "OFFER": {
                   "item": "the_vault:capstone_dungeon_hunter"
               },
@@ -1397,7 +1375,7 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:vault_catalyst_chaos"
+              "item": "the_vault:crystal_seal_chaos"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 16,

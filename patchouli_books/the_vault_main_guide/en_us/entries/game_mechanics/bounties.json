@@ -8,37 +8,31 @@
 
     {
       "type": "patchouli:text",
-      "text": "Bounties are $(l)challenges$() that can be completed in order to receive $(l)Vault Experience$() and $(l)resources$().$(br2)Bounties have 3 states: $(l)Available$(), $(l)Active$() and $(l)Completed$().$(br2)Available Bounties can be initiated using the Bounty Table. Once $(l)completed$(), the $(l)rewards$() can be claimed."
+      "text": "The $(l)Bounty Table$() offers three $(l)bounty scrolls$(). Each one is a job from the guild: clear vaults, hunt mobs, find loot or deliver items.$(br2)Pick a scroll to read it, $(l)take$() it, get it done and come back to the table to $(l)claim$() its reward."
     },
 
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:bounty_block",
-      "text": "$(l)Completing$() a Bounty will $(l)renew$() it after a small period. $(l)Active$() Bounties can also be abandoned, but trigger an $(l)abandon penalty$().$(br2)Available Bounties can be renewed using $(l)Bounty Pearls$()."
+      "text": "Ordinary bounties pay $(l)Renown$() and one reward, from Common to Omega. Greed Bounties pay $(l)Greed Reputation$().$(br2)You can see the payout on the scroll before you take it. A finished bounty makes room for a new scroll right away."
     },
 
     {
       "type": "patchouli:text",
-      "title": "Bounty Tasks",
-      "text": "$(li)$(l)Kill Entity$()$(li2)Unalive a number of entities inside a defined dimension$(br)$(li)$(l)Completion$()$(li2)Complete a number of Vaults, possibly based on an objective"
+      "title": "Bounty Hunter Rank",
+      "text": "Renown fills your $(l)Bounty Hunter Rank$(). Each of the first ten ranks has a reward you claim at the table, the first one being an $(l)Elytra$(). After that every rank pays a $(l)Bounty Crate$().$(br2)Higher ranks also make rarer bounty rewards more likely, a little less with every rank past ten."
     },
 
     {
       "type": "patchouli:text",
-      "title": "Bounty Tasks",
-      "text": "$(li)$(l)Item Submission$()$(li2)Submit a number of items to the Bounty Table$(br)$(li)$(l)Item Discovery$()$(li2)Find a number of items in Vaults$(br)$(li)$(l)Mining$()$(li2)Mine a number of ores in Vaults"
-    },
-
-    {
-      "type": "patchouli:spotlight",
-      "item": "the_vault:lost_bounty",
-      "title": "Legendary Bounties",
-      "text": "$(l)Lost Bounties$() can be found in $(l)Treasure Sand$() in $(l:the_vault/treasure_rooms)$(l)Treasure Rooms$().$(br2)They can initiate Legendary Bounties by $(l)right-clicking$() on a Bounty Table.$(br2)Legendary Bounties are $(l)separate$() from regular Bounties and can be completed simultaneously."
+      "title": "Refreshing the Board",
+      "text": "Don't like the scrolls on offer? $(l)Refresh$() the board for a little $(l)Vault Gold$(). Each refresh makes the next one a little pricier, each finished bounty brings the price back down.$(br2)Abandoning a bounty puts it back on the board and raises the price too."
     },
 
     {
       "type": "patchouli:text",
-      "text": ""
+      "title": "Deliveries",
+      "text": "Delivery bounties are handed in at the table with the $(l)Deliver$() button. It takes the items from your inventory, your backpacks and your shulker boxes.$(br2)Bounties written for a harder difficulty only make progress while you play on that difficulty or harder."
     }
 
   ]

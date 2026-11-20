@@ -3,7 +3,7 @@
   "starts": "the_vault:vault/starts/gloom_starts",
   "rooms": "the_vault:vault/rooms/gloom_rooms",
   "tunnels": "the_vault:vault/tunnels/gloom_tunnels",
-  "ambient_light": 0.05,
+  "ambient_light": 0.054,
   "fog_color": 2631720,
   "grass_color": 3033946,
   "foliage_color": 4749961,

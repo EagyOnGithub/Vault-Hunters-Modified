@@ -220,9 +220,7 @@
       "the_vault:t2_creeper",
       "the_vault:t3_creeper",
 
-      "the_vault:mummy_t0",
-      "the_vault:mummy_t1",
-      "the_vault:mummy_t2",
+      "minecraft:rabbit{RabbitType:99}",
 
       "minecraft:enderman",
       "the_vault:t1_enderman",
@@ -292,6 +290,9 @@
       "the_vault:t3_zombie",
       "the_vault:t3_drowned",
       "the_vault:t3_husk",
+      "the_vault:mummy_t0",
+      "the_vault:mummy_t1",
+      "the_vault:mummy_t2",
       "minecraft:piglin_brute",
       "the_vault:deep_dark_horror",
       "the_vault:blood_tank",
@@ -375,7 +376,8 @@
       "the_vault:smolcap",
       "the_vault:vault_spider_baby",
       "the_vault:endervex",
-      "the_vault:raised_zombie_chicken"
+      "the_vault:raised_zombie_chicken",
+      "the_vault:time_bomb"
     ],
     "the_vault:elite": [
       "the_vault:elite_skeleton",
@@ -393,6 +395,9 @@
       "the_vault:golem_boss",
       "the_vault:boogieman_boss",
       "the_vault:artifact_boss"
+    ],
+    "the_vault:taxman": [
+      "the_vault:acid_pursuer{Taxman:1b}"
     ],
     "the_vault:greed_assassin": [
       "the_vault:acid_pursuer",

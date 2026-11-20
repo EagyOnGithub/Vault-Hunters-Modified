@@ -138,7 +138,7 @@
         "id": "complete_vault_extending_timer_10_minutes",
         "renderer": {
           "title": {
-            "text": "Complete a Vault extending the timer at least 10.5 minutes"
+            "text": "Complete a vault with at least 7 stacks of Extended."
           },
           "type": "named"
         },
@@ -578,7 +578,7 @@
         "id": "complete_25_rune_boss",
         "renderer": {
           "title": {
-            "text": "Defeat a Rune Boss using at least 25 runes"
+            "text": "Defeat a Rune Boss at Crate Tier 3 or higher"
           },
           "type": "named"
         },
@@ -591,7 +591,7 @@
           "type": "target"
         },
         "type": "rune_boss_objective",
-        "requiredRunes": 25
+        "requiredCrateTier": 3
       },
       "id": "the_vault:runic_deck",
       "output": {

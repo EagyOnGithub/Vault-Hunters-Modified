@@ -131,9 +131,8 @@
           "output": [
             {
               "elements": {
-                "the_vault:deep_dark_piglin": 25,
-                "the_vault:deep_dark_silverfish": 9,
-                "the_vault:t1_enderman": 6
+                "the_vault:deep_dark_piglin": 31,
+                "the_vault:deep_dark_silverfish": 9
               },
               "weight": 1
             }
@@ -146,10 +145,8 @@
           "output": [
             {
               "elements": {
-                "the_vault:deep_dark_piglin": 25,
-                "the_vault:deep_dark_silverfish": 9,
-                "the_vault:t1_enderman": 3,
-                "the_vault:t2_enderman": 3
+                "the_vault:deep_dark_piglin": 31,
+                "the_vault:deep_dark_silverfish": 9
               },
               "weight": 1
             }
@@ -162,9 +159,8 @@
           "output": [
             {
               "elements": {
-                "the_vault:deep_dark_piglin": 25,
-                "the_vault:deep_dark_silverfish": 9,
-                "the_vault:t2_enderman": 6
+                "the_vault:deep_dark_piglin": 31,
+                "the_vault:deep_dark_silverfish": 9
               },
               "weight": 1
             }
@@ -177,10 +173,8 @@
           "output": [
             {
               "elements": {
-                "the_vault:deep_dark_piglin": 25,
-                "the_vault:deep_dark_silverfish": 9,
-                "the_vault:t2_enderman": 3,
-                "the_vault:t3_enderman": 3
+                "the_vault:deep_dark_piglin": 31,
+                "the_vault:deep_dark_silverfish": 9
               },
               "weight": 1
             }

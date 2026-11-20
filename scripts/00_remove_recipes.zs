@@ -1495,6 +1495,7 @@ for gemId, gemName in gems {
   }
 JEI.hideIngredient(<item:the_vault:sugar_plum_fairy_flower>);
 JEI.hideIngredient(<item:the_vault:pylon>);
+JEI.hideIngredient(<item:the_vault:shard_pouch>);
 JEI.hideIngredient(<item:the_vault:tool_vise>);
 JEI.hideIngredient(<item:the_vault:scavenger_blue_scroll>);
 JEI.hideIngredient(<item:the_vault:scavenger_creeper_foot>);
@@ -1878,7 +1879,7 @@ JEI.hideIngredient(<item:industrialforegoing:enchantment_factory>);
 JEI.hideIngredient(<item:industrialforegoing:stasis_chamber>);
 JEI.hideIngredient(<item:industrialforegoing:enchantment_sorter>);
 JEI.hideIngredient(<item:industrialforegoing:potion_brewer>);
-// buildsacepe
+// Buildscape
 JEI.hideIngredient(<item:buildscape:copper_biome_brush>);
 JEI.hideIngredient(<item:buildscape:diamond_biome_brush>);
 JEI.hideIngredient(<item:buildscape:netherite_biome_brush>);

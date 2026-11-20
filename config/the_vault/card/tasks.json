@@ -565,6 +565,234 @@
           "type": "card",
           "tooltip": "per ${target} Dungeon Mobs killed"
         }
+      },
+      "kill_assassins_easy": {
+        "type": "kill_entity",
+        "filter": "@the_vault:assassin",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 5,
+            "max": 7
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Assassins killed"
+        }
+      },
+      "kill_guardians_easy": {
+        "type": "kill_entity",
+        "filter": "@the_vault:guardians",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 4,
+            "max": 6
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Guardians killed"
+        }
+      },
+      "complete_challenge_easy": {
+        "type": "challenge_room_complete",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Challenge Rooms completed"
+        },
+        "challengeId": ""
+      },
+      "kill_assassins_medium": {
+        "type": "kill_entity",
+        "filter": "@the_vault:assassin",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 12,
+            "max": 14
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Assassins killed"
+        }
+      },
+      "kill_guardians_medium": {
+        "type": "kill_entity",
+        "filter": "@the_vault:guardians",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 10,
+            "max": 12
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Guardians killed"
+        }
+      },
+      "complete_challenge_medium": {
+        "type": "challenge_room_complete",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 2,
+            "max": 2
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Challenge Rooms completed"
+        },
+        "challengeId": ""
+      },
+      "kill_assassins_hard": {
+        "type": "kill_entity",
+        "filter": "@the_vault:assassin",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 17,
+            "max": 24
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Assassins killed"
+        }
+      },
+      "kill_guardians_hard": {
+        "type": "kill_entity",
+        "filter": "@the_vault:guardians",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 14,
+            "max": 20
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Guardians killed"
+        }
+      },
+      "complete_challenge_hard": {
+        "type": "challenge_room_complete",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 3,
+            "max": 4
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Challenge Rooms completed"
+        },
+        "challengeId": ""
+      },
+      "kill_assassins_extreme": {
+        "type": "kill_entity",
+        "filter": "@the_vault:assassin",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 60,
+            "max": 96
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Assassins killed"
+        }
+      },
+      "kill_guardians_extreme": {
+        "type": "kill_entity",
+        "filter": "@the_vault:guardians",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 50,
+            "max": 80
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Guardians killed"
+        }
+      },
+      "complete_challenge_extreme": {
+        "type": "challenge_room_complete",
+        "counter": {
+          "type": "target",
+          "target": {
+            "type": "uniform",
+            "min": 6,
+            "max": 8
+          },
+          "variables": {
+            "targetTierContribution": 1.0
+          }
+        },
+        "renderer": {
+          "type": "card",
+          "tooltip": "per ${target} Challenge Rooms completed"
+        },
+        "challengeId": ""
       }
     },
     "pools": {
@@ -614,6 +842,18 @@
         {
           "value": "kill_dungeon_easy",
           "weight": 1
+        },
+        {
+          "value": "kill_assassins_easy",
+          "weight": 1
+        },
+        {
+          "value": "kill_guardians_easy",
+          "weight": 1
+        },
+        {
+          "value": "complete_challenge_easy",
+          "weight": 1
         }
       ],
       "medium": [
@@ -648,6 +888,18 @@
         {
           "value": "kill_dungeon_medium",
           "weight": 1
+        },
+        {
+          "value": "kill_assassins_medium",
+          "weight": 1
+        },
+        {
+          "value": "kill_guardians_medium",
+          "weight": 1
+        },
+        {
+          "value": "complete_challenge_medium",
+          "weight": 1
         }
       ],
       "hard": [
@@ -670,8 +922,19 @@
         {
           "value": "kill_dungeon_hard",
           "weight": 1
+        },
+        {
+          "value": "kill_assassins_hard",
+          "weight": 1
+        },
+        {
+          "value": "kill_guardians_hard",
+          "weight": 1
+        },
+        {
+          "value": "complete_challenge_hard",
+          "weight": 1
         }
-        
       ],
       "extreme": [
         {
@@ -692,6 +955,18 @@
         },
         {
           "value": "kill_dungeon_extreme",
+          "weight": 1
+        },
+        {
+          "value": "kill_assassins_extreme",
+          "weight": 1
+        },
+        {
+          "value": "kill_guardians_extreme",
+          "weight": 1
+        },
+        {
+          "value": "complete_challenge_extreme",
           "weight": 1
         }
       ]

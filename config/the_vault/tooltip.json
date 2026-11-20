@@ -2,19 +2,19 @@
   "tooltips": [
     {
       "item": "the_vault:soul_vortex",
-      "value": "An incredible powerful magical vortex core, holding the souls of many fallen.\n\nUse a Soul Diffuser to release it's power"
+      "value": "An incredibly powerful magical vortex core, holding the souls of many fallen.\n\nUse a Soul Diffuser to release its power."
     },
     {
       "item": "the_vault:crystal_seal_empty",
-      "value": "Crafting ingredient used to craft special vault rocks or vault seals."
+      "value": "Craft objective seals from it at the Crystal Workbench (Objectives tab). Also used for some Vault Rocks."
     },
     {
       "item": "the_vault:crystal_seal_scout",
-      "value": "Use in the Crystal Workbench to set the objective to <#dcb60b>Light The Braziers"
+      "value": "Use in the Crystal Workbench to set the objective to <#dfb80b>Light the Braziers"
     },
     {
       "item": "the_vault:crystal_seal_hunter",
-      "value": "Use in the Crystal Workbench to set the objective to <#a7e915>Scavenger Hunt"
+      "value": "Use in the Crystal Workbench to set the objective to <#a9ec15>Scavenger Hunt"
     },
     {
       "item": "the_vault:crystal_seal_big_hunter",
@@ -22,19 +22,27 @@
     },
     {
       "item": "the_vault:crystal_seal_executioner",
-      "value": "Use in the Crystal Workbench to set the objective to <#fca800>Hunt The Runes"
+      "value": "Use in the Crystal Workbench to set the objective to <#ffaa00>Rune Boss"
     },
     {
       "item": "the_vault:crystal_seal_sage",
-      "value": "Use in the Crystal Workbench to set the objective to <#c013e4>Elixir Rush"
+      "value": "Use in the Crystal Workbench to set the objective to <#c213e7>Elixir"
     },
     {
       "item": "the_vault:crystal_seal_prophet",
-      "value": "Use in the Crystal Workbench to set the objective to <#488ebd>Bingo<gray> (4x4)"
+      "value": "Use in the Crystal Workbench to set the objective to <#4990bf>Bingo<gray> (4x4)"
     },
     {
       "item": "the_vault:crystal_seal_big_prophet",
-      "value": "Use in the Crystal Workbench to set the objective to <#488ebd>Bingo<gray> (5x5)"
+      "value": "Use in the Crystal Workbench to set the objective to <#4990bf>Bingo<gray> (5x5)"
+    },
+    {
+      "item": "the_vault:crystal_seal_collector",
+      "value": "Use in the Crystal Workbench to set the objective to <#8bc34a>Collector<gray> (4x4)"
+    },
+    {
+      "item": "the_vault:crystal_seal_big_collector",
+      "value": "Use in the Crystal Workbench to set the objective to <#8bc34a>Collector<gray> (5x5)"
     },
     {
       "item": "the_vault:crystal_seal_greed",
@@ -50,11 +58,11 @@
     },
     {
       "item": "the_vault:phoenix_feather",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#FF8900>Phoenix<gray> modifier"
+      "value": "Adds <#FF8900>Phoenix<gray> and makes the crystal <#a64141>unmodifiable<gray>. You can still add another stack of <#FF8900>Phoenix<gray>."
     },
     {
       "item": "the_vault:capstone_blacksmith",
-      "value": "This capstone will <#FF8900>scrap all <gray>non <yellow>legendary<gray> gear found in chests, leaving only the outcome resources."
+      "value": "This capstone will <#FF8900>scrap all <gray>non <yellow>legendary<gray> gear found in chests, leaving only the outcome resources. It no longer drops: the <#FF8900>Vault Recycler<gray> has <#FF8900>Scrap in Vaults<gray> for everyone now."
     },
     {
       "item": "the_vault:eye_of_avarice",
@@ -78,7 +86,7 @@
     },
     {
       "item": "the_vault:capstone_peaceful",
-      "value": "Use in the Crystal Workbench as a capstone, making the crystal <#a64141>unmodifiable <gray>and adding the <#EBFF8D>Peaceful<gray> modifier"
+      "value": "Adds <#EBFF8D>Peaceful<gray> and makes the crystal <#a64141>unmodifiable<gray>. You can still add another stack of <#EBFF8D>Peaceful<gray>."
     },
     {
       "item": "the_vault:augment",
@@ -87,6 +95,18 @@
     {
       "item": "the_vault:crystal_seal_cake",
       "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a <#f26499>Cake Crystal<gray>!"
+    },
+    {
+      "item": "the_vault:crystal_seal_chaos",
+      "value": "Use in the Crystal Workbench to set the objective to <#d87b00>Chaos<gray>, or put it on a Vault Altar for a Chaos Crystal. Finish timed tasks for blessings, fail them for curses."
+    },
+    {
+      "item": "the_vault:crystal_seal_vessel",
+      "value": "Use in the Crystal Workbench to set the objective to <#f2c94c>The Vessel<gray>. A rematch at your selected Greed Tier, friends welcome. It only pays out with a Vessel Effigy in the objective modifier slot."
+    },
+    {
+      "item": "the_vault:vessel_effigy",
+      "value": "Put it in the objective modifier slot of a Vessel crystal at the Crystal Workbench. Kill the Vessel in that rematch and it pays like the trial: the coins you grabbed and a Greed Crate of that tier."
     },
     {
       "item": "the_vault:crystal_seal_herald",
@@ -185,10 +205,6 @@
       "value": "Delicious"
     },
     {
-      "item": "the_vault:soul_flame",
-      "value": "Put this Vault Rock on a Vault Altar to create a Challenger's Crystal, which adds <#19ebef>Ascension <gray>to your Crystal"
-    },
-    {
       "item": "the_vault:plunderer_pearl",
       "value": "Put this Vault Rock on a Vault Altar to create a Plunderer's Crystal, making the vault not yield any experience or artifacts, but increases the loot amount by <yellow>10% <gray>and vault ore generation by <yellow>25%"
     },
@@ -231,6 +247,10 @@
     {
       "item": "the_vault:vault_compass",
       "value": "Can point to different Points of Interest within a vault (Requires Research)"
+    },
+    {
+      "item": "the_vault:vault_map",
+      "value": "Right click inside a vault to open the vault map.\nThe <$yellow>Vault Map<gray> research already unlocks the map for good, this one is a keepsake."
     },
     {
       "item": "the_vault:plain_burger",
@@ -834,7 +854,7 @@
     },
     {
       "item": "the_vault:repair_core",
-      "value": "This will repair a gear piece or tool fully while consuming a repair slot when used in an anvil."
+      "value": "Right-click it onto a gear piece or tool in your inventory to repair it fully. Uses one repair slot. Only works below 90% durability, an anvil repairs at any durability."
     },
     {
       "item": "the_vault:perfect_alexandrite",
@@ -910,7 +930,7 @@
     },
     {
       "item": "the_vault:vault_catalyst_chaos",
-      "value": "Put this Vault Rock on a Vault Altar to create a <#d87b00>Chaos <gray>Crystal, adding 30 completely random modifiers to the vault."
+      "value": "<red>Legacy Item<gray> - Chaos Vaults come from the <#d87b00>Seal of Chaos<gray> now. Still works on a Vault Altar."
     },
     {
       "item": "the_vault:vault_inhibitor",
@@ -922,11 +942,11 @@
     },
     {
       "item": "the_vault:shard_pouch",
-      "value": "Stores a large amount of <#4800FF>soul shards\nSoul shards <gray>picked up will go directly into the pouch."
+      "value": "Legacy. Turns into a Vault Pouch in your inventory."
     },
     {
       "item": "the_vault:coin_pouch",
-      "value": "Stores a large amount of Vault Coins\nVault Coins picked up will go directly into the pouch."
+      "value": "Stores Vault Coins, Greed Coins and <#4800FF>Soul Shards<gray>.\nAnything of those you pick up goes straight into the pouch.\nWear it in the Pouch slot of your inventory."
     },
     {
       "item": "the_vault:artifact_fragment",
@@ -1078,31 +1098,27 @@
     },
     {
       "item": "the_vault:lost_bounty",
-      "value": "Use on the Bounty Table to acquire a Legendary Bounty"
+      "value": "No longer used. Diffuse it for soul dust"
     },
     {
       "item": "the_vault:bounty_pearl",
-      "value": "Use in the Bounty Table to reroll available bounties"
+      "value": "No longer used. Diffuse it for soul dust"
     },
     {
       "item": "the_vault:mote_clarity",
-      "value": "Reveals all curses on a Vault Crystal."
+      "value": "<red>Legacy Item<gray> - No longer obtainable"
     },
     {
       "item": "the_vault:mote_sanctity",
-      "value": "Removes all curses from a Vault Crystal."
+      "value": "<red>Legacy Item<gray> - No longer obtainable"
     },
     {
       "item": "the_vault:mote_purity",
-      "value": "Removes a random curse from a Vault Crystal."
+      "value": "<red>Legacy Item<gray> - No longer obtainable"
     },
     {
       "item": "the_vault:mod_box",
       "value": "Right Click to open\n\nContains Knowledge Shards or if you have unlocked any mod that has Mod Box rewards it will contain items from that mod"
-    },
-    {
-      "item": "the_vault:identification_tome",
-      "value": "Hold in the off hand to instantly\nidentify vault gear."
     },
     {
       "item": "the_vault:life_scroll",
@@ -1146,7 +1162,7 @@
     },
     {
       "item": "the_vault:antique_collector_book",
-      "value": "A collection book for all Antique stamps found in the vaults. \n<red>Note<gray>: Must be in inventory for antiques to drop"
+      "value": "A collection book for all Antique stamps found in the vaults. \nCan be worn in any Curios slot.\n<red>Note<gray>: Must be carried or worn for antiques to drop"
     },
     {
       "item": "the_vault:unique_codex",
@@ -1186,35 +1202,51 @@
     },
     {
       "item": "the_vault:tool_station",
-      "value": "A vault workstation where vault tools can be crafted"
+      "value": "A vault workstation that makes vault tools, crafts jewels and applies them"
     },
     {
       "item": "the_vault:inscription_table",
-      "value": "A vault workstation where inscriptions can be crafted"
+      "value": "A vault workstation where Overworld Inscriptions can be crafted. Inscriptions for crystals are crafted at the Crystal Workbench."
     },
     {
       "item": "the_vault:catalyst_infusion_table",
-      "value": "A vault workstation where infused_catalysts can be crafted"
+      "value": "A vault workstation that crafts catalysts. Opens the Crystal Workbench on the Craft Catalysts tab."
+    },
+    {
+      "item": "the_vault:augment_piece",
+      "value": "The base of every augment. Craft it into the augment of a theme you have won at the Crystal Workbench (Craft Augments).\nDrops from vault crates once you have the Augment Crafting research. Recycle an augment you don't need to get one back."
+    },
+    {
+      "item": "the_vault:vault_catalyst",
+      "value": "<red>Legacy Item<gray> - No longer used"
+    },
+    {
+      "item": "the_vault:augment_station",
+      "value": "A vault workstation that crafts augments. Opens the Crystal Workbench on the Craft Augments tab."
     },
     {
       "item": "the_vault:vault_artisan_station",
-      "value": "A vault workstation where vault gear can be modified by different focuses"
+      "value": "A vault workstation that modifies vault gear with foci, adds chosen affixes and seals gear"
+    },
+    {
+      "item": "the_vault:vault_sealer",
+      "value": "A vault workstation that seals gear. Opens the Artisan Station on the Seal tab."
     },
     {
       "item": "the_vault:vault_jewel_application_station",
-      "value": "A vault workstation where vault tools can be enhanced with jewels"
+      "value": "A vault workstation that applies jewels to tools. Opens the Tool Station on the Apply Jewels tab."
     },
     {
       "item": "the_vault:jewel_crafting_table",
-      "value": "A vault workstation where jewels can be crafted"
+      "value": "A vault workstation that crafts jewels. Opens the Tool Station on the Craft Jewels tab."
     },
     {
       "item": "the_vault:trinket_forge",
-      "value": "A vault workstation where trinkets can be crafted"
+      "value": "A vault workstation that forges trinkets. Opens the Vault Forge on the Trinkets tab."
     },
     {
       "item": "the_vault:crystal_workbench",
-      "value": "A vault workstation where Vault Crystals can be precisely modified."
+      "value": "A vault workstation that modifies Vault Crystals and crafts catalysts, inscriptions and augments"
     },
     {
       "item": "the_vault:personal_vault",
@@ -1242,7 +1274,7 @@
     },
     {
       "item": "the_vault:card_essence_extractor",
-      "value": "A vault workstation where cards can be upgraded"
+      "value": "<red>Legacy Item<gray> - Cards are upgraded in the Card Binder now. Right-click a placed one to get back what is inside."
     },
     {
       "item": "the_vault:unboxing_station",
@@ -1286,7 +1318,7 @@
     },
     {
       "item": "the_vault:alchemy_table",
-      "value": "Vault workstation where vault potions, mixtures, and brews can be enhanced."
+      "value": "Vault workstation where you choose the effects in your Vault Potion's slots. Opening it refills your potion"
     },
     {
       "item": "the_vault:card_binder",
@@ -1346,7 +1378,7 @@
     },
     {
       "item": "the_vault:greed_cauldron",
-      "value": "Melts down vault resources into Greed Coins."
+      "value": "Retired. Greed Crystals take your vault materials now. Break a placed one to get back what it cost."
     },
     {
       "item": "the_vault:greedy_anchor",
@@ -1362,7 +1394,7 @@
     },
     {
       "item": "the_vault:player_customisation_station",
-      "value": "Customize your player's appearance.\nChange your player model, colors, and other visual options."
+      "value": "Retired. Titles, emblems, trails and auras live in the H screen now: open it and pick the Looks tab.\nUsing this one opens Looks too."
     },
     {
       "item": "the_vault:greed_coin",

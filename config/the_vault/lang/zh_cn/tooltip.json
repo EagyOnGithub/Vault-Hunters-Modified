@@ -185,10 +185,6 @@
       "value": "美味可口"
     },
     {
-      "item": "the_vault:soul_flame",
-      "value": "将此宝库石放在宝库祭坛上来创建挑战者水晶，为你的水晶添加<#19ebef>飞升<gray>效果"
-    },
-    {
       "item": "the_vault:plunderer_pearl",
       "value": "将此宝库石放在宝库祭坛上来创建掠夺者水晶，使宝库不产出任何经验或神器，但物品掉落量增加<yellow>10%<gray>，宝库矿石生成量增加<yellow>25%"
     },

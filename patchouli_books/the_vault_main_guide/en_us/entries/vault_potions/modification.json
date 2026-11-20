@@ -1,36 +1,31 @@
 {
-  
   "sortnum": 2,
-  "name": "Modification",
+  "name": "Effects",
   "icon": "the_vault:alchemy_table",
   "category": "patchouli:vault_potions_category",
   "read_by_default": "true",
   "pages": [
-
-    {
-      "type": "patchouli:text",
-      "text": "Vault Potions can be modified to contain $(l)modifiers$().$(br2)The $(l)higher$() the $(l)tier$() of the Vault Potion, the more modifiers slots it contains.$(br2)The number of slots are:$(br)$(li)0: $(l)Vial$()$(li)1: $(l)Potion$()$(li)2: $(l)Mixture$()$(li)3: $(l)Brew$()"
-    },
-
     {
       "type": "patchouli:crafting",
       "recipe": "the_vault:alchemy_table",
-      "title": "Alchemy Table",
-      "text": "In the Alchemy Table, the preferred modifiers can be $(l)crafted$() onto the Vault Potion at the cost of $(l)Vault Gold$() and $(l)Poisonous Mushrooms$().$(br2)Upon $(l)consuming$() the Vault Potion, the modifier(s) are applied for $(l)20 seconds$()."
+      "title": "Alchemy Station",
+      "text": "At the $(l)Alchemy Station$() you choose the effect in each slot of your potion. It's free.$(br2)The same effect can't go in two slots."
     },
-
+    {
+      "type": "patchouli:text",
+      "title": "Basic Effects",
+      "text": "$(br)Unlocked by your level:$(br)$(li)$(l)Mana Surge$(): mana$(li)$(l)Quickening$(): faster cooldowns$(li)$(l)Cleanse$(): removes negative effects$(li)$(l)Splash$(): heals your party"
+    },
     {
       "type": "patchouli:spotlight",
       "item": "the_vault:alchemy_archive",
       "title": "Alchemy Archive",
-      "text": "$(l)Not$() all available modifiers can be crafted onto a Vault Potion.$(br2)Some modifiers are gated behind the player's $(l)level$().$(br2)Others can be taught to the player by finding an $(l)Alchemy Archive$() inside a $(l:the_vault/layout#dungeons)$(t:Dungeons)dungeon$() in any Vault."
+      "text": "$(l)Draughts$() are found in Alchemy Archives inside $(l:the_vault/layout#dungeons)$(t:Dungeons)dungeons$(). Your first find rolls 10-20%, then every archive offers a few points more than your best, and now and then a glowing Special roll that jumps much higher. Your best roll counts on every potion you own."
     },
-
     {
       "type": "patchouli:text",
-      "text": ""
+      "title": "Draughts",
+      "text": "$(br)Draughts last 8 seconds after a drink:$(br)$(li)$(l)Attack Damage$()$(li)$(l)Ability Power$()$(li)$(l)Movement Speed$()$(li)$(l)Armor$()$(li)$(l)Area of Effect$() up to its cap$(li)$(l)Lucky Hit$() up to its cap$(li)$(l)Spellbrew$(): your next cast is free and hits harder$(br2)Drinking again restarts them, they never stack."
     }
-
   ]
-
 }
