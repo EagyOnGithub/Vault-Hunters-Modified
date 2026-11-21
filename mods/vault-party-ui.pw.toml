@@ -1,0 +1,13 @@
+name = "Vault Party UI - Vault Hunters Addon"
+filename = "vaultpartyui-1.8.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "52082cce5b4f8daa3fd58dcb4bbdccd75d47a338"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9718987
+project-id = 1552659

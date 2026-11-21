@@ -14982,6 +14982,11 @@ hash = "7487bc2e3dc8cc4e90bc34f3e0ae013b588c3b1414c9328c0e031b74b8ca6f92"
 metafile = true
 
 [[files]]
+file = "mods/vault-armory.pw.toml"
+hash = "3b016049107cbfc37d3a1304f98f24ff37b83058dcbe5d797777b22da60ac45f"
+metafile = true
+
+[[files]]
 file = "mods/vault-filters.pw.toml"
 hash = "a87eddc81c59f27c1c23acd2e26c5021506fe2d690304c987167329fc0e4f9d3"
 metafile = true
@@ -14999,6 +15004,11 @@ metafile = true
 [[files]]
 file = "mods/vault-integrations.pw.toml"
 hash = "465560ac20273d3a59249d4b68c8e3f5166b849a0cf31453fe5cfbce038fd727"
+metafile = true
+
+[[files]]
+file = "mods/vault-party-ui.pw.toml"
+hash = "2c55c5306ac5cec648b0f71afd6dcf1ee0d84ab07876ccf972e13e863ebaa598"
 metafile = true
 
 [[files]]
