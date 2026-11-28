@@ -605,7 +605,7 @@
             "color": "$questHighlight"
           },
           {
-            "text": " is a reusable source of healing. Equip it in its dedicated slot before entering. Charges refill by killing mobs and opening chests, rather than waiting.\n\nChoose automatic drinking or bind the Drink Potion key for manual use. Later, research improves this same bottle and the ",
+            "text": " is a reusable source of healing. Keep it in its Potion slot or on your hotbar. The potion you carry into a vault is the one that works for that run. Charges refill by killing mobs and opening chests, rather than waiting.\n\nRight-click it to drink, let it drink by itself at low health, or bind the Drink Potion key. Sneak and right-click to change its Drink Mode. Later, research improves this same bottle and the ",
             "color": "$text"
           },
           {
@@ -1678,7 +1678,7 @@
             "color": "$questHighlight"
           },
           {
-            "text": " turns unwanted equipment into useful scrap. Recycle something you no longer need.\n\nIts Scrap in Vaults filter can identify and scrap selected drops automatically. Choose rarity and legendary categories carefully; uniques are excluded. Leave every box off if you prefer to inspect your drops yourself.",
+            "text": " turns unwanted equipment into useful scrap. Recycle something you no longer need.\n\nIts Scrap in Vaults filter can scrap selected drops automatically. Choose rarity and legendary categories carefully; uniques are excluded. Leave every box off if you prefer to inspect your drops yourself.",
             "color": "$text"
           }
         ]
@@ -2588,7 +2588,7 @@
       "id": "wooden_vault_chest",
       "icon": "the_vault:gui/quests/welcome",
       "type": "collection",
-      "targetId": "the_vault:wooden_chest_placeable",
+      "targetId": "the_vault:wooden_chest",
       "targetProgress": 1,
       "reward": {
         "items": [
@@ -3725,7 +3725,8 @@
         "goal": "Read the lesson and confirm you are ready.",
         "preview": "items",
         "visualStyle": "none"
-      }
+      },
+      "requiredLevel": 20
     },
     {
       "type": "block_interact",
@@ -4441,7 +4442,8 @@
         "goal": "Read the lesson and confirm you are ready.",
         "preview": "items",
         "visualStyle": "none"
-      }
+      },
+      "requiredLevel": 40
     },
     {
       "type": "block_interact",
@@ -4753,7 +4755,8 @@
         "goal": "Obtain Booster Pack.",
         "preview": "cards",
         "visualStyle": "none"
-      }
+      },
+      "requiredLevel": 50
     },
     {
       "type": "collection",
@@ -4806,7 +4809,8 @@
             "amount": 1
           }
         ]
-      }
+      },
+      "requiredLevel": 50
     },
     {
       "type": "collection",
@@ -5165,7 +5169,8 @@
         "goal": "Obtain a Companion Incubator.",
         "preview": "items",
         "visualStyle": "none"
-      }
+      },
+      "requiredLevel": 50
     },
     {
       "type": "collection",
@@ -5688,7 +5693,8 @@
         "goal": "Obtain Royale Vault Rock.",
         "preview": "items",
         "visualStyle": "none"
-      }
+      },
+      "requiredLevel": 50
     },
     {
       "id": "prepare_for_herald",
@@ -8769,6 +8775,7 @@
       "id": "beyond_herald",
       "title": "Beyond the Herald",
       "tab": "Greed",
+      "requiredLevel": 100,
       "subjects": [
         {
           "id": "prestige",
@@ -8820,6 +8827,7 @@
       "id": "greed_rush",
       "title": "Into Greed Rush",
       "tab": "Greed Rush",
+      "requiredLevel": 100,
       "subjects": [
         {
           "id": "rush_start",

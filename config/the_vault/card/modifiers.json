@@ -2555,9 +2555,9 @@
     "mega_jump_break_down": {
       "type": "gear",
       "name": {
-        "text": "Mega Dig Card"
+        "text": "Springboard Card"
       },
-      "model": "the_vault:card/icon/mega_jump_break_down#inventory",
+      "model": "the_vault:card/icon/mega_jump_springboard#inventory",
       "groups": [
         "Arcane",
         "Utility"
@@ -2567,6 +2567,26 @@
         {
           "tier": 1,
           "abilityKey": "Mega_Jump_Break_Down",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "mega_jump_hangtime": {
+      "type": "gear",
+      "name": {
+        "text": "Hangtime Card"
+      },
+      "model": "the_vault:card/icon/mega_jump_hangtime#inventory",
+      "groups": [
+        "Arcane",
+        "Utility"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Mega_Jump_Hangtime",
           "levelChange": 1
         }
       ],
@@ -6737,6 +6757,10 @@
       },
       {
         "value": "mega_jump_break_down",
+        "weight": 1
+      },
+      {
+        "value": "mega_jump_hangtime",
         "weight": 1
       },
       {

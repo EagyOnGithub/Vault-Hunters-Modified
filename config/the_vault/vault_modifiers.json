@@ -3828,8 +3828,6 @@
       "the_vault:companion_challenge": {
         "properties": {
           "children": {
-            "the_vault:tiny_mob_speed": 1,
-            "the_vault:tiny_mob_increase": 1,
             "the_vault:mob_damage_25": 1,
             "the_vault:mob_health_5": 1
           }
@@ -3837,7 +3835,7 @@
         "display": {
           "name": "Companion's Challenge",
           "color": "#ba0000",
-          "description": "Increases mob damage, health, spawn rates and movement speed.",
+          "description": "Increases mob damage and health.",
           "icon": "the_vault:gui/modifiers/companion_challenge"
         }
       },

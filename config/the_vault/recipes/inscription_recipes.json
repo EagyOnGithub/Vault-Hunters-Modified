@@ -208,7 +208,7 @@
       "inputs": [
         {
           "AMOUNT": 1,
-          "ITEM": "minecraft:netherite_block",
+          "ITEM": "the_vault:chromatic_steel_block",
           "NBT": "{}"
         },
         {

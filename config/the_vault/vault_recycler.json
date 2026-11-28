@@ -78,7 +78,7 @@
                 "conditionalOutputs": {},
                 "chance": 0.0,
                 "stack": {
-                    "item": "minecraft:netherite_scrap"
+                    "item": "minecraft:air"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -178,7 +178,7 @@
                 ],
                 "chance": 0.2,
                 "stack": {
-                    "item": "minecraft:netherite_scrap"
+                    "item": "minecraft:air"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -250,7 +250,7 @@
                 ],
                 "chance": 0.2,
                 "stack": {
-                    "item": "minecraft:netherite_scrap"
+                    "item": "minecraft:air"
                 },
                 "minCount": 1,
                 "maxCount": 1

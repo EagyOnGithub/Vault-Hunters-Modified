@@ -62,7 +62,10 @@
           "icon": "the_vault:gui/abilities/mega_jump"
         },
         "Mega_Jump_Break_Down": {
-          "icon": "the_vault:gui/abilities/mega_jump_break_down"
+          "icon": "the_vault:gui/abilities/mega_jump_springboard"
+        },
+        "Mega_Jump_Hangtime": {
+          "icon": "the_vault:gui/abilities/mega_jump_hangtime"
         }
       }
     },
